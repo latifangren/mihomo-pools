@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mihomo Pools Pipeline Builder
+Mihomo Pools Pipeline Builder (v2 - Robust Parsing & Strict Validation)
 Fetches public VLESS/Trojan proxies, validates them via handshake probes,
 detects egress countries, and produces Dual Output subscriptions:
 1. Native Mihomo YAML Proxy Providers (dist/providers/<CC>.yaml and ALL.yaml)
@@ -21,7 +21,7 @@ import sys
 import time
 import urllib.request
 from collections import defaultdict
-from urllib.parse import urlparse, parse_qs, unquote
+from urllib.parse import unquote
 
 SOURCES = [
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
@@ -42,6 +42,7 @@ FLAG_MAP = {
     "TH": "🇹🇭", "VN": "🇻🇳", "PH": "🇵🇭", "AE": "🇦🇪", "ZA": "🇿🇦",
 }
 
+UUID_REGEX = re.compile(r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
 GEO_CACHE = {}
 
 
@@ -121,82 +122,131 @@ def resolve_geoip(host_or_ip: str) -> tuple[str, str]:
         return res
 
 
-def _first(qs: dict, *keys: str):
-    for k in keys:
-        v = qs.get(k)
-        if v:
-            return v[0]
-    return None
-
-
-def _bool(v) -> bool:
-    return str(v).strip().lower() in {"1", "true", "yes"}
-
-
 def parse_uri(line: str) -> tuple[dict | None, str]:
     raw = line.strip()
     if not raw:
         return None, "empty"
+
+    if not (raw.startswith("vless://") or raw.startswith("trojan://")):
+        return None, "unsupported scheme"
+
+    scheme = "vless" if raw.startswith("vless://") else "trojan"
+    rest = raw[len(scheme) + 3:]
+
+    # Match: user@server:port
+    match = re.match(r"^([^@]+)@([^:/?#]+):(\d+)", rest)
+    if not match:
+        return None, "invalid credential@server:port format"
+
+    credential, server, port_str = match.groups()
     try:
-        u = urlparse(raw)
-    except Exception as e:
-        return None, f"parse error: {e}"
+        port = int(port_str)
+    except ValueError:
+        return None, f"invalid port {port_str!r}"
 
-    scheme = u.scheme.lower()
-    if scheme not in {"vless", "trojan"}:
-        return None, f"unsupported scheme {scheme!r}"
-
-    qs = parse_qs(u.query)
-    security = (_first(qs, "security") or ("tls" if scheme == "trojan" else "none")).lower()
-    if security == "reality" or _first(qs, "pbk"):
-        return None, "REALITY not emitted"
-    if security not in {"tls", "none"}:
-        return None, f"unsupported security={security!r}"
-    if _first(qs, "fragment"):
-        return None, "fragment variant not emitted"
-
-    net = (_first(qs, "type") or "tcp").lower()
-    if net not in {"tcp", "ws"}:
-        return None, f"unsupported transport {net!r}"
-    if not u.hostname or not u.port:
-        return None, "missing host/port"
-
-    credential = unquote(u.username or "")
+    credential = unquote(credential).strip()
     if not credential:
         return None, "missing credential"
 
-    sni = _first(qs, "sni", "servername") or ""
-    host = _first(qs, "host") or ""
-    path = _first(qs, "path", "serviceName") or ""
+    # Validate UUID for vless
+    if scheme == "vless":
+        if not UUID_REGEX.match(credential):
+            return None, f"invalid vless uuid format {credential!r}"
 
-    if security == "tls" and not (sni or host):
-        return None, "missing sni/host for TLS"
+    # Extract all query params safely using regex across rest of line
+    after_host = rest[match.end():]
+    parts = after_host.split("#")
+    if len(parts) > 1 and "=" not in parts[-1]:
+        remark = unquote(parts[-1]).strip()
+        query_part = "#".join(parts[:-1])
+    else:
+        remark = ""
+        query_part = after_host
+
+    # Extract key=val pairs
+    params = {}
+    for k, v in re.findall(r"([a-zA-Z0-9_-]+)=([^&?#]+)", query_part):
+        params[k.lower()] = v.strip()
+
+    # Security
+    sec = params.get("security", "").lower()
+    if sec == "reality" or "pbk" in params:
+        return None, "REALITY not supported"
+    if "fragment" in params:
+        return None, "fragment variant not supported"
+
+    if not sec:
+        sec = "tls" if (port == 443 or scheme == "trojan") else "none"
+
+    if sec not in {"tls", "none"}:
+        return None, f"unsupported security {sec!r}"
+
+    # Transport Network
+    net = params.get("type", "").lower()
+    path = unquote(params.get("path", "") or params.get("servicename", ""))
+
+    if not net:
+        if path and path.startswith("/"):
+            net = "ws"
+        else:
+            net = "tcp"
+
+    if net not in {"tcp", "ws"}:
+        return None, f"unsupported network {net!r}"
+
+    # SNI and Host
+    sni = params.get("sni") or params.get("servername") or ""
+    host = params.get("host") or ""
+
+    if sni and ("@" in sni or " " in sni):
+        sni = ""
+    if host and ("@" in host or " " in host):
+        host = ""
+
+    if not sni and host:
+        sni = host
+    if not host and sni:
+        host = sni
+
+    # If TLS is enabled, we need SNI or a domain server
+    if sec == "tls":
+        if not sni:
+            if not re.match(r"^\d+\.\d+\.\d+\.\d+$", server):
+                sni = server
+                host = server
+            else:
+                return None, "TLS without valid SNI"
+
+    # If WS is enabled, ensure path is valid
+    if net == "ws":
+        if not path:
+            path = "/"
+        elif not path.startswith("/"):
+            path = "/" + path
 
     proxy = {
         "raw_uri": raw,
         "type": scheme,
-        "server": u.hostname,
-        "port": int(u.port),
-        "tls": security == "tls",
-        "sni": sni or host or "",
+        "server": server,
+        "port": port,
+        "tls": sec == "tls",
+        "sni": sni,
         "network": net,
-        "host": host or "",
-        "path": unquote(path) if net == "ws" else "",
-        "skip_cert_verify": _bool(_first(qs, "allowInsecure", "insecure") or ""),
-        "client_fingerprint": _first(qs, "fp") or "chrome",
-        "alpn": [a.strip() for a in (_first(qs, "alpn") or "").split(",") if a.strip()],
-        "remark": unquote(u.fragment or ""),
+        "host": host,
+        "path": path if net == "ws" else "",
+        "skip_cert_verify": params.get("allowinsecure", "") in {"1", "true"} or params.get("insecure", "") in {"1", "true"},
+        "client_fingerprint": params.get("fp") or "chrome",
+        "alpn": [unquote(a.strip()) for a in params.get("alpn", "").split(",") if a.strip()],
+        "remark": remark,
         "credential": credential,
     }
 
     if scheme == "vless":
         proxy["uuid"] = credential
-        flow = _first(qs, "flow")
-        if flow:
-            if net != "tcp":
-                return None, "flow not supported with ws"
+        flow = params.get("flow")
+        if flow and net == "tcp":
             proxy["flow"] = flow
-        pe = _first(qs, "packet_encoding", "packetEncoding")
+        pe = params.get("packetencoding") or params.get("packet_encoding")
         if pe:
             proxy["packet_encoding"] = pe
     else:
@@ -254,6 +304,7 @@ def probe_node(proxy: dict, timeout: float = 3.5) -> dict:
             req = (
                 f"GET {ws_path} HTTP/1.1\r\n"
                 f"Host: {ws_host}\r\n"
+                "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n"
                 "Upgrade: websocket\r\n"
                 "Connection: Upgrade\r\n"
                 "Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\r\n"
@@ -264,6 +315,12 @@ def probe_node(proxy: dict, timeout: float = 3.5) -> dict:
             if not resp:
                 res["status"] = "DEAD"
                 return res
+
+            first_line = resp.split(b"\r\n")[0].decode("utf-8", errors="ignore")
+            if any(first_line.startswith(c) for c in ["HTTP/1.1 400", "HTTP/1.1 404", "HTTP/1.1 500", "HTTP/1.1 502", "HTTP/1.1 503"]):
+                res["status"] = "DEAD"
+                return res
+
             res["status"] = "ALIVE"
             res["rtt_ms"] = round((time.time() - start_time) * 1000, 1)
             return res
@@ -324,23 +381,23 @@ def format_mihomo_proxy_yaml(p: dict, display_name: str) -> str:
         f"    port: {p['port']}",
     ]
     if p["type"] == "vless":
-        lines.append(f"    uuid: {json.dumps(p['uuid'])}")
+        lines.append(f"    uuid: {json.dumps(p['uuid'], ensure_ascii=False)}")
         if p.get("flow"):
-            lines.append(f"    flow: {json.dumps(p['flow'])}")
+            lines.append(f"    flow: {json.dumps(p['flow'], ensure_ascii=False)}")
         if p.get("packet_encoding"):
-            lines.append(f"    packet-encoding: {json.dumps(p['packet_encoding'])}")
+            lines.append(f"    packet-encoding: {json.dumps(p['packet_encoding'], ensure_ascii=False)}")
     else:
-        lines.append(f"    password: {json.dumps(p['password'])}")
+        lines.append(f"    password: {json.dumps(p['password'], ensure_ascii=False)}")
 
     lines.append(f"    tls: {str(p.get('tls', False)).lower()}")
     lines.append(f"    udp: true")
 
     if p.get("sni"):
-        lines.append(f"    sni: {json.dumps(p['sni'])}")
-        lines.append(f"    servername: {json.dumps(p['sni'])}")
+        lines.append(f"    sni: {json.dumps(p['sni'], ensure_ascii=False)}")
+        lines.append(f"    servername: {json.dumps(p['sni'], ensure_ascii=False)}")
 
     if p.get("client_fingerprint"):
-        lines.append(f"    client-fingerprint: {json.dumps(p['client_fingerprint'])}")
+        lines.append(f"    client-fingerprint: {json.dumps(p['client_fingerprint'], ensure_ascii=False)}")
 
     if p.get("skip_cert_verify"):
         lines.append("    skip-cert-verify: true")
@@ -348,15 +405,16 @@ def format_mihomo_proxy_yaml(p: dict, display_name: str) -> str:
     if p.get("alpn"):
         lines.append("    alpn:")
         for a in p["alpn"]:
-            lines.append(f"      - {json.dumps(a)}")
+            lines.append(f"      - {json.dumps(a, ensure_ascii=False)}")
 
     if p.get("network") == "ws":
         lines.append("    network: ws")
         lines.append("    ws-opts:")
-        lines.append(f"      path: {json.dumps(p.get('path') or '/')}")
-        if p.get("host") or p.get("sni"):
+        lines.append(f"      path: {json.dumps(p.get('path') or '/', ensure_ascii=False)}")
+        ws_host = p.get("host") or p.get("sni")
+        if ws_host:
             lines.append("      headers:")
-            lines.append(f"        Host: {json.dumps(p.get('host') or p.get('sni'))}")
+            lines.append(f"        Host: {json.dumps(ws_host, ensure_ascii=False)}")
 
     return "\n".join(lines)
 
@@ -439,7 +497,6 @@ def main():
     index_rows = []
 
     for cc, items in export_groups.items():
-        # Sort by RTT
         items.sort(key=lambda x: x["rtt_ms"])
         if cc != "ALL" and args.limit_per_country > 0:
             items = items[:args.limit_per_country]
@@ -480,7 +537,7 @@ def main():
         "countries": {cc: len(items) for cc, items in sorted(alive_by_country.items())}
     }
     with open(os.path.join(outdir, "stats.json"), "w", encoding="utf-8") as f:
-        json.dump(stats, f, indent=2)
+        json.dump(stats, f, indent=2, ensure_ascii=False)
 
     # Build index.html
     html_lines = [
