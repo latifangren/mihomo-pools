@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# Mihomo sensitive local configs
+config.yaml
+config-us.yaml
+pinned.txt
+
+# Temp & build artifacts
+output/
+dist/
+build/
+*.log
