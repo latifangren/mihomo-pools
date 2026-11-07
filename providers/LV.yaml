@@ -1,0 +1,54 @@
+# Mihomo Proxy Provider - LV
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇱🇻 LV-01 | 217ms | vless"
+    type: vless
+    server: "185.143.234.238"
+    port: 80
+    uuid: "0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6"
+    tls: false
+    udp: true
+    sni: "uu.caroptions.ir"
+    servername: "uu.caroptions.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pgcfws-r4"
+      headers:
+        Host: "uu.caroptions.ir"
+  - name: "🇱🇻 LV-02 | 1074ms | vless"
+    type: vless
+    server: "goold.zovip2.ir"
+    port: 443
+    uuid: "d8dcb071-57db-4ed6-92af-bb4183a14168"
+    tls: true
+    udp: true
+    sni: "goold.zovip2.ir"
+    servername: "goold.zovip2.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/v3/pulse"
+      headers:
+        Host: "goold.zovip2.ir"
+  - name: "🇱🇻 LV-03 | 2302ms | vless"
+    type: vless
+    server: "latvia.zovip2.ir"
+    port: 443
+    uuid: "3694cbd9-986b-4bf3-95df-3649b37ccb47"
+    tls: true
+    udp: true
+    sni: "sync.zovip2.ir"
+    servername: "sync.zovip2.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/v3/pulse"
+      headers:
+        Host: "sync.zovip2.ir"

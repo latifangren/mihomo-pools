@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - BZ
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇧🇿 BZ-01 | 36ms | vless"
+    type: vless
+    server: "45.131.4.115"
+    port: 80
+    uuid: "74ed78f1-4095-47e6-b043-094e494fb7e5"
+    tls: false
+    udp: true
+    sni: "worker3.gisenoj224.workers.dev"
+    servername: "worker3.gisenoj224.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sVnT0vhrV7WAl52Z"
+      headers:
+        Host: "worker3.gisenoj224.workers.dev"

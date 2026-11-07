@@ -1,0 +1,13 @@
+# Mihomo Proxy Provider - VN
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇻🇳 VN-01 | 2301ms | vless"
+    type: vless
+    server: "150.95.109.109"
+    port: 2086
+    uuid: "b83faafc-cbb7-4655-99d4-2c4c39a49d1b"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"

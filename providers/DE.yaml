@@ -1,0 +1,427 @@
+# Mihomo Proxy Provider - DE
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇩🇪 DE-01 | 34ms | vless"
+    type: vless
+    server: "cdn.tzpro.xyz"
+    port: 80
+    uuid: "f2083aa4-f27d-43da-81cf-8bab317304cb"
+    tls: false
+    udp: true
+    sni: "germany.vipserver14.workers.dev"
+    servername: "germany.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "germany.vipserver14.workers.dev"
+  - name: "🇩🇪 DE-02 | 35ms | vless"
+    type: vless
+    server: "188.114.96.66"
+    port: 2082
+    uuid: "5859e7c5-c61a-4d16-b56e-8fc6321ba59a"
+    tls: false
+    udp: true
+    sni: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+    servername: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@FreeOnlineVPN"
+      headers:
+        Host: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+  - name: "🇩🇪 DE-03 | 36ms | vless"
+    type: vless
+    server: "216.24.57.3"
+    port: 443
+    uuid: "6a9bd5bf-7fb1-4f42-a49a-141077ea669f"
+    tls: true
+    udp: true
+    sni: "mobile.zandix.ir"
+    servername: "mobile.zandix.ir"
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-04 | 41ms | vless"
+    type: vless
+    server: "cdn.tzpro.xyz"
+    port: 80
+    uuid: "f2083aa4-f27d-43da-81cf-8bab317304c0"
+    tls: false
+    udp: true
+    sni: "germany.vipserver14.workers.dev"
+    servername: "germany.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "germany.vipserver14.workers.dev"
+  - name: "🇩🇪 DE-05 | 41ms | vless"
+    type: vless
+    server: "188.114.99.160"
+    port: 8443
+    uuid: "0525f54a-568b-4f0b-89e5-c2666e800d83"
+    tls: true
+    udp: true
+    sni: "matoride.adaspoloandco.com"
+    servername: "matoride.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/downloader"
+      headers:
+        Host: "matoride.adaspoloandco.com"
+  - name: "🇩🇪 DE-06 | 43ms | vless"
+    type: vless
+    server: "141.101.115.71"
+    port: 443
+    uuid: "4e125438-1a39-440e-95fc-36b9dec03e5f"
+    tls: true
+    udp: true
+    sni: "adderall.adaspoloandco.com"
+    servername: "adderall.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/faq"
+      headers:
+        Host: "adderall.adaspoloandco.com"
+  - name: "🇩🇪 DE-07 | 47ms | vless"
+    type: vless
+    server: "www.speedtest.net"
+    port: 80
+    uuid: "fc588d4d-f2d1-4e15-8f4a-c6e7e9293ffc"
+    tls: false
+    udp: true
+    sni: "ok-config-10.4zkaban.xyz"
+    servername: "ok-config-10.4zkaban.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On"
+      headers:
+        Host: "ok-config-10.4zkaban.xyz"
+  - name: "🇩🇪 DE-08 | 48ms | vless"
+    type: vless
+    server: "discord.gg"
+    port: 80
+    uuid: "e4cb2d9f-61ef-4738-a3f2-a8889cdf91e6"
+    tls: false
+    udp: true
+    sni: "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
+    servername: "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
+  - name: "🇩🇪 DE-09 | 51ms | vless"
+    type: vless
+    server: "104.19.250.20"
+    port: 443
+    uuid: "24d49ddd-67c1-4821-b5b9-f12107366978"
+    tls: true
+    udp: true
+    sni: "bahari.kiamobilepart.com"
+    servername: "bahari.kiamobilepart.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api"
+      headers:
+        Host: "bahari.kiamobilepart.com"
+  - name: "🇩🇪 DE-10 | 58ms | vless"
+    type: vless
+    server: "www.speedtest.net"
+    port: 80
+    uuid: "31146a3a-3b5f-478c-bf71-f8ae3bca430b"
+    tls: false
+    udp: true
+    sni: "ok-config-10.4zkaban.xyz"
+    servername: "ok-config-10.4zkaban.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On"
+      headers:
+        Host: "ok-config-10.4zkaban.xyz"
+  - name: "🇩🇪 DE-11 | 94ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2053
+    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
+    tls: true
+    udp: true
+    sni: "lucasjow.us.ci"
+    servername: "lucasjow.us.ci"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "lucasjow.us.ci"
+  - name: "🇩🇪 DE-12 | 96ms | vless"
+    type: vless
+    server: "188.114.97.4"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-13 | 101ms | vless"
+    type: vless
+    server: "104.21.71.238"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-14 | 102ms | vless"
+    type: vless
+    server: "104.26.14.85"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-15 | 102ms | vless"
+    type: vless
+    server: "104.21.91.244"
+    port: 443
+    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
+    tls: true
+    udp: true
+    sni: "lucasjow.us.ci"
+    servername: "lucasjow.us.ci"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "lucasjow.us.ci"
+  - name: "🇩🇪 DE-16 | 103ms | vless"
+    type: vless
+    server: "cdn.tzpro.xyz"
+    port: 80
+    uuid: "f2083aa4-f27d-43da-81cf-8bab31730400"
+    tls: false
+    udp: true
+    sni: "germany.vipserver14.workers.dev"
+    servername: "germany.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "germany.vipserver14.workers.dev"
+  - name: "🇩🇪 DE-17 | 104ms | vless"
+    type: vless
+    server: "172.67.172.95"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-18 | 105ms | vless"
+    type: vless
+    server: "198.202.211.1"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-19 | 107ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "b0a100ee-c397-43f2-bdae-2adfb7a0d4e5"
+    tls: true
+    udp: true
+    sni: "rnxq-1lpi3m.linmeisoft.com"
+    servername: "rnxq-1lpi3m.linmeisoft.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/b0a100ee-c397-43f2-bdae-2adfb7a0d4e5"
+      headers:
+        Host: "rnxq-1lpi3m.linmeisoft.com"
+  - name: "🇩🇪 DE-20 | 112ms | vless"
+    type: vless
+    server: "173.245.49.157"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-21 | 113ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    udp: true
+    sni: "rubifen.adaspoloandco.com"
+    servername: "rubifen.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "🇩🇪 DE-22 | 119ms | vless"
+    type: vless
+    server: "3.72.6.34"
+    port: 443
+    uuid: "dacb912c-39ef-4fe0-d720-fadaa53111c0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-23 | 120ms | trojan"
+    type: trojan
+    server: "188.114.97.6"
+    port: 443
+    password: "mitivpn"
+    tls: true
+    udp: true
+    sni: "d-e.mitivpn.in.net"
+    servername: "d-e.mitivpn.in.net"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN"
+      headers:
+        Host: "d-e.mitivpn.in.net"
+  - name: "🇩🇪 DE-24 | 121ms | vless"
+    type: vless
+    server: "2.31.100.78"
+    port: 13060
+    uuid: "ce10fbb0-dda4-4fed-930d-178ff1362f1d"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-25 | 123ms | vless"
+    type: vless
+    server: "3.126.31.60"
+    port: 443
+    uuid: "fa12c1f5-24be-4119-8506-aad16f3bcd35"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-26 | 124ms | vless"
+    type: vless
+    server: "104.17.182.41"
+    port: 443
+    uuid: "f6a015b4-4783-4f2a-a01b-39f281ba5d07"
+    tls: true
+    udp: true
+    sni: "cf.5208877.xyz"
+    servername: "cf.5208877.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cf.5208877.xyz"
+  - name: "🇩🇪 DE-27 | 126ms | vless"
+    type: vless
+    server: "167.233.129.126"
+    port: 2474
+    uuid: "287db857-de04-4212-bd69-5d14083e340e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-28 | 130ms | vless"
+    type: vless
+    server: "91.107.179.8"
+    port: 15003
+    uuid: "69d8dc73-20ff-4241-bdd8-a9d6d07553b6"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-29 | 155ms | vless"
+    type: vless
+    server: "2.29.172.95"
+    port: 8443
+    uuid: "bf5cb270-3e91-453a-bbbe-a52a0022d382"
+    tls: false
+    udp: true
+    sni: "/"
+    servername: "/"
+    client-fingerprint: "chrome"
+  - name: "🇩🇪 DE-30 | 179ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 80
+    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
+    tls: false
+    udp: true
+    sni: "de.vpnbase.net"
+    servername: "de.vpnbase.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/http"
+      headers:
+        Host: "de.vpnbase.net"

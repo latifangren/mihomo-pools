@@ -1,0 +1,31 @@
+# Mihomo Proxy Provider - IT
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇮🇹 IT-01 | 714ms | vless"
+    type: vless
+    server: "13.140.56.100"
+    port: 14430
+    uuid: "68512eac-cd53-4de3-8d1e-08f6e04af1a9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+  - name: "🇮🇹 IT-02 | 716ms | vless"
+    type: vless
+    server: "13.140.56.100"
+    port: 14430
+    uuid: "68512eac-cd53-4de3-8d1e-08f6e04af1a9"
+    tls: false
+    udp: true
+    sni: "13.140.56.100"
+    servername: "13.140.56.100"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "13.140.56.100"

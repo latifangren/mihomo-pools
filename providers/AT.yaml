@@ -1,0 +1,27 @@
+# Mihomo Proxy Provider - AT
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇦🇹 AT-01 | 279ms | vless"
+    type: vless
+    server: "45.86.245.75"
+    port: 2443
+    uuid: "664d2284-e0ad-4de4-9752-a0e12a29840e"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xkg82.enterquality.online"
+    servername: "xkg82.enterquality.online"
+    client-fingerprint: "chrome"
+  - name: "🇦🇹 AT-02 | 305ms | vless"
+    type: vless
+    server: "xkg82.enterquality.online"
+    port: 2443
+    uuid: "664d2284-e0ad-4de4-9752-a0e12a29840e"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xkg82.enterquality.online"
+    servername: "xkg82.enterquality.online"
+    client-fingerprint: "chrome"

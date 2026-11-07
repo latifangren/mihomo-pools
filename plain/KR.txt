@@ -1,0 +1,4 @@
+trojan://5t6i121em5lkmsmk@158.247.255.150:48851?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&type=tcp&sni=kr002.zestapp778.com&fp=chrome#@GozargahAzad|🇰🇷
+vless://27c5483f-17f4-48ae-9a04-def53d88440d@152.69.226.63:25555?security=none&sni=152.69.226.63&type=ws#KR 🇰🇷 | @Raydikalx | E3B6CD
+vless://27c5483f-17f4-48ae-9a04-def53d88440d@152.69.226.63:25555?security=none&type=ws&path=%2F#KR 🇰🇷 | @Raydikalx | 6913F7
+trojan://5t6i121em5lkmsmk@kr002.zestapp778.com:48851?security=tls&type=tcp&sni=kr002.zestapp778.com#@FXxNET⚡️

@@ -1,0 +1,103 @@
+# Mihomo Proxy Provider - UM
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇺🇲 UM-01 | 43ms | vless"
+    type: vless
+    server: "154.197.64.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    udp: true
+    sni: "vms.lifetime36.workers.dev"
+    servername: "vms.lifetime36.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime36.workers.dev"
+  - name: "🇺🇲 UM-02 | 45ms | vless"
+    type: vless
+    server: "154.197.75.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    udp: true
+    sni: "vms.lifetime37.workers.dev"
+    servername: "vms.lifetime37.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime37.workers.dev"
+  - name: "🇺🇲 UM-03 | 60ms | vless"
+    type: vless
+    server: "18.117.110.43"
+    port: 443
+    uuid: "d1670e4b-6caf-490d-ae5d-796014147e3e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇺🇲 UM-04 | 60ms | vless"
+    type: vless
+    server: "chat.openai.com"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: false
+    udp: true
+    sni: "vms.lifetime29.workers.dev"
+    servername: "vms.lifetime29.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime29.workers.dev"
+  - name: "🇺🇲 UM-05 | 292ms | vless"
+    type: vless
+    server: "c-1.mrcloudi.ir"
+    port: 443
+    uuid: "c26fe2f0-5c69-001F-8a1a-bf116ceb9215"
+    tls: true
+    udp: true
+    sni: "jsv-p-us1.donick.ir"
+    servername: "jsv-p-us1.donick.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jsv-p-us1.donick.ir"
+  - name: "🇺🇲 UM-06 | 639ms | vless"
+    type: vless
+    server: "c-1.mrcloudi.ir"
+    port: 443
+    uuid: "c26fe2f0-5c69-0015-8a1a-bf116ceb9215"
+    tls: true
+    udp: true
+    sni: "jsv-p-tr1.donick.ir"
+    servername: "jsv-p-tr1.donick.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jsv-p-tr1.donick.ir"
+  - name: "🇺🇲 UM-07 | 708ms | vless"
+    type: vless
+    server: "c-1.mrcloudi.ir"
+    port: 443
+    uuid: "c26fe2f0-5c69-000B-8a1a-bf116ceb9215"
+    tls: true
+    udp: true
+    sni: "jsv-p-de1.donick.ir"
+    servername: "jsv-p-de1.donick.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jsv-p-de1.donick.ir"

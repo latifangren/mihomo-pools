@@ -1,0 +1,178 @@
+# Mihomo Proxy Provider - IR
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 13
+
+proxies:
+  - name: "🇮🇷 IR-01 | 41ms | vless"
+    type: vless
+    server: "188.114.99.160"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇮🇷 IR-02 | 112ms | vless"
+    type: vless
+    server: "185.143.233.235"
+    port: 80
+    uuid: "22109ab6-bfdd-4062-ae1c-054c74353e39"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-03 | 216ms | vless"
+    type: vless
+    server: "185.143.234.235"
+    port: 80
+    uuid: "b8799fac-622a-4142-aab2-2aa862ad35f2"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vixon.portab.org"
+  - name: "🇮🇷 IR-04 | 221ms | vless"
+    type: vless
+    server: "3633c37daa4e6400.tunvi.w-ert.org"
+    port: 40287
+    uuid: "23ab3d0a-7626-48d5-99b8-8446b0187734"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-05 | 253ms | vless"
+    type: vless
+    server: "hz.extraservices.ir"
+    port: 25837
+    uuid: "bf6feeab-e24d-444a-80c8-418aceabbe9f"
+    tls: false
+    udp: true
+    sni: "tgju.org"
+    servername: "tgju.org"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-06 | 353ms | vless"
+    type: vless
+    server: "s2.zynetraq.ir"
+    port: 2087
+    uuid: "22c6684b-cd4f-4c8e-62e3-a17fc698471f"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+      - "h3"
+  - name: "🇮🇷 IR-07 | 451ms | vless"
+    type: vless
+    server: "1.glitchout.ir"
+    port: 443
+    uuid: "2e409cdc-d0c9-4fc0-b285-9371034b8002"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-08 | 525ms | vless"
+    type: vless
+    server: "185.143.233.5"
+    port: 80
+    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
+    tls: false
+    udp: true
+    sni: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    servername: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+  - name: "🇮🇷 IR-09 | 850ms | vless"
+    type: vless
+    server: "a.samrayan.ir"
+    port: 443
+    uuid: "23d6295f-0337-438f-be52-388bbe321ae4"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "a.samrayan.ir"
+    servername: "a.samrayan.ir"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-10 | 928ms | vless"
+    type: vless
+    server: "abr.superip.ir"
+    port: 2052
+    uuid: "061da3a1-0b8a-4abe-a739-8b33ae5519c4"
+    tls: false
+    udp: true
+    sni: "library.phill-up.ir"
+    servername: "library.phill-up.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/API/superip"
+      headers:
+        Host: "library.phill-up.ir"
+  - name: "🇮🇷 IR-11 | 1323ms | vless"
+    type: vless
+    server: "dns2.mizdomaingame.ir"
+    port: 443
+    uuid: "8077b2a0-8230-46d1-941d-b709f8f1c764"
+    tls: true
+    udp: true
+    sni: "dns2.mizdomaingame.ir"
+    servername: "dns2.mizdomaingame.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/j5qklki8k"
+      headers:
+        Host: "dns2.mizdomaingame.ir"
+  - name: "🇮🇷 IR-12 | 1353ms | vless"
+    type: vless
+    server: "dns1.mizdomaingame.ir"
+    port: 443
+    uuid: "8077b2a0-8230-46d1-941d-b709f8f1c764"
+    tls: true
+    udp: true
+    sni: "dns1.mizdomaingame.ir"
+    servername: "dns1.mizdomaingame.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/j5qklki8k"
+      headers:
+        Host: "dns1.mizdomaingame.ir"
+  - name: "🇮🇷 IR-13 | 1749ms | trojan"
+    type: trojan
+    server: "dns5.mizdomaingame.ir"
+    port: 443
+    password: "os7uqitayib0z9oc"
+    tls: true
+    udp: true
+    sni: "dns5.mizdomaingame.ir"
+    servername: "dns5.mizdomaingame.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/c1t729uwm"
+      headers:
+        Host: "dns5.mizdomaingame.ir"

@@ -1,0 +1,25 @@
+# Mihomo Proxy Provider - PH
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇵🇭 PH-01 | 470ms | trojan"
+    type: trojan
+    server: "130.94.51.219"
+    port: 46298
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "ph001.zestapp778.com"
+    servername: "ph001.zestapp778.com"
+    client-fingerprint: "chrome"
+  - name: "🇵🇭 PH-02 | 486ms | trojan"
+    type: trojan
+    server: "ph001.zestapp778.com"
+    port: 46298
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "ph001.zestapp778.com"
+    servername: "ph001.zestapp778.com"
+    client-fingerprint: "chrome"

@@ -1,0 +1,24 @@
+# Mihomo Proxy Provider - SV
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇸🇻 SV-01 | 138ms | vless"
+    type: vless
+    server: "m3-production-fa8d.up.railway.app"
+    port: 443
+    uuid: "ec43c5d5-b6f9-4077-95cf-1450abf48441"
+    tls: true
+    udp: true
+    sni: "m3-production-fa8d.up.railway.app"
+    servername: "m3-production-fa8d.up.railway.app"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h3"
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "m3-production-fa8d.up.railway.app"

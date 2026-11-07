@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - IN
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇮🇳 IN-01 | 911ms | vless"
+    type: vless
+    server: "122.176.216.52"
+    port: 443
+    uuid: "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88"
+    tls: true
+    udp: true
+    sni: "app-6ada5023.deploy.meerasolution.com"
+    servername: "app-6ada5023.deploy.meerasolution.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88"
+      headers:
+        Host: "app-6ada5023.deploy.meerasolution.com"

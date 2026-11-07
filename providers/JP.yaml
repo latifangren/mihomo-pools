@@ -1,0 +1,382 @@
+# Mihomo Proxy Provider - JP
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 25
+
+proxies:
+  - name: "🇯🇵 JP-01 | 29ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2052
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇯🇵 JP-02 | 255ms | trojan"
+    type: trojan
+    server: "167.179.108.225"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "discoverparttimepositionsandsupplementyourincomeguide.com"
+    servername: "discoverparttimepositionsandsupplementyourincomeguide.com"
+    client-fingerprint: "chrome"
+  - name: "🇯🇵 JP-03 | 590ms | vless"
+    type: vless
+    server: "103.173.179.184"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇯🇵 JP-04 | 596ms | vless"
+    type: vless
+    server: "154.31.112.237"
+    port: 26418
+    uuid: "4a98013d-7ccb-477b-b613-39a3cff12144"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+    servername: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+  - name: "🇯🇵 JP-05 | 596ms | vless"
+    type: vless
+    server: "156.231.112.160"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇯🇵 JP-06 | 1231ms | vless"
+    type: vless
+    server: "104.27.46.35"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-07 | 1237ms | vless"
+    type: vless
+    server: "152.69.200.216"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-08 | 1304ms | vless"
+    type: vless
+    server: "154.31.114.162"
+    port: 8443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-09 | 1504ms | vless"
+    type: vless
+    server: "104.21.70.21"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-10 | 1586ms | vless"
+    type: vless
+    server: "104.16.111.202"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-11 | 1778ms | vless"
+    type: vless
+    server: "104.16.0.1"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-12 | 1807ms | vless"
+    type: vless
+    server: "172.67.156.147"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-13 | 1878ms | vless"
+    type: vless
+    server: "104.21.6.186"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-14 | 1975ms | vless"
+    type: vless
+    server: "104.16.10.72"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-15 | 2136ms | vless"
+    type: vless
+    server: "104.16.10.135"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-16 | 2157ms | vless"
+    type: vless
+    server: "104.24.0.1"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-17 | 2216ms | vless"
+    type: vless
+    server: "104.21.34.106"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-18 | 2307ms | vless"
+    type: vless
+    server: "104.19.33.237"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-19 | 2333ms | vless"
+    type: vless
+    server: "162.159.254.3"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-20 | 2393ms | vless"
+    type: vless
+    server: "104.16.10.56"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-21 | 2604ms | vless"
+    type: vless
+    server: "104.17.169.13"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-22 | 2702ms | vless"
+    type: vless
+    server: "104.24.31.89"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-23 | 2843ms | vless"
+    type: vless
+    server: "104.19.48.107"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-24 | 2942ms | vless"
+    type: vless
+    server: "104.16.10.185"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-25 | 3069ms | vless"
+    type: vless
+    server: "104.18.42.98"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"

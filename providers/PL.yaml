@@ -1,0 +1,96 @@
+# Mihomo Proxy Provider - PL
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇵🇱 PL-01 | 115ms | vless"
+    type: vless
+    server: "104.26.14.85"
+    port: 8443
+    uuid: "f798a2c4-c51b-409d-b349-ca8455b36796"
+    tls: true
+    udp: true
+    sni: "chopin.adaspoloandco.com"
+    servername: "chopin.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "chopin.adaspoloandco.com"
+  - name: "🇵🇱 PL-02 | 264ms | trojan"
+    type: trojan
+    server: "70.34.252.255"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "browseexecutivejobopeningsandenhanceleadershipcareer.com"
+    servername: "browseexecutivejobopeningsandenhanceleadershipcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇵🇱 PL-03 | 328ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c365a38d-be89-4962-81c4-facfaadfa034"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-04 | 329ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c8e2d425-0c38-4271-bf41-1d77566ebaa9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-05 | 379ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "8419bd29-8bd4-4a38-a739-d5d7adeb5c3c"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-06 | 705ms | vless"
+    type: vless
+    server: "84.23.52.120"
+    port: 28449
+    uuid: "4d8132cb-f4e3-428c-91ff-2b4f7a868551"
+    tls: true
+    udp: true
+    sni: "pl.sparxiecn.com"
+    servername: "pl.sparxiecn.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/lovelive"
+      headers:
+        Host: "pl.sparxiecn.com"
+  - name: "🇵🇱 PL-07 | 944ms | vless"
+    type: vless
+    server: "89.218.15.90"
+    port: 10002
+    uuid: "392fcc7e-b995-11f1-a6b7-1b2272a86bd5"
+    tls: true
+    udp: true
+    sni: "kz1.vpnjantit.com"
+    servername: "kz1.vpnjantit.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vpnjantit"
+      headers:
+        Host: "kz1.vpnjantit.com"

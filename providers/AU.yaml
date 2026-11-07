@@ -1,0 +1,129 @@
+# Mihomo Proxy Provider - AU
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 8
+
+proxies:
+  - name: "🇦🇺 AU-01 | 44ms | vless"
+    type: vless
+    server: "172.64.154.211"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h3"
+      - "h2"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-02 | 105ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-03 | 110ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/fdip"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-04 | 119ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-05 | 136ms | vless"
+    type: vless
+    server: "103.232.95.178"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇦🇺 AU-06 | 326ms | trojan"
+    type: trojan
+    server: "45.63.30.142"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "connectwithemployerstohireyouridealteam.com"
+    servername: "connectwithemployerstohireyouridealteam.com"
+    client-fingerprint: "chrome"
+  - name: "🇦🇺 AU-07 | 621ms | vless"
+    type: vless
+    server: "213.176.78.59"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-08 | 849ms | vless"
+    type: vless
+    server: "188.253.125.236"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"

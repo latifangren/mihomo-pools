@@ -1,0 +1,294 @@
+# Mihomo Proxy Provider - FR
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 21
+
+proxies:
+  - name: "🇫🇷 FR-01 | 46ms | vless"
+    type: vless
+    server: "104.27.66.214"
+    port: 8443
+    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-02 | 113ms | vless"
+    type: vless
+    server: "35.181.201.219"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-03 | 113ms | vless"
+    type: vless
+    server: "52.47.132.205"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-04 | 115ms | vless"
+    type: vless
+    server: "35.181.201.219"
+    port: 22223
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-05 | 116ms | vless"
+    type: vless
+    server: "35.181.201.219"
+    port: 22224
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-06 | 116ms | vless"
+    type: vless
+    server: "162.159.253.41"
+    port: 8443
+    uuid: "a47c49ec-6eaa-44ce-9108-8427426a1123"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-07 | 216ms | vless"
+    type: vless
+    server: "138.124.70.41"
+    port: 14430
+    uuid: "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc"
+    tls: false
+    udp: true
+    sni: "138.124.70.41"
+    servername: "138.124.70.41"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "138.124.70.41"
+  - name: "🇫🇷 FR-08 | 217ms | vless"
+    type: vless
+    server: "45.144.28.39"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-09 | 230ms | trojan"
+    type: trojan
+    server: "108.61.177.57"
+    port: 16778
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "fr001.zestapp778.com"
+    servername: "fr001.zestapp778.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇫🇷 FR-10 | 267ms | vless"
+    type: vless
+    server: "31.77.227.10"
+    port: 52006
+    uuid: "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f"
+    flow: "xtls-rprx-vision-udp443"
+    tls: true
+    udp: true
+    sni: "fr.setlisting.ru"
+    servername: "fr.setlisting.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇷 FR-11 | 324ms | vless"
+    type: vless
+    server: "nasnet-162191099-direct.mbghalibaf.com"
+    port: 443
+    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "nasnet-162191099-direct.mbghalibaf.com"
+    servername: "nasnet-162191099-direct.mbghalibaf.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇫🇷 FR-12 | 388ms | vless"
+    type: vless
+    server: "fr.connfull.org"
+    port: 9443
+    uuid: "19f51967-ca91-4fab-a37b-51c424de801d"
+    tls: true
+    udp: true
+    sni: "fr.connfull.org"
+    servername: "fr.connfull.org"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/stream"
+      headers:
+        Host: "fr.connfull.org"
+  - name: "🇫🇷 FR-13 | 468ms | vless"
+    type: vless
+    server: "199.232.169.135"
+    port: 443
+    uuid: "f408696c-cdbe-49a1-90e9-ab602003315c"
+    tls: true
+    udp: true
+    sni: "speedtest.net"
+    servername: "speedtest.net"
+    client-fingerprint: "randomized"
+    network: ws
+    ws-opts:
+      path: "/MinoVpnCh?ed=2048"
+      headers:
+        Host: "googleb.net"
+  - name: "🇫🇷 FR-14 | 476ms | vless"
+    type: vless
+    server: "usejh2.neobo-tooth.ru"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-15 | 486ms | vless"
+    type: vless
+    server: "149.202.58.99"
+    port: 443
+    uuid: "b585dc5e-55bf-4a8b-913a-27c9ccac05c3"
+    tls: true
+    udp: true
+    sni: "bab-6.site"
+    servername: "bab-6.site"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/vws/"
+      headers:
+        Host: "bab-6.site"
+  - name: "🇫🇷 FR-16 | 518ms | vless"
+    type: vless
+    server: "57.129.130.34"
+    port: 52014
+    uuid: "95c305fa-6ede-4eb5-b391-0869ddeb27f7"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
+    servername: "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
+  - name: "🇫🇷 FR-17 | 537ms | vless"
+    type: vless
+    server: "57.129.52.47"
+    port: 52014
+    uuid: "ecc4675b-1607-4699-8b20-23af97b671af"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+  - name: "🇫🇷 FR-18 | 546ms | vless"
+    type: vless
+    server: "81.95.4.189"
+    port: 443
+    uuid: "b585dc5e-55bf-4a8b-913a-27c9ccac05c3"
+    tls: true
+    udp: true
+    sni: "bab-6.site"
+    servername: "bab-6.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vws/"
+      headers:
+        Host: "bab-6.site"
+  - name: "🇫🇷 FR-19 | 581ms | vless"
+    type: vless
+    server: "dns1.mobilenovin12.ir"
+    port: 990
+    uuid: "8077b2a0-8230-46d1-941d-b709f8f1c764"
+    tls: true
+    udp: true
+    sni: "dns1.mobilenovin12.ir"
+    servername: "dns1.mobilenovin12.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/docajogqp"
+      headers:
+        Host: "dns1.mobilenovin12.ir"
+  - name: "🇫🇷 FR-20 | 836ms | vless"
+    type: vless
+    server: "w.geogame.ir"
+    port: 2053
+    uuid: "fbda2834-b1e7-4148-afb9-deda31036a30"
+    tls: true
+    udp: true
+    sni: "w.geogame.ir"
+    servername: "w.geogame.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇷 FR-21 | 3578ms | vless"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "82fc8761-470b-4022-89da-ce5412e8bb0a"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"

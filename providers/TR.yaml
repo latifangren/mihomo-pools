@@ -1,0 +1,84 @@
+# Mihomo Proxy Provider - TR
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇹🇷 TR-01 | 122ms | vless"
+    type: vless
+    server: "104.21.221.158"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    tls: true
+    udp: true
+    sni: "ccc.010304.xyz"
+    servername: "ccc.010304.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ccc.010304.xyz"
+  - name: "🇹🇷 TR-02 | 152ms | vless"
+    type: vless
+    server: "188.132.174.14"
+    port: 24
+    uuid: "7d5cdbb1-9632-483a-9b50-27932cfa9390"
+    tls: false
+    udp: true
+    sni: "play.google.com"
+    servername: "play.google.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-03 | 158ms | vless"
+    type: vless
+    server: "185.71.219.188"
+    port: 443
+    uuid: "2107ea1e-26fb-4831-8c3f-fb190bea79f7"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-04 | 203ms | vless"
+    type: vless
+    server: "188.132.237.20"
+    port: 2095
+    uuid: "3b9e513e-30d9-4ca8-8340-8f33fc6710de"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    alpn:
+      - "v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus"
+  - name: "🇹🇷 TR-05 | 288ms | vless"
+    type: vless
+    server: "raven91.fars-remen.ir"
+    port: 32545
+    uuid: "fbdfc018-466d-4f29-a164-f80920774eee"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "storage-p2.googleapis.com"
+    servername: "storage-p2.googleapis.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-06 | 441ms | vless"
+    type: vless
+    server: "game.celvixo.ir"
+    port: 2087
+    uuid: "67e508e8-ac87-4b9a-9f71-854a738ef25e"
+    tls: false
+    udp: true
+    sni: "cp.xelzano.ir"
+    servername: "cp.xelzano.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cp.xelzano.ir"
+  - name: "🇹🇷 TR-07 | 500ms | trojan"
+    type: trojan
+    server: "melli-shecan.tr"
+    port: 2095
+    password: "zFOLEe09hogIoevLZ0VJslJepLsPSIBV"
+    tls: true
+    udp: true
+    sni: "mellishecan.com.tr"
+    servername: "mellishecan.com.tr"
+    client-fingerprint: "chrome"

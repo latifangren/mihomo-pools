@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - BG
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇧🇬 BG-01 | 631ms | vless"
+    type: vless
+    server: "103.249.134.29"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    tls: true
+    udp: true
+    sni: "free.cndyw.ggff.net"
+    servername: "free.cndyw.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=bpb.yousef.isegaro.com"
+      headers:
+        Host: "free.cndyw.ggff.net"
+  - name: "🇧🇬 BG-02 | 695ms | vless"
+    type: vless
+    server: "155.103.71.142"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    tls: true
+    udp: true
+    sni: "ccc.010304.xyz"
+    servername: "ccc.010304.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "ccc.010304.xyz"

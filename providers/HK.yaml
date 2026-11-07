@@ -1,0 +1,15 @@
+# Mihomo Proxy Provider - HK
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇭🇰 HK-01 | 1549ms | trojan"
+    type: trojan
+    server: "Sclass-C1.catcat321.com"
+    port: 20086
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"

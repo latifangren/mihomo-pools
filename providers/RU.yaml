@@ -1,0 +1,84 @@
+# Mihomo Proxy Provider - RU
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇷🇺 RU-01 | 635ms | vless"
+    type: vless
+    server: "91.185.83.44"
+    port: 443
+    uuid: "7955bf18-35c4-412d-aabd-c0b36c793063"
+    tls: true
+    udp: true
+    sni: "nguyxejonb.rucdncomp.pro"
+    servername: "nguyxejonb.rucdncomp.pro"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/service/telemetry/0294da469190/"
+      headers:
+        Host: "nguyxejonb.rucdncomp.pro"
+  - name: "🇷🇺 RU-02 | 743ms | vless"
+    type: vless
+    server: "91.215.43.80"
+    port: 443
+    uuid: "e9b117e4-8be9-4105-9354-a5e0663294f0"
+    tls: true
+    udp: true
+    sni: "metrics.api.downloader-pet.xyz"
+    servername: "metrics.api.downloader-pet.xyz"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/gateway/v1/ws/a901ed17102fc3090ca1ab052c672f47"
+      headers:
+        Host: "metrics.api.downloader-pet.xyz"
+  - name: "🇷🇺 RU-03 | 939ms | vless"
+    type: vless
+    server: "185.86.147.175"
+    port: 443
+    uuid: "7955bf18-35c4-412d-aabd-c0b36c793063"
+    tls: true
+    udp: true
+    sni: "bhjolq0d0l.flowersgood.top"
+    servername: "bhjolq0d0l.flowersgood.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/service/telemetry/045d381f1166/"
+      headers:
+        Host: "bhjolq0d0l.flowersgood.top"
+  - name: "🇷🇺 RU-04 | 1335ms | vless"
+    type: vless
+    server: "cloud.korroh.com"
+    port: 443
+    uuid: "ec6f8131-7a5d-4117-9627-6fb2b39ae0da"
+    tls: true
+    udp: true
+    sni: "cloud.korroh.com"
+    servername: "cloud.korroh.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/remote.php/dav/89f7661a0011ce46"
+      headers:
+        Host: "cloud.korroh.com"
+  - name: "🇷🇺 RU-05 | 1664ms | vless"
+    type: vless
+    server: "bhjolq0d0l.flowersgood.top"
+    port: 443
+    uuid: "7955bf18-35c4-412d-aabd-c0b36c793063"
+    tls: true
+    udp: true
+    sni: "bhjolq0d0l.flowersgood.top"
+    servername: "bhjolq0d0l.flowersgood.top"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/service/telemetry/045d381f1166/"
+      headers:
+        Host: "bhjolq0d0l.flowersgood.top"

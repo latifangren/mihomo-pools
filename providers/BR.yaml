@@ -1,0 +1,15 @@
+# Mihomo Proxy Provider - BR
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇧🇷 BR-01 | 277ms | trojan"
+    type: trojan
+    server: "216.238.104.154"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    servername: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    client-fingerprint: "chrome"

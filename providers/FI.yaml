@@ -1,0 +1,123 @@
+# Mihomo Proxy Provider - FI
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 9
+
+proxies:
+  - name: "🇫🇮 FI-01 | 50ms | vless"
+    type: vless
+    server: "104.19.64.105"
+    port: 8443
+    uuid: "bb3f7d41-a044-4937-bf6f-4a3d1a70db06"
+    tls: true
+    udp: true
+    sni: "interim.adaspoloandco.com"
+    servername: "interim.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/RoBeRt"
+      headers:
+        Host: "interim.adaspoloandco.com"
+  - name: "🇫🇮 FI-02 | 179ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-03 | 226ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    sni: "/"
+    servername: "/"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-04 | 287ms | vless"
+    type: vless
+    server: "45.144.234.157"
+    port: 14430
+    uuid: "59b0d30e-9b29-4fda-a35c-b2901ec32db7"
+    tls: false
+    udp: true
+    sni: "45.144.234.157"
+    servername: "45.144.234.157"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "45.144.234.157"
+  - name: "🇫🇮 FI-05 | 291ms | vless"
+    type: vless
+    server: "213.176.92.168"
+    port: 14430
+    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "213.176.92.168"
+    servername: "213.176.92.168"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "213.176.92.168"
+  - name: "🇫🇮 FI-06 | 293ms | vless"
+    type: vless
+    server: "indigo28.fars-remen.ir"
+    port: 47607
+    uuid: "fbdfc018-466d-4f29-a164-f80920774eee"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "dynu.com"
+    servername: "dynu.com"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-07 | 369ms | vless"
+    type: vless
+    server: "indigo28.fars-remen.ir"
+    port: 47607
+    uuid: "dcfc90f0-044b-46b3-9ef2-56ba5d4b155d"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "dynu.com"
+    servername: "dynu.com"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-08 | 496ms | vless"
+    type: vless
+    server: "static.216.7.245.188.clients.your-server.de"
+    port: 8443
+    uuid: "4c4fb45f-03d3-4346-92b3-7b01e3d4de1b"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "static.44.128.217.95.clients.your-server.de"
+    servername: "static.44.128.217.95.clients.your-server.de"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇮 FI-09 | 590ms | vless"
+    type: vless
+    server: "139.28.221.213"
+    port: 48004
+    uuid: "eb19f904-2a70-41d0-8187-e425879aee8e"
+    tls: true
+    udp: true
+    sni: "yp1.yupeng123.dpdns.org"
+    servername: "yp1.yupeng123.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "yp1.yupeng123.dpdns.org"

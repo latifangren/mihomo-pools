@@ -1,0 +1,72 @@
+# Mihomo Proxy Provider - AE
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇦🇪 AE-01 | 383ms | vless"
+    type: vless
+    server: "84.235.244.108"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    tls: false
+    udp: true
+    sni: "uae.unixzone.us"
+    servername: "uae.unixzone.us"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "uae.unixzone.us"
+  - name: "🇦🇪 AE-02 | 410ms | vless"
+    type: vless
+    server: "uae.unixzone.us"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    tls: false
+    udp: true
+    sni: "uae.unixzone.us"
+    servername: "uae.unixzone.us"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "uae.unixzone.us"
+  - name: "🇦🇪 AE-03 | 419ms | vless"
+    type: vless
+    server: "uae.unixzone.us"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    tls: false
+    udp: true
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇦🇪 AE-04 | 1243ms | vless"
+    type: vless
+    server: "95.174.68.188"
+    port: 14430
+    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
+    tls: false
+    udp: true
+    sni: "95.174.68.188"
+    servername: "95.174.68.188"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "95.174.68.188"
+  - name: "🇦🇪 AE-05 | 1279ms | vless"
+    type: vless
+    server: "95.174.68.188"
+    port: 14430
+    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"

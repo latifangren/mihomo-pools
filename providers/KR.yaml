@@ -1,0 +1,51 @@
+# Mihomo Proxy Provider - KR
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 4
+
+proxies:
+  - name: "🇰🇷 KR-01 | 315ms | trojan"
+    type: trojan
+    server: "158.247.255.150"
+    port: 48851
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "kr002.zestapp778.com"
+    servername: "kr002.zestapp778.com"
+    client-fingerprint: "chrome"
+  - name: "🇰🇷 KR-02 | 352ms | vless"
+    type: vless
+    server: "152.69.226.63"
+    port: 25555
+    uuid: "27c5483f-17f4-48ae-9a04-def53d88440d"
+    tls: false
+    udp: true
+    sni: "152.69.226.63"
+    servername: "152.69.226.63"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "152.69.226.63"
+  - name: "🇰🇷 KR-03 | 396ms | vless"
+    type: vless
+    server: "152.69.226.63"
+    port: 25555
+    uuid: "27c5483f-17f4-48ae-9a04-def53d88440d"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇰🇷 KR-04 | 1513ms | trojan"
+    type: trojan
+    server: "kr002.zestapp778.com"
+    port: 48851
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "kr002.zestapp778.com"
+    servername: "kr002.zestapp778.com"
+    client-fingerprint: "chrome"

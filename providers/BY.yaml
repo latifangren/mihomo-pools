@@ -1,0 +1,69 @@
+# Mihomo Proxy Provider - BY
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇧🇾 BY-01 | 136ms | vless"
+    type: vless
+    server: "178.172.227.124"
+    port: 10443
+    uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇧🇾 BY-02 | 146ms | vless"
+    type: vless
+    server: "178.172.227.124"
+    port: 10443
+    uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
+    tls: false
+    udp: true
+    sni: "178.172.227.124"
+    servername: "178.172.227.124"
+    client-fingerprint: "chrome"
+  - name: "🇧🇾 BY-03 | 282ms | vless"
+    type: vless
+    server: "95.128.71.79"
+    port: 14430
+    uuid: "8cef7621-c6f0-486e-b51d-59c30c5b0b25"
+    tls: false
+    udp: true
+    sni: "95.128.71.79"
+    servername: "95.128.71.79"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "95.128.71.79"
+  - name: "🇧🇾 BY-04 | 287ms | vless"
+    type: vless
+    server: "178.172.227.124"
+    port: 14430
+    uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
+    tls: false
+    udp: true
+    sni: "178.172.227.124"
+    servername: "178.172.227.124"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "178.172.227.124"
+  - name: "🇧🇾 BY-05 | 464ms | vless"
+    type: vless
+    server: "178.172.227.228"
+    port: 14430
+    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "178.172.227.228"
+    servername: "178.172.227.228"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "178.172.227.228"

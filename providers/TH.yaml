@@ -1,0 +1,25 @@
+# Mihomo Proxy Provider - TH
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇹🇭 TH-01 | 443ms | trojan"
+    type: trojan
+    server: "38.60.233.126"
+    port: 33079
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "th001.zestapp778.com"
+    servername: "th001.zestapp778.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇭 TH-02 | 488ms | trojan"
+    type: trojan
+    server: "th001.zestapp778.com"
+    port: 33079
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "th001.zestapp778.com"
+    servername: "th001.zestapp778.com"
+    client-fingerprint: "chrome"

@@ -1,0 +1,85 @@
+# Mihomo Proxy Provider - CH
+# Updated: 2026-11-07 12:19:09 UTC
+# Total Proxies: 8
+
+proxies:
+  - name: "🇨🇭 CH-01 | 250ms | vless"
+    type: vless
+    server: "179.43.187.67"
+    port: 443
+    uuid: "9dd38d60-e683-47c6-bd53-d71bdfee78f3"
+    tls: true
+    udp: true
+    sni: "portal.mavexa.ir"
+    servername: "portal.mavexa.ir"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-02 | 473ms | trojan"
+    type: trojan
+    server: "208.69.78.158"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "api.yourultimateprofessionalcareerhub.com"
+    servername: "api.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-03 | 558ms | trojan"
+    type: trojan
+    server: "208.69.78.208"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "resources.yourultimateprofessionalcareerhub.com"
+    servername: "resources.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-04 | 601ms | trojan"
+    type: trojan
+    server: "208.69.78.19"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "www.yourultimateprofessionalcareerhub.com"
+    servername: "www.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-05 | 630ms | trojan"
+    type: trojan
+    server: "208.69.78.29"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "learn.yourultimateprofessionalcareerhub.com"
+    servername: "learn.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-06 | 633ms | trojan"
+    type: trojan
+    server: "208.69.78.222"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "yourultimateprofessionalcareerhub.com"
+    servername: "yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-07 | 672ms | trojan"
+    type: trojan
+    server: "208.69.78.33"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "courses.yourultimateprofessionalcareerhub.com"
+    servername: "courses.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇭 CH-08 | 1116ms | trojan"
+    type: trojan
+    server: "208.69.78.60"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "cdn.yourultimateprofessionalcareerhub.com"
+    servername: "cdn.yourultimateprofessionalcareerhub.com"
+    client-fingerprint: "chrome"
