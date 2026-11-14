@@ -1,0 +1,2 @@
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@5.253.30.226:443?&security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=/#🇮🇳 Join+Telegram:@Farah_VPN 🇮🇳
+vless://f1d3c8af-71c4-ef75-625f-cf446aa2c15b@13.140.253.35:443?path=/050334203cc522a3&security=tls&encryption=none&insecure=0&host=xray-h0urp9tx-rapid-summit-2.cloady.io&fp=chrome&type=ws&allowInsecure=0&sni=xray-h0urp9tx-rapid-summit-2.cloady.io#@ConfigV2RayNG

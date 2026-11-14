@@ -1,0 +1,80 @@
+# Mihomo Proxy Provider - RU
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇷🇺 RU-01 | 216ms | vless"
+    type: vless
+    server: "78.159.250.83"
+    port: 8443
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-02 | 1107ms | vless"
+    type: vless
+    server: "static.nlomasterpanel.ru"
+    port: 443
+    uuid: "981e728f-d403-4fef-a1ff-6ba9ebe0e702"
+    tls: true
+    udp: true
+    sni: "static.nlomasterpanel.ru"
+    servername: "static.nlomasterpanel.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/v1/parts"
+      headers:
+        Host: "static.nlomasterpanel.ru"
+  - name: "🇷🇺 RU-03 | 1126ms | vless"
+    type: vless
+    server: "hedgerow.moltex.click"
+    port: 443
+    uuid: "820fa845-a1eb-4a83-b613-e6714cea8a1a"
+    tls: true
+    udp: true
+    sni: "grove.moltex.click"
+    servername: "grove.moltex.click"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/de6/stream"
+      headers:
+        Host: "grove.moltex.click"
+  - name: "🇷🇺 RU-04 | 1620ms | vless"
+    type: vless
+    server: "birchwood.moltex.click"
+    port: 443
+    uuid: "820fa845-a1eb-4a83-b613-e6714cea8a1a"
+    tls: true
+    udp: true
+    sni: "grove.moltex.click"
+    servername: "grove.moltex.click"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/de7/stream"
+      headers:
+        Host: "grove.moltex.click"
+  - name: "🇷🇺 RU-05 | 2006ms | vless"
+    type: vless
+    server: "201.34.130.190"
+    port: 443
+    uuid: "820fa845-a1eb-4a83-b613-e6714cea8a1a"
+    tls: true
+    udp: true
+    sni: "canvas.merlano.monster"
+    servername: "canvas.merlano.monster"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/api/de7/stream"
+      headers:
+        Host: "canvas.merlano.monster"

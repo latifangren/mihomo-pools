@@ -1,0 +1,446 @@
+# Mihomo Proxy Provider - US
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇺🇸 US-01 | 10ms | vless"
+    type: vless
+    server: "147.185.161.229"
+    port: 80
+    uuid: "89b3cbba-e6ac-485a-9481-976a0415eab9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇺🇸 US-02 | 20ms | vless"
+    type: vless
+    server: "104.16.7.70"
+    port: 2095
+    uuid: "2b5f8588-87f6-40af-a785-322c8fa1df77"
+    tls: false
+    udp: true
+    sni: "sni.111000.dynv6.azazilvpn.sbs"
+    servername: "sni.111000.dynv6.azazilvpn.sbs"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn"
+      headers:
+        Host: "sni.111000.dynv6.azazilvpn.sbs"
+  - name: "🇺🇸 US-03 | 22ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 80
+    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/http"
+  - name: "🇺🇸 US-04 | 22ms | vless"
+    type: vless
+    server: "104.24.223.66"
+    port: 8080
+    uuid: "2b59f595-bc0e-4642-a542-e8e0fc8926b6"
+    tls: false
+    udp: true
+    sni: "join-to.vmessorg.Community."
+    servername: "join-to.vmessorg.Community."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg"
+      headers:
+        Host: "join-to.vmessorg.Community."
+  - name: "🇺🇸 US-05 | 25ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-06 | 25ms | vless"
+    type: vless
+    server: "discord.gg"
+    port: 8080
+    uuid: "a75cb418-c1d6-476a-9464-ad1bd5181e3c"
+    tls: false
+    udp: true
+    sni: "de.vpncustomize.Website"
+    servername: "de.vpncustomize.Website"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "de.vpncustomize.Website"
+  - name: "🇺🇸 US-07 | 26ms | vless"
+    type: vless
+    server: "172.67.222.117"
+    port: 2095
+    uuid: "f2dbb505-c695-4543-9b2f-ceb426b63b48"
+    tls: false
+    udp: true
+    sni: "blue-fog-bc9c.seyed-arash.workers.dev"
+    servername: "blue-fog-bc9c.seyed-arash.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZVE5MVBWYlpVZ2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0="
+      headers:
+        Host: "blue-fog-bc9c.seyed-arash.workers.dev"
+  - name: "🇺🇸 US-08 | 27ms | vless"
+    type: vless
+    server: "162.159.46.0"
+    port: 8880
+    uuid: "b19b768d-bc57-4d03-9bea-61129ed5fef9"
+    tls: false
+    udp: true
+    sni: "new.106-79e.workers.dev"
+    servername: "new.106-79e.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.SG.CMLiussss.net"
+      headers:
+        Host: "new.106-79e.workers.dev"
+  - name: "🇺🇸 US-09 | 27ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2095
+    uuid: "d59a47d8-f344-4a0b-81d6-9f68cb8be873"
+    tls: false
+    udp: true
+    sni: "iNFoRmeD-PArt0Y2KT5cRvl.SaMSunGovenS.ir."
+    servername: "iNFoRmeD-PArt0Y2KT5cRvl.SaMSunGovenS.ir."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "iNFoRmeD-PArt0Y2KT5cRvl.SaMSunGovenS.ir."
+  - name: "🇺🇸 US-10 | 28ms | vless"
+    type: vless
+    server: "104.18.32.47"
+    port: 80
+    uuid: "1e35b4bf-b270-4c0b-918d-62746eedd2ad"
+    tls: false
+    udp: true
+    sni: "EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."
+    servername: "EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."
+  - name: "🇺🇸 US-11 | 28ms | vless"
+    type: vless
+    server: "104.18.155.229"
+    port: 2095
+    uuid: "823b4851-27ba-4655-badf-ee7ff0af1cad"
+    tls: false
+    udp: true
+    sni: "cUriouS-LINeo0S87W61ln.spOrTLAnd.cOmPany."
+    servername: "cUriouS-LINeo0S87W61ln.spOrTLAnd.cOmPany."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cUriouS-LINeo0S87W61ln.spOrTLAnd.cOmPany."
+  - name: "🇺🇸 US-12 | 29ms | vless"
+    type: vless
+    server: "104.16.68.38"
+    port: 8080
+    uuid: "8230fa43-a36c-4b8f-f3c5-3cc8e8fc1999"
+    tls: false
+    udp: true
+    sni: "b2.iraniancp.click"
+    servername: "b2.iraniancp.click"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "b2.iraniancp.click"
+  - name: "🇺🇸 US-13 | 29ms | vless"
+    type: vless
+    server: "172.64.88.251"
+    port: 8880
+    uuid: "7e3cd2f1-0de5-4717-9002-64d8597bc577"
+    tls: false
+    udp: true
+    sni: "dry-credit-fc26.203-d8c.workers.dev"
+    servername: "dry-credit-fc26.203-d8c.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.KR.CMLiussss.net"
+      headers:
+        Host: "dry-credit-fc26.203-d8c.workers.dev"
+  - name: "🇺🇸 US-14 | 29ms | vless"
+    type: vless
+    server: "172.66.170.53"
+    port: 8880
+    uuid: "38ede46b-d237-4c76-9de1-a10738642adc"
+    tls: false
+    udp: true
+    sni: "summer-hat-ba5c.430.workers.dev"
+    servername: "summer-hat-ba5c.430.workers.dev"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.KR.CMLiussss.net"
+      headers:
+        Host: "summer-hat-ba5c.430.workers.dev"
+  - name: "🇺🇸 US-15 | 30ms | vless"
+    type: vless
+    server: "104.16.64.38"
+    port: 8080
+    uuid: "8230fa43-a36c-4b8f-f3c5-3cc8e8fc1999"
+    tls: false
+    udp: true
+    sni: "b2.iraniancp.click"
+    servername: "b2.iraniancp.click"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "b2.iraniancp.click"
+  - name: "🇺🇸 US-16 | 30ms | vless"
+    type: vless
+    server: "45.130.125.201"
+    port: 80
+    uuid: "dc8a9493-c54a-459e-d060-81a700000001"
+    tls: false
+    udp: true
+    sni: "nahan-core.netizo09.workers.dev"
+    servername: "nahan-core.netizo09.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-core.netizo09.workers.dev"
+  - name: "🇺🇸 US-17 | 30ms | vless"
+    type: vless
+    server: "172.67.209.127"
+    port: 8880
+    uuid: "1b3ad465-d37e-48a2-bb53-d7fddfc97b11"
+    tls: false
+    udp: true
+    sni: "calm-silence-d4a1.217.workers.dev"
+    servername: "calm-silence-d4a1.217.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "calm-silence-d4a1.217.workers.dev"
+  - name: "🇺🇸 US-18 | 30ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2095
+    uuid: "371dd7e4-c3ff-42de-aebc-0ab3bc62fb2d"
+    tls: false
+    udp: true
+    sni: "daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany."
+    servername: "daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany."
+  - name: "🇺🇸 US-19 | 32ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9"
+    tls: false
+    udp: true
+    sni: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+    servername: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
+      headers:
+        Host: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+  - name: "🇺🇸 US-20 | 32ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2086
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-21 | 32ms | vless"
+    type: vless
+    server: "172.65.90.52"
+    port: 8880
+    uuid: "30e4c878-15ca-4f53-ab32-04c60ecd3f31"
+    tls: false
+    udp: true
+    sni: "blue-rice-7142.30-346.workers.dev"
+    servername: "blue-rice-7142.30-346.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.US.CMLiussss.net"
+      headers:
+        Host: "blue-rice-7142.30-346.workers.dev"
+  - name: "🇺🇸 US-22 | 32ms | vless"
+    type: vless
+    server: "104.18.4.130"
+    port: 2082
+    uuid: "20d439ac-16aa-4538-ab92-b683ad1ead5f"
+    tls: false
+    udp: true
+    sni: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+    servername: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala"
+      headers:
+        Host: "war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy"
+  - name: "🇺🇸 US-23 | 32ms | vless"
+    type: vless
+    server: "www.speedtest.net"
+    port: 80
+    uuid: "b4018039-1e89-4993-8d70-ad9f43ecd5f3"
+    tls: false
+    udp: true
+    sni: "ch1.dontbow.store."
+    servername: "ch1.dontbow.store."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray"
+      headers:
+        Host: "ch1.dontbow.store."
+  - name: "🇺🇸 US-24 | 33ms | vless"
+    type: vless
+    server: "108.162.198.178"
+    port: 2095
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-25 | 33ms | vless"
+    type: vless
+    server: "108.162.198.178"
+    port: 8080
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-26 | 33ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2082
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-27 | 33ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2052
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇺🇸 US-28 | 33ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "7121d0be-40f5-4eda-b3d1-1556e71ea4fa"
+    tls: false
+    udp: true
+    sni: "shrill-recipe-0c1d.404-a1d.workers.dev"
+    servername: "shrill-recipe-0c1d.404-a1d.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.JP.CMLiussss.net"
+      headers:
+        Host: "shrill-recipe-0c1d.404-a1d.workers.dev"
+  - name: "🇺🇸 US-29 | 34ms | vless"
+    type: vless
+    server: "104.19.173.68"
+    port: 8080
+    uuid: "2500e602-671c-4654-a602-c518b7282167"
+    tls: false
+    udp: true
+    sni: "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+    servername: "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+  - name: "🇺🇸 US-30 | 34ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "4212034d-c18b-4060-b218-4f8372e5473a"
+    tls: false
+    udp: true
+    sni: "summer-hill-7f65.275-521.workers.dev"
+    servername: "summer-hill-7f65.275-521.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.JP.CMLiussss.net"
+      headers:
+        Host: "summer-hill-7f65.275-521.workers.dev"

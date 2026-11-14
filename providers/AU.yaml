@@ -1,0 +1,112 @@
+# Mihomo Proxy Provider - AU
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇦🇺 AU-01 | 109ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/fdip"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-02 | 122ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-03 | 130ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-04 | 199ms | vless"
+    type: vless
+    server: "ubia2-join.outline-vpn.cloud"
+    port: 80
+    uuid: "48bd4d22-e42f-4749-af6a-85ecf716c823"
+    tls: false
+    udp: true
+    sni: "fkhamnei.kosnanatfilterchi.eu.org"
+    servername: "fkhamnei.kosnanatfilterchi.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "fkhamnei.kosnanatfilterchi.eu.org"
+  - name: "🇦🇺 AU-05 | 340ms | trojan"
+    type: trojan
+    server: "45.63.30.142"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "connectwithemployerstohireyouridealteam.com"
+    servername: "connectwithemployerstohireyouridealteam.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇦🇺 AU-06 | 907ms | vless"
+    type: vless
+    server: "46.250.242.104"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇦🇺 AU-07 | 935ms | vless"
+    type: vless
+    server: "46.250.242.104"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"

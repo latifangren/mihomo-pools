@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - IN
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇮🇳 IN-01 | 912ms | vless"
+    type: vless
+    server: "5.253.30.226"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇮🇳 IN-02 | 1435ms | vless"
+    type: vless
+    server: "13.140.253.35"
+    port: 443
+    uuid: "f1d3c8af-71c4-ef75-625f-cf446aa2c15b"
+    tls: true
+    udp: true
+    sni: "xray-h0urp9tx-rapid-summit-2.cloady.io"
+    servername: "xray-h0urp9tx-rapid-summit-2.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/050334203cc522a3"
+      headers:
+        Host: "xray-h0urp9tx-rapid-summit-2.cloady.io"

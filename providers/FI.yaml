@@ -1,0 +1,125 @@
+# Mihomo Proxy Provider - FI
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 9
+
+proxies:
+  - name: "🇫🇮 FI-01 | 42ms | vless"
+    type: vless
+    server: "104.19.64.105"
+    port: 8443
+    uuid: "bb3f7d41-a044-4937-bf6f-4a3d1a70db06"
+    tls: true
+    udp: true
+    sni: "interim.adaspoloandco.com"
+    servername: "interim.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/RoBeRt"
+      headers:
+        Host: "interim.adaspoloandco.com"
+  - name: "🇫🇮 FI-02 | 143ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    sni: "/%3"
+    servername: "/%3"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-03 | 151ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-04 | 301ms | vless"
+    type: vless
+    server: "45.144.234.157"
+    port: 14430
+    uuid: "59b0d30e-9b29-4fda-a35c-b2901ec32db7"
+    tls: false
+    udp: true
+    sni: "45.144.234.157"
+    servername: "45.144.234.157"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "45.144.234.157"
+  - name: "🇫🇮 FI-05 | 361ms | vless"
+    type: vless
+    server: "ivory9.fars-remen.ir"
+    port: 47607
+    uuid: "86b62284-75fd-4653-ab37-2d2ccf73a695"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "dynu.com"
+    servername: "dynu.com"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-06 | 371ms | trojan"
+    type: trojan
+    server: "fi.zhabulik.ru"
+    port: 443
+    password: "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj"
+    tls: true
+    udp: true
+    sni: "fi.zhabulik.ru"
+    servername: "fi.zhabulik.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇮 FI-07 | 411ms | vless"
+    type: vless
+    server: "static.84.177.202.116.clients.your-server.de"
+    port: 443
+    uuid: "f292ef7e-5877-48ab-96c8-3d60a57aeb4e"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "static.243.186.109.65.clients.your-server.de"
+    servername: "static.243.186.109.65.clients.your-server.de"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇮 FI-08 | 675ms | vless"
+    type: vless
+    server: "hw3.divarkhaghazi.com"
+    port: 465
+    uuid: "924e20da-fcad-4e7e-8113-c62d27a0d01e"
+    tls: true
+    udp: true
+    sni: "hw3.divarkhaghazi.com"
+    servername: "hw3.divarkhaghazi.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hw3.divarkhaghazi.com."
+  - name: "🇫🇮 FI-09 | 3386ms | vless"
+    type: vless
+    server: "213.176.92.168"
+    port: 14430
+    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "213.176.92.168"
+    servername: "213.176.92.168"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "213.176.92.168"

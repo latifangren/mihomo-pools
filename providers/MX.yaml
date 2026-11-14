@@ -1,0 +1,26 @@
+# Mihomo Proxy Provider - MX
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇲🇽 MX-01 | 76ms | trojan"
+    type: trojan
+    server: "149.104.87.125"
+    port: 15083
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "mx001.zestapp778.com"
+    servername: "mx001.zestapp778.com"
+    client-fingerprint: "chrome"
+  - name: "🇲🇽 MX-02 | 108ms | trojan"
+    type: trojan
+    server: "mx001.zestapp778.com"
+    port: 15083
+    password: "5t6i121em5lkmsmk"
+    tls: true
+    udp: true
+    sni: "mx001.zestapp778.com"
+    servername: "mx001.zestapp778.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true

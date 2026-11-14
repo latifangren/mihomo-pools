@@ -1,0 +1,47 @@
+# Mihomo Proxy Provider - TR
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇹🇷 TR-01 | 153ms | vless"
+    type: vless
+    server: "188.132.174.14"
+    port: 24
+    uuid: "7d5cdbb1-9632-483a-9b50-27932cfa9390"
+    tls: false
+    udp: true
+    sni: "play.google.com"
+    servername: "play.google.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-02 | 618ms | vless"
+    type: vless
+    server: "185.39.204.117"
+    port: 10002
+    uuid: "facb802c-de2e-11f1-9a22-a3404e852f3b"
+    tls: true
+    udp: true
+    sni: "tr2.vpnjantit.com"
+    servername: "tr2.vpnjantit.com"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/vpnjantit"
+      headers:
+        Host: "tr2.vpnjantit.com"
+  - name: "🇹🇷 TR-03 | 654ms | vless"
+    type: vless
+    server: "81.177.215.81"
+    port: 443
+    uuid: "3f25b15b-1777-4c08-9ade-60336ac92a82"
+    tls: true
+    udp: true
+    sni: "edge-stream.lindenpixel.com"
+    servername: "edge-stream.lindenpixel.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "edge-stream.lindenpixel.com"

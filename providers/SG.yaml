@@ -1,0 +1,356 @@
+# Mihomo Proxy Provider - SG
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 26
+
+proxies:
+  - name: "🇸🇬 SG-01 | 35ms | vless"
+    type: vless
+    server: "172.64.158.146"
+    port: 8880
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇸🇬 SG-02 | 42ms | vless"
+    type: vless
+    server: "104.18.12.149"
+    port: 80
+    uuid: "5f4845b4-11dc-41d6-9508-4ff6a02e36c1"
+    tls: false
+    udp: true
+    sni: "silent-paper-fa57.fipiyag989.workers.dev"
+    servername: "silent-paper-fa57.fipiyag989.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@ProxyVPN11"
+      headers:
+        Host: "silent-paper-fa57.fipiyag989.workers.dev"
+  - name: "🇸🇬 SG-03 | 102ms | vless"
+    type: vless
+    server: "104.16.10.2"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-04 | 103ms | vless"
+    type: vless
+    server: "172.64.147.91"
+    port: 443
+    uuid: "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+    tls: true
+    udp: true
+    sni: "powered-by-surena.configfarsi695fce27aa549.workers.dev"
+    servername: "powered-by-surena.configfarsi695fce27aa549.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "powered-by-surena.configfarsi695fce27aa549.workers.dev"
+  - name: "🇸🇬 SG-05 | 105ms | vless"
+    type: vless
+    server: "104.21.70.228"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-06 | 108ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "c5db14f6-2a21-401c-8160-a8093ff4ffd3"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev"
+    servername: "mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/vl/14m2B3TtxW5N85ews"
+      headers:
+        Host: "mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev"
+  - name: "🇸🇬 SG-07 | 115ms | vless"
+    type: vless
+    server: "104.16.10.198"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-08 | 128ms | vless"
+    type: vless
+    server: "www.visa.com.sg"
+    port: 8880
+    uuid: "35b94b2c-1b46-4209-a04b-32ecf159b632"
+    tls: false
+    udp: true
+    sni: "fragrant-tooth-2180.97-cbb.workers.dev"
+    servername: "fragrant-tooth-2180.97-cbb.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pyip=ProxyIP.SG.CMLiussss.net"
+      headers:
+        Host: "fragrant-tooth-2180.97-cbb.workers.dev"
+  - name: "🇸🇬 SG-09 | 266ms | vless"
+    type: vless
+    server: "104.168.132.109"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-10 | 395ms | vless"
+    type: vless
+    server: "140.245.62.225"
+    port: 36442
+    uuid: "c6624b96-e346-490b-9145-74c2543a9483"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-11 | 403ms | vless"
+    type: vless
+    server: "140.245.62.225"
+    port: 36442
+    uuid: "5269e0b4-0dff-4f97-e0c7-83130bacb009"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-12 | 405ms | vless"
+    type: vless
+    server: "45.77.243.143"
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    tls: true
+    udp: true
+    sni: "sg003.zestapp778.com"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "firefox"
+  - name: "🇸🇬 SG-13 | 405ms | vless"
+    type: vless
+    server: "140.245.62.225"
+    port: 36442
+    uuid: "2633cbab-e901-4f5a-9a0f-18ff319d0d70"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-14 | 413ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "b743c868-b35c-4d91-b88b-d9efd7060b5c"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-15 | 477ms | vless"
+    type: vless
+    server: "sg003.zestapp778.com"
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    tls: true
+    udp: true
+    sni: "sg003.zestapp778.com"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-16 | 585ms | trojan"
+    type: trojan
+    server: "173.234.15.84"
+    port: 48994
+    password: "Z5lvhmLqSc"
+    tls: true
+    udp: true
+    sni: "m.microsoft.com"
+    servername: "m.microsoft.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇸🇬 SG-17 | 597ms | trojan"
+    type: trojan
+    server: "15.235.184.127"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "exploredigitaljobplatformandfindonlinework.com"
+    servername: "exploredigitaljobplatformandfindonlinework.com"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-18 | 766ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "2633cbab-e901-4f5a-9a0f-18ff319d0d70"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-19 | 806ms | vless"
+    type: vless
+    server: "139.162.27.96"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    tls: true
+    udp: true
+    sni: "free-server.techsonic.dev"
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇸🇬 SG-20 | 808ms | vless"
+    type: vless
+    server: "157.230.248.19"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 SG-21 | 827ms | vless"
+    type: vless
+    server: "139.162.62.195"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 SG-22 | 839ms | vless"
+    type: vless
+    server: "139.162.62.195"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 SG-23 | 848ms | vless"
+    type: vless
+    server: "172.104.60.54"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 SG-24 | 871ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "c6624b96-e346-490b-9145-74c2543a9483"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-25 | 881ms | vless"
+    type: vless
+    server: "143.42.66.91"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 SG-26 | 1449ms | vless"
+    type: vless
+    server: "161.118.200.170"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"

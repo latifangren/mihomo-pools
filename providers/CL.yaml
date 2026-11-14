@@ -1,0 +1,30 @@
+# Mihomo Proxy Provider - CL
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇨🇱 CL-01 | 250ms | trojan"
+    type: trojan
+    server: "64.176.7.205"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "advanceyouremploymentskillsandcareerdevelopmenthub.com"
+    servername: "advanceyouremploymentskillsandcareerdevelopmenthub.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇱 CL-02 | 830ms | trojan"
+    type: trojan
+    server: "64.176.7.205"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "advanceyouremploymentskillsandcareerdevelopmenthub.com"
+    servername: "advanceyouremploymentskillsandcareerdevelopmenthub.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "advanceyouremploymentskillsandcareerdevelopmenthub.com"

@@ -1,0 +1,77 @@
+# Mihomo Proxy Provider - HK
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 6
+
+proxies:
+  - name: "🇭🇰 HK-01 | 245ms | vless"
+    type: vless
+    server: "cf-socks.caoyuwu.eu.org"
+    port: 443
+    uuid: "9cdcbaf0-d244-4f37-b227-90166e43f5b5"
+    tls: true
+    udp: true
+    sni: "cf-socks.caoyuwu.eu.org"
+    servername: "cf-socks.caoyuwu.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cf-socks.caoyuwu.eu.org"
+  - name: "🇭🇰 HK-02 | 388ms | trojan"
+    type: trojan
+    server: "a-cm.jiasu.one"
+    port: 56262
+    password: "5398a62d-6fae-465d-8ffe-19418a8b561e"
+    tls: true
+    udp: true
+    sni: "hk06.jiasu.one"
+    servername: "hk06.jiasu.one"
+    client-fingerprint: "chrome"
+  - name: "🇭🇰 HK-03 | 1212ms | vless"
+    type: vless
+    server: "38.207.178.173"
+    port: 2087
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇭🇰 HK-04 | 1870ms | trojan"
+    type: trojan
+    server: "Sclass-00.catcat321.com"
+    port: 20123
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇭🇰 HK-05 | 2231ms | trojan"
+    type: trojan
+    server: "sclass-c1.catcat321.com"
+    port: 20051
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇭🇰 HK-06 | 2399ms | trojan"
+    type: trojan
+    server: "sclass-00.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"

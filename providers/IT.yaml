@@ -1,0 +1,46 @@
+# Mihomo Proxy Provider - IT
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇮🇹 IT-01 | 424ms | vless"
+    type: vless
+    server: "13.140.56.100"
+    port: 14430
+    uuid: "68512eac-cd53-4de3-8d1e-08f6e04af1a9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+  - name: "🇮🇹 IT-02 | 426ms | vless"
+    type: vless
+    server: "13.140.56.100"
+    port: 14430
+    uuid: "68512eac-cd53-4de3-8d1e-08f6e04af1a9"
+    tls: false
+    udp: true
+    sni: "13.140.56.100"
+    servername: "13.140.56.100"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "13.140.56.100"
+  - name: "🇮🇹 IT-03 | 2358ms | vless"
+    type: vless
+    server: "161.118.200.170"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"

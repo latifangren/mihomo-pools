@@ -1,0 +1,50 @@
+# Mihomo Proxy Provider - ES
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 4
+
+proxies:
+  - name: "🇪🇸 ES-01 | 109ms | vless"
+    type: vless
+    server: "212.227.235.66"
+    port: 2053
+    uuid: "ead0dd61-d398-40ad-80d6-a0e1e516d7d3"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-02 | 122ms | trojan"
+    type: trojan
+    server: "109.234.211.232"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+    sni: "www.pleadcourt.org"
+    servername: "www.pleadcourt.org"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "🇪🇸 ES-03 | 1124ms | trojan"
+    type: trojan
+    server: "66.163.118.40"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "cdn.discovergreatjobsandadvanceyourcareer.com"
+    servername: "cdn.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-04 | 1159ms | trojan"
+    type: trojan
+    server: "66.163.118.131"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "www.discovergreatjobsandadvanceyourcareer.com"
+    servername: "www.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"

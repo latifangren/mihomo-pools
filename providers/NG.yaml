@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - NG
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇳🇬 NG-01 | 525ms | vless"
+    type: vless
+    server: "game.celvixo.ir"
+    port: 2087
+    uuid: "4dafabda-33e9-4535-e1c4-fafc98cb0553"
+    tls: false
+    udp: true
+    sni: "cp.xelzano.ir"
+    servername: "cp.xelzano.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cp.xelzano.ir"
+  - name: "🇳🇬 NG-02 | 537ms | vless"
+    type: vless
+    server: "game.celvixo.ir"
+    port: 2087
+    uuid: "0931e682-88d2-4eaf-de9e-b9b9768fd178"
+    tls: false
+    udp: true
+    sni: "cp.xelzano.ir"
+    servername: "cp.xelzano.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cp.xelzano.ir"

@@ -1,0 +1,72 @@
+# Mihomo Proxy Provider - KR
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇰🇷 KR-01 | 21ms | vless"
+    type: vless
+    server: "162.159.45.19"
+    port: 2086
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇰🇷 KR-02 | 38ms | vless"
+    type: vless
+    server: "162.159.38.127"
+    port: 2082
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇰🇷 KR-03 | 303ms | trojan"
+    type: trojan
+    server: "158.247.253.243"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "connectgraduateswithjobopeningsandgrowprofessionally.com"
+    servername: "connectgraduateswithjobopeningsandgrowprofessionally.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇰🇷 KR-04 | 312ms | vless"
+    type: vless
+    server: "152.69.226.63"
+    port: 25555
+    uuid: "27c5483f-17f4-48ae-9a04-def53d88440d"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇰🇷 KR-05 | 385ms | vless"
+    type: vless
+    server: "152.69.226.63"
+    port: 25555
+    uuid: "27c5483f-17f4-48ae-9a04-def53d88440d"
+    tls: false
+    udp: true
+    sni: "152.69.226.63"
+    servername: "152.69.226.63"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "152.69.226.63"

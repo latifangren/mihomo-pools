@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - LV
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇱🇻 LV-01 | 236ms | vless"
+    type: vless
+    server: "185.143.234.238"
+    port: 80
+    uuid: "0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6"
+    tls: false
+    udp: true
+    sni: "uu.caroptions.ir"
+    servername: "uu.caroptions.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pgcfws-r4"
+      headers:
+        Host: "uu.caroptions.ir"

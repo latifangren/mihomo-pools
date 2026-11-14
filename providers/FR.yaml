@@ -1,0 +1,211 @@
+# Mihomo Proxy Provider - FR
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 15
+
+proxies:
+  - name: "🇫🇷 FR-01 | 44ms | vless"
+    type: vless
+    server: "104.27.66.214"
+    port: 8443
+    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-02 | 101ms | vless"
+    type: vless
+    server: "162.159.253.41"
+    port: 8443
+    uuid: "a47c49ec-6eaa-44ce-9108-8427426a1123"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-03 | 111ms | vless"
+    type: vless
+    server: "15.224.242.227"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-04 | 113ms | vless"
+    type: vless
+    server: "15.188.135.93"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-05 | 215ms | vless"
+    type: vless
+    server: "45.144.28.39"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-06 | 215ms | vless"
+    type: vless
+    server: "138.124.70.41"
+    port: 14430
+    uuid: "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc"
+    tls: false
+    udp: true
+    sni: "138.124.70.41"
+    servername: "138.124.70.41"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "138.124.70.41"
+  - name: "🇫🇷 FR-07 | 232ms | vless"
+    type: vless
+    server: "152.228.162.19"
+    port: 80
+    uuid: "25f86cb1-2140-4085-abcb-c3a0ea7a4be0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+  - name: "🇫🇷 FR-08 | 267ms | vless"
+    type: vless
+    server: "31.77.227.10"
+    port: 52006
+    uuid: "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f"
+    flow: "xtls-rprx-vision-udp443"
+    tls: true
+    udp: true
+    sni: "fr.setlisting.ru"
+    servername: "fr.setlisting.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇷 FR-09 | 272ms | vless"
+    type: vless
+    server: "nasnet-162191099-direct.mbghalibaf.com"
+    port: 443
+    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "nasnet-162191099-direct.mbghalibaf.com"
+    servername: "nasnet-162191099-direct.mbghalibaf.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇫🇷 FR-10 | 469ms | vless"
+    type: vless
+    server: "199.232.169.135"
+    port: 443
+    uuid: "f408696c-cdbe-49a1-90e9-ab602003315c"
+    tls: true
+    udp: true
+    sni: "speedtest.net"
+    servername: "speedtest.net"
+    client-fingerprint: "randomized"
+    network: ws
+    ws-opts:
+      path: "/MinoVpnCh?ed=2048"
+      headers:
+        Host: "googleb.net"
+  - name: "🇫🇷 FR-11 | 471ms | vless"
+    type: vless
+    server: "usejh2.neobo-tooth.ru"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-12 | 928ms | vless"
+    type: vless
+    server: "13.140.253.35"
+    port: 443
+    uuid: "f1a7e2c8-b140-50d1-8acf-e62090f96599"
+    tls: true
+    udp: true
+    sni: "xray-bprkdwje-clever-comet-4.cloady.io"
+    servername: "xray-bprkdwje-clever-comet-4.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/27dbf143acdd7bca"
+      headers:
+        Host: "xray-bprkdwje-clever-comet-4.cloady.io"
+  - name: "🇫🇷 FR-13 | 981ms | vless"
+    type: vless
+    server: "13.140.253.35"
+    port: 443
+    uuid: "bcd3798c-a56f-6bfc-b738-a17c43bd4a50"
+    tls: true
+    udp: true
+    sni: "xray-m0642ki4-silver-nebula-10.cloady.io"
+    servername: "xray-m0642ki4-silver-nebula-10.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/362b2b2c7197d648"
+      headers:
+        Host: "xray-m0642ki4-silver-nebula-10.cloady.io"
+  - name: "🇫🇷 FR-14 | 1088ms | vless"
+    type: vless
+    server: "xray-bprkdwje-clever-comet-4.cloady.io"
+    port: 443
+    uuid: "f1a7e2c8-b140-50d1-8acf-e62090f96599"
+    tls: true
+    udp: true
+    sni: "xray-bprkdwje-clever-comet-4.cloady.io"
+    servername: "xray-bprkdwje-clever-comet-4.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/27dbf143acdd7bca"
+      headers:
+        Host: "xray-bprkdwje-clever-comet-4.cloady.io"
+  - name: "🇫🇷 FR-15 | 1095ms | vless"
+    type: vless
+    server: "xray-m0642ki4-silver-nebula-10.cloady.io"
+    port: 443
+    uuid: "bcd3798c-a56f-6bfc-b738-a17c43bd4a50"
+    tls: true
+    udp: true
+    sni: "xray-m0642ki4-silver-nebula-10.cloady.io"
+    servername: "xray-m0642ki4-silver-nebula-10.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/362b2b2c7197d648"
+      headers:
+        Host: "xray-m0642ki4-silver-nebula-10.cloady.io"

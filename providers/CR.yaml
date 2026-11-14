@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - CR
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇨🇷 CR-01 | 113ms | trojan"
+    type: trojan
+    server: "190.93.245.148"
+    port: 443
+    password: "humanity"
+    tls: true
+    udp: true
+    sni: "www.pleadcourt.org"
+    servername: "www.pleadcourt.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "🇨🇷 CR-02 | 120ms | trojan"
+    type: trojan
+    server: "190.93.244.202"
+    port: 443
+    password: "bpb-trojan"
+    tls: true
+    udp: true
+    sni: "fcspring.ggff.net"
+    servername: "fcspring.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tr"
+      headers:
+        Host: "fcspring.ggff.net"

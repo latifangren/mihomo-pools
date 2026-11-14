@@ -1,0 +1,459 @@
+# Mihomo Proxy Provider - XX
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇽🇽 XX-01 | 11ms | vless"
+    type: vless
+    server: "creativecommons.org"
+    port: 2086
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇽🇽 XX-02 | 20ms | vless"
+    type: vless
+    server: "104.16.7.70"
+    port: 2095
+    uuid: "2b5f8588-87f6-40af-a785-322c8fa1df77"
+    tls: false
+    udp: true
+    sni: "sni.111000.dynv6.azazilvpn.sbs"
+    servername: "sni.111000.dynv6.azazilvpn.sbs"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560"
+      headers:
+        Host: "sni.111000.dynv6.azazilvpn.sbs"
+  - name: "🇽🇽 XX-03 | 21ms | vless"
+    type: vless
+    server: "104.21.70.11"
+    port: 8080
+    uuid: "6e569c43-f7e6-4ab7-b3a7-f616a39ff6a1"
+    tls: false
+    udp: true
+    sni: "dw.huondadalioshop.ir"
+    servername: "dw.huondadalioshop.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "dw.huondadalioshop.ir"
+  - name: "🇽🇽 XX-04 | 21ms | vless"
+    type: vless
+    server: "188.114.98.224"
+    port: 2095
+    uuid: "017c320f-e573-46a9-a86d-edd8f4a8cbbf"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    servername: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/V2rayCUSTOMIZE?ed=1024"
+      headers:
+        Host: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+  - name: "🇽🇽 XX-05 | 22ms | vless"
+    type: vless
+    server: "104.18.203.232"
+    port: 2095
+    uuid: "b4d2cb44-6eaf-48e7-adcb-5a7c49bddd8d"
+    tls: false
+    udp: true
+    sni: "aaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.Iran-Check-Host-server-sitesssssssssssssssssssssss--sssssssssss.com"
+    servername: "aaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.Iran-Check-Host-server-sitesssssssssssssssssssssss--sssssssssss.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "aaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.Iran-Check-Host-server-sitesssssssssssssssssssssss--sssssssssss.com"
+  - name: "🇽🇽 XX-06 | 23ms | vless"
+    type: vless
+    server: "188.114.96.3"
+    port: 8080
+    uuid: "08c41e17-9d1c-4d4a-9edc-242d3d71c1ac"
+    tls: false
+    udp: true
+    sni: "order.fortgift.ir"
+    servername: "order.fortgift.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/z5lsHF5zQrd1rJDr"
+      headers:
+        Host: "order.fortgift.ir"
+  - name: "🇽🇽 XX-07 | 23ms | vless"
+    type: vless
+    server: "www.speedtest.net"
+    port: 8080
+    uuid: "08c41e17-9d1c-4d4a-9edc-242d3d71c1ac"
+    tls: false
+    udp: true
+    sni: "order.fortgift.ir"
+    servername: "order.fortgift.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sSUjDivtRLx305Hr"
+      headers:
+        Host: "order.fortgift.ir"
+  - name: "🇽🇽 XX-08 | 24ms | vless"
+    type: vless
+    server: "188.114.97.3"
+    port: 8080
+    uuid: "08c41e17-9d1c-4d4a-9edc-242d3d71c1ac"
+    tls: false
+    udp: true
+    sni: "order.fortgift.ir"
+    servername: "order.fortgift.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/gfWh39Z4XwUXaqVY"
+      headers:
+        Host: "order.fortgift.ir"
+  - name: "🇽🇽 XX-09 | 25ms | vless"
+    type: vless
+    server: "188.114.98.224"
+    port: 2095
+    uuid: "4b3a956b-94a8-496e-af7d-363a5dfef937"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    servername: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/V2rayCUSTOMIZE?ed=1024"
+      headers:
+        Host: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+  - name: "🇽🇽 XX-10 | 26ms | vless"
+    type: vless
+    server: "188.114.98.224"
+    port: 2095
+    uuid: "4d140b43-05cc-4317-b77b-7006c17feeba"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    servername: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/V2rayCUSTOMIZE?ed=1024"
+      headers:
+        Host: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+  - name: "🇽🇽 XX-11 | 26ms | vless"
+    type: vless
+    server: "188.114.98.224"
+    port: 2095
+    uuid: "0afc7a72-a718-49c0-9cc2-ce473c46d6dc"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    servername: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/V2rayCUSTOMIZE?ed=1024"
+      headers:
+        Host: "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."
+  - name: "🇽🇽 XX-12 | 30ms | vless"
+    type: vless
+    server: "173.245.58.31"
+    port: 2052
+    uuid: "9dfe4105-ee73-4586-9d53-f0889a3767e6"
+    tls: false
+    udp: true
+    sni: "p1.abrarvan.xyz"
+    servername: "p1.abrarvan.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "p1.abrarvan.xyz"
+  - name: "🇽🇽 XX-13 | 35ms | vless"
+    type: vless
+    server: "172.67.204.84"
+    port: 80
+    uuid: "e1a928be-e289-4aef-b92e-4106fabdf42f"
+    tls: false
+    udp: true
+    sni: "mahi.kosnanatfilterchi.eu.org"
+    servername: "mahi.kosnanatfilterchi.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "mahi.kosnanatfilterchi.eu.org"
+  - name: "🇽🇽 XX-14 | 37ms | vless"
+    type: vless
+    server: "creativecommons.org"
+    port: 2086
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    tls: false
+    udp: true
+    sni: "index.0x15.workers.dev"
+    servername: "index.0x15.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/PdgTMW8NBNZYo6L23v"
+      headers:
+        Host: "index.0x15.workers.dev"
+  - name: "🇽🇽 XX-15 | 49ms | vless"
+    type: vless
+    server: "www.speedtest.net"
+    port: 80
+    uuid: "f4e22eff-20b2-4af7-aee9-4a67b82b47f3"
+    tls: false
+    udp: true
+    sni: "ok-config-10.4zkaban.xyz"
+    servername: "ok-config-10.4zkaban.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On+,+@Config_On"
+      headers:
+        Host: "ok-config-10.4zkaban.xyz"
+  - name: "🇽🇽 XX-16 | 61ms | vless"
+    type: vless
+    server: "speedtest.org"
+    port: 80
+    uuid: "6280b434-4b10-4a53-be5c-e04b932e7c6b"
+    tls: false
+    udp: true
+    sni: "WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V17.SiMansaNaT.Ir."
+    servername: "WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V17.SiMansaNaT.Ir."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V17.SiMansaNaT.Ir."
+  - name: "🇽🇽 XX-17 | 62ms | vless"
+    type: vless
+    server: "tabrizm138.lll.l0l.lll.workers.dev"
+    port: 2086
+    uuid: "c6812323-833b-454d-80c0-e1ccc22e9fc5"
+    tls: false
+    udp: true
+    sni: "app----23.dl2nextflix-inbound3html-dldl1direct2d-1.com"
+    servername: "app----23.dl2nextflix-inbound3html-dldl1direct2d-1.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+    network: ws
+    ws-opts:
+      path: "/?TM_@AZARBAYJAB1+@AZARBAYJAB1+t.me/AZARBAYJAB1?=?2048"
+      headers:
+        Host: "app----23.dl2nextflix-inbound3html-dldl1direct2d-1.com"
+  - name: "🇽🇽 XX-18 | 73ms | vless"
+    type: vless
+    server: "visa.org"
+    port: 2052
+    uuid: "dfc1a9ab-6241-4b73-92f7-b299fc6b7751"
+    tls: false
+    udp: true
+    sni: "aparat.com.bing.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.netrag.com.px.com.s95017.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.h99.ddns-ip.net."
+    servername: "aparat.com.bing.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.netrag.com.px.com.s95017.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.h99.ddns-ip.net."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/VPNCUSTOMIZE,VPNCUSTOMIZE?ed=1080"
+      headers:
+        Host: "aparat.com.bing.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.netrag.com.px.com.s95017.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.h99.ddns-ip.net."
+  - name: "🇽🇽 XX-19 | 76ms | vless"
+    type: vless
+    server: "mediafire.com"
+    port: 2095
+    uuid: "9b97bb00-48b8-46dd-a9f2-ecd2e16fc41c"
+    tls: false
+    udp: true
+    sni: "it1.vlessx.xyz"
+    servername: "it1.vlessx.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "it1.vlessx.xyz"
+  - name: "🇽🇽 XX-20 | 78ms | vless"
+    type: vless
+    server: "cdnjs.com"
+    port: 8880
+    uuid: "e0f52d31-566b-437d-9961-1865e38d10fb"
+    tls: false
+    udp: true
+    sni: "up.sourceforge.sbs"
+    servername: "up.sourceforge.sbs"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "up.sourceforge.sbs"
+  - name: "🇽🇽 XX-21 | 93ms | vless"
+    type: vless
+    server: "188.114.97.0"
+    port: 443
+    uuid: "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39"
+    tls: true
+    udp: true
+    sni: "cf-wkrs-pages-vless-aoy.pages.dev"
+    servername: "cf-wkrs-pages-vless-aoy.pages.dev"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2,http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "cf-wkrs-pages-vless-aoy.pages.dev"
+  - name: "🇽🇽 XX-22 | 98ms | vless"
+    type: vless
+    server: "172.66.47.84"
+    port: 443
+    uuid: "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39"
+    tls: true
+    udp: true
+    sni: "cf-wkrs-pages-vless-aoy.pages.dev"
+    servername: "cf-wkrs-pages-vless-aoy.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "cf-wkrs-pages-vless-aoy.pages.dev"
+  - name: "🇽🇽 XX-23 | 101ms | vless"
+    type: vless
+    server: "104.18.59.70"
+    port: 2053
+    uuid: "89b3cbba-e6ac-485a-9481-976a0415eab9"
+    tls: true
+    udp: true
+    sni: "MaHdisErVEr-asl.pAGEs.DEv"
+    servername: "MaHdisErVEr-asl.pAGEs.DEv"
+    client-fingerprint: "randomized"
+    alpn:
+      - "h2,http/1.1"
+    network: ws
+    ws-opts:
+      path: "/9wUhFMKgsGMqAUO6?ed=2560"
+      headers:
+        Host: "mAHdIserveR-asL.paGES.dEv"
+  - name: "🇽🇽 XX-24 | 103ms | vless"
+    type: vless
+    server: "172.64.152.23"
+    port: 443
+    uuid: "396c904b-4b62-4334-b793-ee25fc0c61cc"
+    tls: true
+    udp: true
+    sni: "pages.dev"
+    servername: "pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+      headers:
+        Host: "8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev"
+  - name: "🇽🇽 XX-25 | 105ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM--V2ray_confiig?ed=2560"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇽🇽 XX-26 | 105ms | vless"
+    type: vless
+    server: "104.19.19.58"
+    port: 2096
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    tls: true
+    udp: true
+    sni: "baipiao1.curly-train.pages.dev"
+    servername: "baipiao1.curly-train.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "baipiao1.curly-train.pages.dev"
+  - name: "🇽🇽 XX-27 | 107ms | vless"
+    type: vless
+    server: "104.16.7.70"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    tls: true
+    udp: true
+    sni: "sni.jpmj.dev"
+    servername: "sni.jpmj.dev"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.jpmj.dev"
+  - name: "🇽🇽 XX-28 | 108ms | vless"
+    type: vless
+    server: "172.67.182.80"
+    port: 443
+    uuid: "0050dd81-65fb-439c-abf6-c4c609205c44"
+    tls: true
+    udp: true
+    sni: "F2aU50vwmIGE9oFtda.netIZO14.WOrkErs.Dev"
+    servername: "F2aU50vwmIGE9oFtda.netIZO14.WOrkErs.Dev"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/vl/e0BN8sjMhlKHJo6UNGRwuI3kOb1I?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed"
+      headers:
+        Host: "f2au50vwmige9oftda.netizo14.workers.dev"
+  - name: "🇽🇽 XX-29 | 109ms | vless"
+    type: vless
+    server: "172.67.183.230"
+    port: 443
+    uuid: "b9ad895b-12ac-40fc-a5ac-a5b2a1285001"
+    tls: true
+    udp: true
+    sni: "3k.pureboy.eu.org"
+    servername: "3k.pureboy.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/path/TELEGRAM-PROXY_MTM?ed=2048"
+      headers:
+        Host: "3k.pureboy.eu.org"
+  - name: "🇽🇽 XX-30 | 111ms | vless"
+    type: vless
+    server: "172.64.149.54"
+    port: 443
+    uuid: "7d12caa2-43e0-45d2-8636-08b342615c7b"
+    tls: true
+    udp: true
+    sni: "clod.pedramhost.shop"
+    servername: "clod.pedramhost.shop"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2,http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "clod.pedramhost.shop"

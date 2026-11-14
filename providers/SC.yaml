@@ -1,0 +1,22 @@
+# Mihomo Proxy Provider - SC
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇸🇨 SC-01 | 117ms | vless"
+    type: vless
+    server: "45.130.125.66"
+    port: 443
+    uuid: "d98c757d-2be3-49ff-8b9f-76ffdc924a61"
+    tls: true
+    udp: true
+    sni: "chrome.yas-nowin.ir"
+    servername: "chrome.yas-nowin.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/cloud-vps"
+      headers:
+        Host: "chrome.yas-nowin.ir"

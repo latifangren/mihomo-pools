@@ -1,0 +1,86 @@
+# Mihomo Proxy Provider - PL
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇵🇱 PL-01 | 107ms | vless"
+    type: vless
+    server: "104.26.14.85"
+    port: 8443
+    uuid: "f798a2c4-c51b-409d-b349-ca8455b36796"
+    tls: true
+    udp: true
+    sni: "chopin.adaspoloandco.com"
+    servername: "chopin.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "chopin.adaspoloandco.com"
+  - name: "🇵🇱 PL-02 | 272ms | vless"
+    type: vless
+    server: "mhzedir.qzz.io"
+    port: 2059
+    uuid: "aada3b83-8862-484e-8ac4-31343acba3e1"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "angelvpn.angelmh.cv"
+    servername: "angelvpn.angelmh.cv"
+    client-fingerprint: "chrome"
+  - name: "🇵🇱 PL-03 | 299ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c8e2d425-0c38-4271-bf41-1d77566ebaa9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-04 | 313ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c365a38d-be89-4962-81c4-facfaadfa034"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-05 | 324ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "8419bd29-8bd4-4a38-a739-d5d7adeb5c3c"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-06 | 333ms | vless"
+    type: vless
+    server: "mhzedir.qzz.io"
+    port: 2059
+    uuid: "74e155ef-1a8d-42db-8c20-7aaa62ca5998"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "angelvpn.angelmh.cv"
+    servername: "angelvpn.angelmh.cv"
+    client-fingerprint: "chrome"
+  - name: "🇵🇱 PL-07 | 346ms | vless"
+    type: vless
+    server: "mhzedir.qzz.io"
+    port: 2059
+    uuid: "4fd80dc2-8d73-45fa-839e-c1ad2875c752"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "angelvpn.angelmh.cv"
+    servername: "angelvpn.angelmh.cv"
+    client-fingerprint: "chrome"

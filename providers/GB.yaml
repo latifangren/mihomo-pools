@@ -1,0 +1,181 @@
+# Mihomo Proxy Provider - GB
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 13
+
+proxies:
+  - name: "🇬🇧 GB-01 | 33ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a54"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-02 | 34ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a00"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-03 | 38ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a50"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-04 | 90ms | vless"
+    type: vless
+    server: "104.26.0.7"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-05 | 97ms | vless"
+    type: vless
+    server: "172.67.74.10"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-06 | 107ms | vless"
+    type: vless
+    server: "51.200.19.243"
+    port: 22223
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-07 | 107ms | vless"
+    type: vless
+    server: "51.200.19.243"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-08 | 108ms | vless"
+    type: vless
+    server: "51.200.19.243"
+    port: 22224
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-09 | 113ms | vless"
+    type: vless
+    server: "104.18.38.33"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇬🇧 GB-10 | 189ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇬🇧 GB-11 | 1280ms | vless"
+    type: vless
+    server: "34.39.80.57"
+    port: 50818
+    uuid: "408c814e-f70a-4d16-b3b3-8182bb70211d"
+    tls: true
+    udp: true
+    sni: "yingguo.rymaker.cn"
+    servername: "yingguo.rymaker.cn"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/GunService"
+      headers:
+        Host: "yingguo.rymaker.cn"
+  - name: "🇬🇧 GB-12 | 1770ms | vless"
+    type: vless
+    server: "51.38.71.147"
+    port: 443
+    uuid: "fda89998-7e9a-4494-857a-cd0d00661b58"
+    tls: true
+    udp: true
+    sni: "uk1.connectsuite.org"
+    servername: "uk1.connectsuite.org"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/cdn-cgi/ws"
+      headers:
+        Host: "uk1.connectsuite.org"
+  - name: "🇬🇧 GB-13 | 2874ms | vless"
+    type: vless
+    server: "uk1.connectsuite.org"
+    port: 443
+    uuid: "fda89998-7e9a-4494-857a-cd0d00661b58"
+    tls: true
+    udp: true
+    sni: "uk1.connectsuite.org"
+    servername: "uk1.connectsuite.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cdn-cgi/ws"
+      headers:
+        Host: "uk1.connectsuite.org"

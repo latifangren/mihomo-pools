@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - LU
+# Updated: 2026-11-14 12:52:14 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇱🇺 LU-01 | 117ms | trojan"
+    type: trojan
+    server: "188.114.97.3"
+    port: 443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    tls: true
+    udp: true
+    sni: "mfyousheng.nl.eu.org"
+    servername: "mfyousheng.nl.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+      headers:
+        Host: "mfyousheng.nl.eu.org"
