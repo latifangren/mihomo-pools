@@ -1,0 +1,221 @@
+# Mihomo Proxy Provider - GB
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 15
+
+proxies:
+  - name: "🇬🇧 GB-01 | 29ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a50"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-02 | 31ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a54"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-03 | 34ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a00"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-04 | 99ms | vless"
+    type: vless
+    server: "104.21.1.213"
+    port: 443
+    uuid: "fa80a2a1-edb1-461a-b94b-e360b8574e27"
+    tls: true
+    udp: true
+    sni: "media-0a02cd.aiacademyhub.org"
+    servername: "media-0a02cd.aiacademyhub.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/27ae75d08381b6af"
+      headers:
+        Host: "media-0a02cd.aiacademyhub.org"
+  - name: "🇬🇧 GB-05 | 105ms | vless"
+    type: vless
+    server: "172.67.74.10"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-06 | 109ms | vless"
+    type: vless
+    server: "104.26.0.7"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-07 | 128ms | vless"
+    type: vless
+    server: "13.43.146.80"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-08 | 290ms | vless"
+    type: vless
+    server: "57.129.132.223"
+    port: 80
+    uuid: "dbb78c94-9f87-4d7d-b945-2000b60352fd"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+  - name: "🇬🇧 GB-09 | 304ms | vless"
+    type: vless
+    server: "57.129.132.223"
+    port: 80
+    uuid: "9e20b04d-5a81-4e16-b421-01e502f0aac6"
+    tls: false
+    udp: true
+    sni: "google.com"
+    servername: "google.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+      headers:
+        Host: "google.com"
+  - name: "🇬🇧 GB-10 | 464ms | vless"
+    type: vless
+    server: "suh.cryptofront.uk"
+    port: 80
+    uuid: "c762af05-2e92-4133-bc30-8cf45dd40a28"
+    tls: false
+    udp: true
+    sni: "suh.cryptofront.uk"
+    servername: "suh.cryptofront.uk"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "suh.cryptofront.uk"
+  - name: "🇬🇧 GB-11 | 789ms | vless"
+    type: vless
+    server: "leviko-fr7730.shopingggg.ir"
+    port: 80
+    uuid: "c762af05-2e92-4133-bc30-8cf45dd40a28"
+    tls: false
+    udp: true
+    sni: "suh.cryptofront.uk"
+    servername: "suh.cryptofront.uk"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "suh.cryptofront.uk"
+  - name: "🇬🇧 GB-12 | 960ms | trojan"
+    type: trojan
+    server: "sclass-01.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hk.catxstar.com"
+  - name: "🇬🇧 GB-13 | 1175ms | vless"
+    type: vless
+    server: "185.178.208.167"
+    port: 443
+    uuid: "6bd1d88f-0a26-4d21-b325-15d85120b883"
+    tls: true
+    udp: true
+    sni: "sw-api.telemetryapi.org"
+    servername: "sw-api.telemetryapi.org"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/v2/client/session/connect"
+      headers:
+        Host: "sw-api.telemetryapi.org"
+  - name: "🇬🇧 GB-14 | 3464ms | vless"
+    type: vless
+    server: "uk1.connectsuite.org"
+    port: 443
+    uuid: "fda89998-7e9a-4494-857a-cd0d00661b58"
+    tls: true
+    udp: true
+    sni: "uk1.connectsuite.org"
+    servername: "uk1.connectsuite.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cdn-cgi/ws"
+      headers:
+        Host: "uk1.connectsuite.org"
+  - name: "🇬🇧 GB-15 | 3792ms | vless"
+    type: vless
+    server: "51.38.71.147"
+    port: 443
+    uuid: "fda89998-7e9a-4494-857a-cd0d00661b58"
+    tls: true
+    udp: true
+    sni: "uk1.connectsuite.org"
+    servername: "uk1.connectsuite.org"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/cdn-cgi/ws"
+      headers:
+        Host: "uk1.connectsuite.org"

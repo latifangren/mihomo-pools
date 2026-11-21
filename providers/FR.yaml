@@ -1,0 +1,237 @@
+# Mihomo Proxy Provider - FR
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 17
+
+proxies:
+  - name: "🇫🇷 FR-01 | 42ms | vless"
+    type: vless
+    server: "104.27.66.214"
+    port: 8443
+    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-02 | 92ms | vless"
+    type: vless
+    server: "162.159.253.41"
+    port: 8443
+    uuid: "a47c49ec-6eaa-44ce-9108-8427426a1123"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-03 | 130ms | vless"
+    type: vless
+    server: "13.38.184.123"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-04 | 248ms | vless"
+    type: vless
+    server: "45.144.28.39"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-05 | 296ms | vless"
+    type: vless
+    server: "152.228.162.19"
+    port: 80
+    uuid: "5ce84688-f535-46ad-a512-37b17becf6ea"
+    tls: false
+    udp: true
+    sni: "akamaized.net"
+    servername: "akamaized.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+      headers:
+        Host: "akamaized.net"
+  - name: "🇫🇷 FR-06 | 298ms | vless"
+    type: vless
+    server: "31.77.227.10"
+    port: 52006
+    uuid: "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f"
+    flow: "xtls-rprx-vision-udp443"
+    tls: true
+    udp: true
+    sni: "fr.setlisting.ru"
+    servername: "fr.setlisting.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇷 FR-07 | 299ms | vless"
+    type: vless
+    server: "147.135.213.72"
+    port: 20049
+    uuid: "03033cd9-817d-486d-bb3b-37d92b8346f0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless-ws"
+  - name: "🇫🇷 FR-08 | 300ms | vless"
+    type: vless
+    server: "152.228.162.19"
+    port: 80
+    uuid: "25f86cb1-2140-4085-abcb-c3a0ea7a4be0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+  - name: "🇫🇷 FR-09 | 389ms | vless"
+    type: vless
+    server: "136.148.83.69"
+    port: 443
+    uuid: "7dff1be7-b930-0001-a8ad-dc7850168215"
+    tls: true
+    udp: true
+    sni: "szqbx-ru-77dc.my-fade.cloud"
+    servername: "szqbx-ru-77dc.my-fade.cloud"
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-10 | 391ms | vless"
+    type: vless
+    server: "136.148.83.69"
+    port: 443
+    uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
+    tls: true
+    udp: true
+    sni: "szqbx-ru-77dc.my-fade.cloud"
+    servername: "szqbx-ru-77dc.my-fade.cloud"
+    client-fingerprint: "qq"
+  - name: "🇫🇷 FR-11 | 494ms | vless"
+    type: vless
+    server: "fr.connfull.org"
+    port: 9443
+    uuid: "19f51967-ca91-4fab-a37b-51c424de801d"
+    tls: true
+    udp: true
+    sni: "fr.connfull.org"
+    servername: "fr.connfull.org"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/stream"
+      headers:
+        Host: "fr.connfull.org"
+  - name: "🇫🇷 FR-12 | 513ms | vless"
+    type: vless
+    server: "nasnet-162191099-direct.mbghalibaf.com"
+    port: 443
+    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "nasnet-162191099-direct.mbghalibaf.com"
+    servername: "nasnet-162191099-direct.mbghalibaf.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇫🇷 FR-13 | 537ms | vless"
+    type: vless
+    server: "199.232.169.135"
+    port: 443
+    uuid: "f408696c-cdbe-49a1-90e9-ab602003315c"
+    tls: true
+    udp: true
+    sni: "speedtest.net"
+    servername: "speedtest.net"
+    client-fingerprint: "randomized"
+    network: ws
+    ws-opts:
+      path: "/MinoVpnCh?ed=2048"
+      headers:
+        Host: "googleb.net"
+  - name: "🇫🇷 FR-14 | 633ms | vless"
+    type: vless
+    server: "83.243.86.129"
+    port: 443
+    uuid: "5dca5180-7c50-4b91-b21c-be8bfc769141"
+    tls: true
+    udp: true
+    sni: "fr6.sky-vault.top"
+    servername: "fr6.sky-vault.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws-89a4f2"
+      headers:
+        Host: "fr6.sky-vault.top"
+  - name: "🇫🇷 FR-15 | 762ms | vless"
+    type: vless
+    server: "usejh2.neobo-tooth.ru"
+    port: 2096
+    uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
+    tls: false
+    udp: true
+    sni: "usejh2.neobo-tooth.ru"
+    servername: "usejh2.neobo-tooth.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "usejh2.neobo-tooth.ru"
+  - name: "🇫🇷 FR-16 | 1318ms | vless"
+    type: vless
+    server: "13.140.253.35"
+    port: 443
+    uuid: "06a5afa1-2bbc-a5d1-1770-becd1089c636"
+    tls: true
+    udp: true
+    sni: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    servername: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/0175469f14317d82"
+      headers:
+        Host: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+  - name: "🇫🇷 FR-17 | 1639ms | vless"
+    type: vless
+    server: "ov-france1.09vpn.com"
+    port: 80
+    uuid: "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1"
+    tls: false
+    udp: true
+    sni: "ov-france1.09vpn.com"
+    servername: "ov-france1.09vpn.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+      headers:
+        Host: "ov-france1.09vpn.com"

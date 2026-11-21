@@ -1,0 +1,344 @@
+# Mihomo Proxy Provider - SE
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 24
+
+proxies:
+  - name: "🇸🇪 SE-01 | 19ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "13fdda6f-f5c9-499a-826c-d99bfacdcc23"
+    tls: false
+    udp: true
+    sni: "Kanal-polproxy.Vipnufilter.Online."
+    servername: "Kanal-polproxy.Vipnufilter.Online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "Kanal-polproxy.Vipnufilter.Online."
+  - name: "🇸🇪 SE-02 | 20ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "fbc325f6-1d61-4c1e-8752-9e12b5463f82"
+    tls: false
+    udp: true
+    sni: "Kanal-polproxy.Vipnufilter.Online."
+    servername: "Kanal-polproxy.Vipnufilter.Online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "Kanal-polproxy.Vipnufilter.Online."
+  - name: "🇸🇪 SE-03 | 20ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "726c7800-a083-4b83-b9cf-9a9872ea1fcb"
+    tls: false
+    udp: true
+    sni: "Kanal-polproxy.Vipnufilter.Online."
+    servername: "Kanal-polproxy.Vipnufilter.Online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "Kanal-polproxy.Vipnufilter.Online."
+  - name: "🇸🇪 SE-04 | 20ms | vless"
+    type: vless
+    server: "185.146.173.24"
+    port: 8880
+    uuid: "53ed61cd-8be2-46eb-b7c2-850a732ed849"
+    tls: false
+    udp: true
+    sni: "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
+    servername: "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/Tel:@Daily_ConfigsTel:@Daily_ConfigsTel:@Daily_ConfigsTel:@Daily_ConfigsTel:@Daily_Configs"
+      headers:
+        Host: "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
+  - name: "🇸🇪 SE-05 | 20ms | vless"
+    type: vless
+    server: "185.146.173.185"
+    port: 2095
+    uuid: "5c7d90fe-f7d5-40bf-bfca-7726d5e44786"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    servername: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+  - name: "🇸🇪 SE-06 | 21ms | vless"
+    type: vless
+    server: "185.146.173.37"
+    port: 8080
+    uuid: "4cac189c-5611-4cfa-9946-bf1b2b3d152c"
+    tls: false
+    udp: true
+    sni: "xn--047h.iman-v2ray.sbs."
+    servername: "xn--047h.iman-v2ray.sbs."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "xn--047h.iman-v2ray.sbs."
+  - name: "🇸🇪 SE-07 | 21ms | vless"
+    type: vless
+    server: "185.146.173.20"
+    port: 80
+    uuid: "a1acd85e-857f-4b89-9a5f-4ad83a35ef86"
+    tls: false
+    udp: true
+    sni: "AERo.SHoKR.DE"
+    servername: "AERo.SHoKR.DE"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "AERo.SHoKR.DE"
+  - name: "🇸🇪 SE-08 | 21ms | vless"
+    type: vless
+    server: "185.146.173.185"
+    port: 2095
+    uuid: "f69052a7-2ed3-4196-87f0-4cf90a35ab79"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    servername: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+  - name: "🇸🇪 SE-09 | 21ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "2ec63644-7818-403a-acea-851c5b905a96"
+    tls: false
+    udp: true
+    sni: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    servername: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+  - name: "🇸🇪 SE-10 | 22ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce"
+    tls: false
+    udp: true
+    sni: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    servername: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+  - name: "🇸🇪 SE-11 | 22ms | vless"
+    type: vless
+    server: "185.146.173.185"
+    port: 2095
+    uuid: "db5a8d71-b3f3-4e5c-a2a9-e7f78c9d141c"
+    tls: false
+    udp: true
+    sni: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    servername: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
+  - name: "🇸🇪 SE-12 | 23ms | vless"
+    type: vless
+    server: "185.146.173.58"
+    port: 8080
+    uuid: "89f86124-a711-4751-9363-4083834dabf5"
+    tls: false
+    udp: true
+    sni: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    servername: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048"
+      headers:
+        Host: "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."
+  - name: "🇸🇪 SE-13 | 24ms | vless"
+    type: vless
+    server: "185.146.173.20"
+    port: 80
+    uuid: "afad5d99-a4a7-47ae-c999-157a1c01e4a7"
+    tls: false
+    udp: true
+    sni: "PhILoSOphy.oppEnuP.cOm"
+    servername: "PhILoSOphy.oppEnuP.cOm"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cart"
+      headers:
+        Host: "PhILoSOphy.oppEnuP.cOm"
+  - name: "🇸🇪 SE-14 | 24ms | vless"
+    type: vless
+    server: "185.146.173.200"
+    port: 8880
+    uuid: "f8d2a4a1-5ccb-49dc-a1fb-36904313c2e4"
+    tls: false
+    udp: true
+    sni: "www.speedtest.net.B.lightning-6.LiVE."
+    servername: "www.speedtest.net.B.lightning-6.LiVE."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed"
+      headers:
+        Host: "www.speedtest.net.B.lightning-6.LiVE."
+  - name: "🇸🇪 SE-15 | 298ms | vless"
+    type: vless
+    server: "5.178.109.174"
+    port: 14430
+    uuid: "80de563a-cac8-40ea-8cb0-4cb082dd92f9"
+    tls: false
+    udp: true
+    sni: "5.178.109.174"
+    servername: "5.178.109.174"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "5.178.109.174"
+  - name: "🇸🇪 SE-16 | 301ms | vless"
+    type: vless
+    server: "5.178.109.174"
+    port: 14430
+    uuid: "80de563a-cac8-40ea-8cb0-4cb082dd92f9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+  - name: "🇸🇪 SE-17 | 307ms | vless"
+    type: vless
+    server: "193.188.21.253"
+    port: 14430
+    uuid: "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55"
+    tls: false
+    udp: true
+    sni: "193.188.21.253"
+    servername: "193.188.21.253"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "193.188.21.253"
+  - name: "🇸🇪 SE-18 | 342ms | vless"
+    type: vless
+    server: "lodizu.hagrid-connected.com"
+    port: 443
+    uuid: "beda6bd0-7ce4-477a-91f1-860d018dbfcb"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "lodizu.hagrid-connected.com"
+    servername: "lodizu.hagrid-connected.com"
+    client-fingerprint: "chrome"
+  - name: "🇸🇪 SE-19 | 367ms | trojan"
+    type: trojan
+    server: "leviko-se6097.shopingggg.ir"
+    port: 443
+    password: "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF"
+    tls: true
+    udp: true
+    sni: "connect-se.mimowhat.online"
+    servername: "connect-se.mimowhat.online"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇸🇪 SE-20 | 368ms | trojan"
+    type: trojan
+    server: "95.143.196.97"
+    port: 443
+    password: "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF"
+    tls: true
+    udp: true
+    sni: "connect-se.mimowhat.online"
+    servername: "connect-se.mimowhat.online"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇸🇪 SE-21 | 379ms | vless"
+    type: vless
+    server: "swe4.mlbaz.ir"
+    port: 2222
+    uuid: "f4e7fdb5-9b1b-44e7-990a-40ee7da9cdc5"
+    tls: false
+    udp: true
+    sni: "ajax.googleapis.com"
+    servername: "ajax.googleapis.com"
+    client-fingerprint: "chrome"
+  - name: "🇸🇪 SE-22 | 393ms | vless"
+    type: vless
+    server: "sajed.kdns.fr"
+    port: 443
+    uuid: "cffa0e31-7cce-4541-8a2e-4e115873090b"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe"
+  - name: "🇸🇪 SE-23 | 451ms | vless"
+    type: vless
+    server: "sajed.kdns.fr"
+    port: 443
+    uuid: "cffa0e31-7cce-4541-8a2e-4e115873090b"
+    tls: false
+    udp: true
+    sni: "sajed.kdns.fr"
+    servername: "sajed.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe"
+      headers:
+        Host: "sajed.kdns.fr"
+  - name: "🇸🇪 SE-24 | 3202ms | vless"
+    type: vless
+    server: "2.26.93.106"
+    port: 443
+    uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
+    tls: true
+    udp: true
+    sni: "depotchannel.lucheeebezlimitnoekino.stream"
+    servername: "depotchannel.lucheeebezlimitnoekino.stream"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/media/ws/"
+      headers:
+        Host: "depotchannel.lucheeebezlimitnoekino.stream"

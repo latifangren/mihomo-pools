@@ -1,0 +1,42 @@
+# Mihomo Proxy Provider - AE
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇦🇪 AE-01 | 431ms | vless"
+    type: vless
+    server: "95.174.68.188"
+    port: 14430
+    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
+    tls: false
+    udp: true
+    sni: "95.174.68.188"
+    servername: "95.174.68.188"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "95.174.68.188"
+  - name: "🇦🇪 AE-02 | 455ms | vless"
+    type: vless
+    server: "95.174.68.188"
+    port: 14430
+    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+  - name: "🇦🇪 AE-03 | 1919ms | trojan"
+    type: trojan
+    server: "sclass-00.catcat321.com"
+    port: 20123
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true

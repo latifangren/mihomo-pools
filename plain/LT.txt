@@ -1,0 +1,1 @@
+vless://fd90e601-a56c-42b8-aab7-aa02d26fcb04@185.86.147.211:443/?type=ws&encryption=none&flow=&host=185.86.147.211&path=/assets/chunk/AFaAJmUwqcwd&security=tls&sni=185.86.147.211&allowInsecure=1&fp=chrome&packetEncoding=xudp#🇱🇹18@exclavevpn

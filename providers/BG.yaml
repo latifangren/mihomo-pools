@@ -1,0 +1,21 @@
+# Mihomo Proxy Provider - BG
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇧🇬 BG-01 | 1121ms | vless"
+    type: vless
+    server: "185.197.193.137"
+    port: 443
+    uuid: "313b84fa-b922-500f-9b65-acb67c040cc0"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "us2.v2less.site"
+    servername: "us2.v2less.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "us2.v2less.site"

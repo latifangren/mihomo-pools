@@ -1,0 +1,51 @@
+# Mihomo Proxy Provider - TR
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 4
+
+proxies:
+  - name: "🇹🇷 TR-01 | 170ms | vless"
+    type: vless
+    server: "188.132.174.14"
+    port: 24
+    uuid: "7d5cdbb1-9632-483a-9b50-27932cfa9390"
+    tls: false
+    udp: true
+    sni: "play.google.com"
+    servername: "play.google.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-02 | 173ms | vless"
+    type: vless
+    server: "87.76.154.28"
+    port: 57231
+    uuid: "c34a41b6-598f-46ac-bea3-8b39a906f922"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-03 | 667ms | vless"
+    type: vless
+    server: "Tx1.qoqnusradio.top"
+    port: 2058
+    uuid: "83be8a03-cbed-4fca-8403-37fc21793159"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "Tx1.qoqnusradio.top"
+    servername: "Tx1.qoqnusradio.top"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+  - name: "🇹🇷 TR-04 | 733ms | vless"
+    type: vless
+    server: "185.39.204.117"
+    port: 10002
+    uuid: "facb802c-de2e-11f1-9a22-a3404e852f3b"
+    tls: true
+    udp: true
+    sni: "tr2.vpnjantit.com"
+    servername: "tr2.vpnjantit.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vpnjantit"
+      headers:
+        Host: "tr2.vpnjantit.com"

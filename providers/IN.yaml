@@ -1,0 +1,36 @@
+# Mihomo Proxy Provider - IN
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇮🇳 IN-01 | 105ms | vless"
+    type: vless
+    server: "188.114.99.137"
+    port: 443
+    uuid: "c1208c5a-2350-0003-affd-fc41b4319286"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "decdn-28.nome-rkp.net"
+    servername: "decdn-28.nome-rkp.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/media/ws/"
+      headers:
+        Host: "decdn-28.nome-rkp.net"
+  - name: "🇮🇳 IN-02 | 1874ms | vless"
+    type: vless
+    server: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    port: 443
+    uuid: "06a5afa1-2bbc-a5d1-1770-becd1089c636"
+    tls: true
+    udp: true
+    sni: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    servername: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/0175469f14317d82"
+      headers:
+        Host: "xray-dmr3b3hy-calm-maple-7.cloady.io"

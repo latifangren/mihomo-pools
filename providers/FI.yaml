@@ -1,0 +1,120 @@
+# Mihomo Proxy Provider - FI
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 10
+
+proxies:
+  - name: "🇫🇮 FI-01 | 35ms | vless"
+    type: vless
+    server: "104.19.64.105"
+    port: 8443
+    uuid: "bb3f7d41-a044-4937-bf6f-4a3d1a70db06"
+    tls: true
+    udp: true
+    sni: "interim.adaspoloandco.com"
+    servername: "interim.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/RoBeRt"
+      headers:
+        Host: "interim.adaspoloandco.com"
+  - name: "🇫🇮 FI-02 | 169ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    sni: "/%3"
+    servername: "/%3"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-03 | 196ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-04 | 311ms | vless"
+    type: vless
+    server: "moon.gmax12.ir"
+    port: 80
+    uuid: "24398289-1a42-47be-9eb9-9c537c361959"
+    tls: false
+    udp: true
+    sni: "tgju.org"
+    servername: "tgju.org"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-05 | 324ms | vless"
+    type: vless
+    server: "213.176.92.168"
+    port: 14430
+    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
+    tls: false
+    udp: true
+    sni: "213.176.92.168"
+    servername: "213.176.92.168"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "213.176.92.168"
+  - name: "🇫🇮 FI-06 | 325ms | vless"
+    type: vless
+    server: "opa.gmax12.ir"
+    port: 80
+    uuid: "b1ea01b5-2902-4ff6-a64d-fafd20aea9f1"
+    tls: false
+    udp: true
+    sni: "tgju.org"
+    servername: "tgju.org"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-07 | 327ms | vless"
+    type: vless
+    server: "65.109.252.58"
+    port: 443
+    uuid: "2b696acb-1311-4ab7-b832-b376d29dca27"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "static.170.55.238.62.clients.your-server.de"
+    servername: "static.170.55.238.62.clients.your-server.de"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-08 | 368ms | vless"
+    type: vless
+    server: "hz.extraservices.ir"
+    port: 25837
+    uuid: "bf6feeab-e24d-444a-80c8-418aceabbe9f"
+    tls: false
+    udp: true
+    sni: "tgju.org"
+    servername: "tgju.org"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-09 | 375ms | vless"
+    type: vless
+    server: "uga2.gmax12.ir"
+    port: 80
+    uuid: "24398289-1a42-47be-9eb9-9c537c361959"
+    tls: false
+    udp: true
+    sni: "tgju.org"
+    servername: "tgju.org"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-10 | 494ms | trojan"
+    type: trojan
+    server: "fi.zhabulik.ru"
+    port: 443
+    password: "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj"
+    tls: true
+    udp: true
+    sni: "fi.zhabulik.ru"
+    servername: "fi.zhabulik.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"

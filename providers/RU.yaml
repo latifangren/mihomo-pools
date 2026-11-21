@@ -1,0 +1,113 @@
+# Mihomo Proxy Provider - RU
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇷🇺 RU-01 | 163ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "67766b72-87da-493d-bece-f4542f7e5df1"
+    tls: true
+    udp: true
+    sni: "support.zoom.us.wez7k.eu.cc"
+    servername: "support.zoom.us.wez7k.eu.cc"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/sg-hzr"
+      headers:
+        Host: "support.zoom.us.wez7k.eu.cc"
+  - name: "🇷🇺 RU-02 | 341ms | vless"
+    type: vless
+    server: "188.225.83.204"
+    port: 7443
+    uuid: "71bd5b95-4079-417e-a34f-386a07588105"
+    tls: true
+    udp: true
+    sni: "polska.champmoney.ru"
+    servername: "polska.champmoney.ru"
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-03 | 774ms | vless"
+    type: vless
+    server: "147.45.175.81"
+    port: 443
+    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
+    tls: true
+    udp: true
+    sni: "xsru2.freeddns.org"
+    servername: "xsru2.freeddns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/wsru"
+      headers:
+        Host: "xsru2.freeddns.org"
+  - name: "🇷🇺 RU-04 | 779ms | vless"
+    type: vless
+    server: "185.86.145.183"
+    port: 443
+    uuid: "b7941807-1f4d-4bda-a878-92d708b84494"
+    tls: true
+    udp: true
+    sni: "for.quick-frost.ru"
+    servername: "for.quick-frost.ru"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/nl7ws"
+      headers:
+        Host: "for.quick-frost.ru"
+  - name: "🇷🇺 RU-05 | 847ms | vless"
+    type: vless
+    server: "46.243.205.192"
+    port: 443
+    uuid: "fd90e601-a56c-42b8-aab7-aa02d26fcb04"
+    tls: true
+    udp: true
+    sni: "46.243.205.192"
+    servername: "46.243.205.192"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/catalog/feed/H9eui7WsW3xS"
+      headers:
+        Host: "46.243.205.192"
+  - name: "🇷🇺 RU-06 | 875ms | vless"
+    type: vless
+    server: "95.129.236.239"
+    port: 443
+    uuid: "a71d6c6d-c95e-4ec1-a892-22e21733bf09"
+    tls: true
+    udp: true
+    sni: "files-qzgs.login.opendns.stream"
+    servername: "files-qzgs.login.opendns.stream"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/origin/246825491/fetch"
+      headers:
+        Host: "files-qzgs.login.opendns.stream"
+  - name: "🇷🇺 RU-07 | 1519ms | vless"
+    type: vless
+    server: "cdn19.sharfvpn.top"
+    port: 443
+    uuid: "5dd429fa-3fa6-44d0-bce6-01b84ce846f1"
+    tls: true
+    udp: true
+    sni: "cdn19.sharfvpn.top"
+    servername: "cdn19.sharfvpn.top"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/v4/media/session/poll"
+      headers:
+        Host: "cdn19.sharfvpn.top"

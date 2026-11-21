@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - MY
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇲🇾 MY-01 | 563ms | vless"
+    type: vless
+    server: "382218.xyz"
+    port: 443
+    uuid: "d801d4d9-111a-46e8-91fc-e2fb39ef2d22"
+    tls: true
+    udp: true
+    sni: "382218.xyz"
+    servername: "382218.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "382218.xyz"

@@ -1,0 +1,43 @@
+# Mihomo Proxy Provider - BY
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇧🇾 BY-01 | 153ms | vless"
+    type: vless
+    server: "178.172.227.124"
+    port: 10443
+    uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇧🇾 BY-02 | 319ms | vless"
+    type: vless
+    server: "178.172.227.124"
+    port: 14430
+    uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
+    tls: false
+    udp: true
+    sni: "178.172.227.124"
+    servername: "178.172.227.124"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "178.172.227.124"
+  - name: "🇧🇾 BY-03 | 414ms | vless"
+    type: vless
+    server: "178.172.227.228"
+    port: 14430
+    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
+    tls: false
+    udp: true
+    sni: "178.172.227.228"
+    servername: "178.172.227.228"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "178.172.227.228"

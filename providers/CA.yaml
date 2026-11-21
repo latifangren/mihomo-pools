@@ -1,0 +1,467 @@
+# Mihomo Proxy Provider - CA
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇨🇦 CA-01 | 20ms | vless"
+    type: vless
+    server: "104.31.16.65"
+    port: 2095
+    uuid: "38ace213-5184-477b-ac3e-d800d0cf3cd9"
+    tls: false
+    udp: true
+    sni: "de1.vlessx.xyz"
+    servername: "de1.vlessx.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "de1.vlessx.xyz"
+  - name: "🇨🇦 CA-02 | 20ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 2082
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    servername: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+  - name: "🇨🇦 CA-03 | 22ms | vless"
+    type: vless
+    server: "162.159.43.187"
+    port: 2086
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇨🇦 CA-04 | 29ms | vless"
+    type: vless
+    server: "104.21.227.134"
+    port: 80
+    uuid: "0991a0c4-0ee5-4213-af89-7ad589f853f3"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "elenaaaaaaaaaa.cloudns.pro"
+    servername: "elenaaaaaaaaaa.cloudns.pro"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY"
+      headers:
+        Host: "elenaaaaaaaaaa.cloudns.pro"
+  - name: "🇨🇦 CA-05 | 29ms | vless"
+    type: vless
+    server: "104.21.70.21"
+    port: 8080
+    uuid: "a8b1d666-d3ba-4b17-90c4-ba7514c74f78"
+    tls: false
+    udp: true
+    sni: "xstack.mahanfixe.workers.dev"
+    servername: "xstack.mahanfixe.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/xiron"
+      headers:
+        Host: "xstack.mahanfixe.workers.dev"
+  - name: "🇨🇦 CA-06 | 32ms | vless"
+    type: vless
+    server: "188.114.98.112"
+    port: 80
+    uuid: "0991a0c4-0ee5-4213-af89-7ad589f853f3"
+    tls: false
+    udp: true
+    sni: "elenaaaaaaaaaa.cloudns.pro."
+    servername: "elenaaaaaaaaaa.cloudns.pro."
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY"
+      headers:
+        Host: "elenaaaaaaaaaa.cloudns.pro."
+  - name: "🇨🇦 CA-07 | 34ms | vless"
+    type: vless
+    server: "173.245.59.191"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-08 | 35ms | vless"
+    type: vless
+    server: "185.18.250.127"
+    port: 2096
+    uuid: "2ee26119-94e5-40b4-ba3a-16354021b600"
+    tls: true
+    udp: true
+    sni: "69565ce3109804e7813f98ee.mmdbay.blog"
+    servername: "69565ce3109804e7813f98ee.mmdbay.blog"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/graphql"
+      headers:
+        Host: "69565ce3109804e7813f98ee.mmdbay.blog"
+  - name: "🇨🇦 CA-09 | 88ms | vless"
+    type: vless
+    server: "104.26.4.60"
+    port: 443
+    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    udp: true
+    sni: "t1s1.rittbo.kdns.fr"
+    servername: "t1s1.rittbo.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1s1.rittbo.kdns.fr"
+  - name: "🇨🇦 CA-10 | 91ms | vless"
+    type: vless
+    server: "162.159.253.41"
+    port: 8443
+    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-11 | 92ms | vless"
+    type: vless
+    server: "172.67.155.65"
+    port: 8443
+    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
+    tls: true
+    udp: true
+    sni: "lucasjow.us.ci"
+    servername: "lucasjow.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cart/docs/www/proxyip=108.160.132.132"
+      headers:
+        Host: "lucasjow.us.ci"
+  - name: "🇨🇦 CA-12 | 92ms | vless"
+    type: vless
+    server: "104.21.14.123"
+    port: 443
+    uuid: "66969b2e-5e49-4750-9419-167d4bb64c07"
+    tls: true
+    udp: true
+    sni: "wallweb11.wallwebc992h7.workers.dev"
+    servername: "wallweb11.wallwebc992h7.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wallweb11.wallwebc992h7.workers.dev"
+  - name: "🇨🇦 CA-13 | 94ms | vless"
+    type: vless
+    server: "141.101.115.71"
+    port: 8443
+    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-14 | 95ms | vless"
+    type: vless
+    server: "172.67.155.65"
+    port: 2053
+    uuid: "e6df2095-a73c-4043-8693-8d5a03686870"
+    tls: true
+    udp: true
+    sni: "lucasjow.us.ci"
+    servername: "lucasjow.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cart/docs/www/proxyip=108.160.132.132"
+      headers:
+        Host: "lucasjow.us.ci"
+  - name: "🇨🇦 CA-15 | 98ms | vless"
+    type: vless
+    server: "92.53.190.167"
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
+    tls: true
+    udp: true
+    sni: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
+    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83fp=unsafe"
+      headers:
+        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
+  - name: "🇨🇦 CA-16 | 100ms | vless"
+    type: vless
+    server: "chatgpt.com"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    tls: true
+    udp: true
+    sni: "ccc.010304.xyz"
+    servername: "ccc.010304.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ccc.010304.xyz"
+  - name: "🇨🇦 CA-17 | 100ms | vless"
+    type: vless
+    server: "172.64.155.209"
+    port: 8443
+    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-18 | 110ms | vless"
+    type: vless
+    server: "172.67.74.10"
+    port: 2087
+    uuid: "97ea73b6-2043-4238-903c-a1e3d4a43c96"
+    tls: true
+    udp: true
+    sni: "amphetamine.adaspoloandco.com"
+    servername: "amphetamine.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "amphetamine.adaspoloandco.com"
+  - name: "🇨🇦 CA-19 | 112ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.netfp=chrome"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-20 | 114ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.net"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-21 | 140ms | vless"
+    type: vless
+    server: "xstack.mahanfixe.workers.dev"
+    port: 443
+    uuid: "a8b1d666-d3ba-4b17-90c4-ba7514c74f78"
+    tls: true
+    udp: true
+    sni: "xstack.mahanfixe.workers.dev"
+    servername: "xstack.mahanfixe.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/xiron"
+      headers:
+        Host: "xstack.mahanfixe.workers.dev"
+  - name: "🇨🇦 CA-22 | 151ms | vless"
+    type: vless
+    server: "66.163.113.9"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    tls: true
+    udp: true
+    sni: "kuruish.org"
+    servername: "kuruish.org"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-23 | 323ms | vless"
+    type: vless
+    server: "yx.l110.us.ci"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇨🇦 CA-24 | 342ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "f7a9b27c-fd3c-4177-9f66-8be4dd726d0b"
+    tls: true
+    udp: true
+    sni: "2.moltafet.bond"
+    servername: "2.moltafet.bond"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/t.me-SubGift"
+      headers:
+        Host: "2.moltafet.bond"
+  - name: "🇨🇦 CA-25 | 637ms | vless"
+    type: vless
+    server: "80.240.18.227"
+    port: 10051
+    uuid: "73996ef7-544c-45e7-abc0-973218c727e2"
+    tls: true
+    udp: true
+    sni: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇨🇦 CA-26 | 676ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "364D2D52-E61E-4E52-80EC-2BC6BDF15349"
+    tls: true
+    udp: true
+    sni: "fr-free.fastestrelay.com"
+    servername: "fr-free.fastestrelay.com"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/700gvl"
+      headers:
+        Host: "fr-free.fastestrelay.com"
+  - name: "🇨🇦 CA-27 | 688ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
+    tls: true
+    udp: true
+    sni: "o685y.save-node.com"
+    servername: "o685y.save-node.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/se1k2rfxlsuer3ry4u6e84kl8rqp721p"
+      headers:
+        Host: "o685y.save-node.com"
+  - name: "🇨🇦 CA-28 | 703ms | vless"
+    type: vless
+    server: "172.67.197.170"
+    port: 443
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
+    tls: true
+    udp: true
+    sni: "o685y.save-node.com"
+    servername: "o685y.save-node.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/se1k2rfxlsuer3ry4u6e84kl8rqp721p"
+      headers:
+        Host: "o685y.save-node.com"
+  - name: "🇨🇦 CA-29 | 764ms | vless"
+    type: vless
+    server: "172.66.132.196"
+    port: 443
+    uuid: "a25a71d1-10ed-4383-855a-f269a34ca691"
+    tls: true
+    udp: true
+    sni: "ave-qualifications-choices-populations.trycloudflare.com"
+    servername: "ave-qualifications-choices-populations.trycloudflare.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/a8b8606819ef"
+      headers:
+        Host: "ave-qualifications-choices-populations.trycloudflare.com"
+  - name: "🇨🇦 CA-30 | 986ms | vless"
+    type: vless
+    server: "fr-free.fastestrelay.com"
+    port: 443
+    uuid: "364D2D52-E61E-4E52-80EC-2BC6BDF15349"
+    tls: true
+    udp: true
+    sni: "fr-free.fastestrelay.com"
+    servername: "fr-free.fastestrelay.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/700gvl"
+      headers:
+        Host: "fr-free.fastestrelay.com"

@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - ES
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇪🇸 ES-01 | 353ms | trojan"
+    type: trojan
+    server: "66.163.118.115"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "discovergreatjobsandadvanceyourcareer.com"
+    servername: "discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-02 | 358ms | trojan"
+    type: trojan
+    server: "66.163.118.131"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "www.discovergreatjobsandadvanceyourcareer.com"
+    servername: "www.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-03 | 439ms | trojan"
+    type: trojan
+    server: "66.163.118.166"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "learn.discovergreatjobsandadvanceyourcareer.com"
+    servername: "learn.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"

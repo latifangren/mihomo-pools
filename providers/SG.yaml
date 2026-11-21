@@ -1,0 +1,232 @@
+# Mihomo Proxy Provider - SG
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 17
+
+proxies:
+  - name: "🇸🇬 SG-01 | 21ms | vless"
+    type: vless
+    server: "172.64.154.8"
+    port: 2052
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    sni: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "🇸🇬 SG-02 | 85ms | vless"
+    type: vless
+    server: "104.21.70.228"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-03 | 91ms | vless"
+    type: vless
+    server: "104.16.10.2"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-04 | 94ms | vless"
+    type: vless
+    server: "104.16.10.198"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-05 | 182ms | vless"
+    type: vless
+    server: "178.94.25.73"
+    port: 10443
+    uuid: "2dacc738-5720-4824-b8bc-e3db57596ba7"
+    tls: false
+    udp: true
+    sni: "178.94.25.73"
+    servername: "178.94.25.73"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-06 | 192ms | vless"
+    type: vless
+    server: "104.168.132.109"
+    port: 443
+    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
+    tls: true
+    udp: true
+    sni: "u.srilankangrill.online"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 SG-07 | 269ms | vless"
+    type: vless
+    server: "cf-socks.caoyuwu.eu.org"
+    port: 443
+    uuid: "9cdcbaf0-d244-4f37-b227-90166e43f5b5"
+    tls: true
+    udp: true
+    sni: "cf-socks.caoyuwu.eu.org"
+    servername: "cf-socks.caoyuwu.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cf-socks.caoyuwu.eu.org"
+  - name: "🇸🇬 SG-08 | 364ms | vless"
+    type: vless
+    server: "178.94.25.73"
+    port: 14430
+    uuid: "2dacc738-5720-4824-b8bc-e3db57596ba7"
+    packet-encoding: "xudp"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+  - name: "🇸🇬 SG-09 | 433ms | trojan"
+    type: trojan
+    server: "15.235.184.127"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "exploredigitaljobplatformandfindonlinework.com"
+    servername: "exploredigitaljobplatformandfindonlinework.com"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-10 | 575ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "2633cbab-e901-4f5a-9a0f-18ff319d0d70"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-11 | 597ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "c6624b96-e346-490b-9145-74c2543a9483"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-12 | 614ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "5269e0b4-0dff-4f97-e0c7-83130bacb009"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-13 | 618ms | vless"
+    type: vless
+    server: "43.174.247.63"
+    port: 443
+    uuid: "024cf4e8-fa64-44ea-b22f-c28437120563"
+    tls: true
+    udp: true
+    sni: "msydjt.com"
+    servername: "msydjt.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/51544/ws"
+      headers:
+        Host: "ded1ws.samcdn.shop"
+  - name: "🇸🇬 SG-14 | 623ms | vless"
+    type: vless
+    server: "xjpp.zjlo.top"
+    port: 36442
+    uuid: "b743c868-b35c-4d91-b88b-d9efd7060b5c"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "xjpp.zjlo.top"
+    servername: "xjpp.zjlo.top"
+    client-fingerprint: "chrome"
+  - name: "🇸🇬 SG-15 | 765ms | vless"
+    type: vless
+    server: "139.162.27.96"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    tls: true
+    udp: true
+    sni: "free-server.techsonic.dev"
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇸🇬 SG-16 | 1796ms | vless"
+    type: vless
+    server: "43.156.62.218"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇸🇬 SG-17 | 1844ms | vless"
+    type: vless
+    server: "freev2.cloudflare.182682.xyz"
+    port: 443
+    uuid: "12d32e9b-d41f-4677-aa51-83e21d2837f2"
+    tls: true
+    udp: true
+    sni: "ap-south.862400.xyz"
+    servername: "ap-south.862400.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/announcement"
+      headers:
+        Host: "ap-south.862400.xyz"

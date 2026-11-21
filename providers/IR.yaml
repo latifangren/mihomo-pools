@@ -1,0 +1,307 @@
+# Mihomo Proxy Provider - IR
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 25
+
+proxies:
+  - name: "🇮🇷 IR-01 | 45ms | vless"
+    type: vless
+    server: "188.114.99.160"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇮🇷 IR-02 | 124ms | vless"
+    type: vless
+    server: "185.143.233.235"
+    port: 80
+    uuid: "22109ab6-bfdd-4062-ae1c-054c74353e39"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-03 | 133ms | vless"
+    type: vless
+    server: "195.216.168.74"
+    port: 8080
+    uuid: "51e031fc-2145-45b8-9d0d-304d8288fc8e"
+    tls: false
+    udp: true
+    sni: "digikala.com"
+    servername: "digikala.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-04 | 241ms | vless"
+    type: vless
+    server: "Iran.powerpanel.space"
+    port: 443
+    uuid: "f1a27e04-a4e0-4466-8d2f-215015d1a603"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-05 | 249ms | vless"
+    type: vless
+    server: "185.143.234.235"
+    port: 80
+    uuid: "b8799fac-622a-4142-aab2-2aa862ad35f2"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vixon.portab.org"
+  - name: "🇮🇷 IR-06 | 276ms | vless"
+    type: vless
+    server: "87.248.149.50"
+    port: 443
+    uuid: "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec"
+    tls: true
+    udp: true
+    sni: "base.hosamobenl.co.uk"
+    servername: "base.hosamobenl.co.uk"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-07 | 277ms | vless"
+    type: vless
+    server: "194.60.228.97"
+    port: 443
+    uuid: "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec"
+    tls: true
+    udp: true
+    sni: "base.hosamobenl.co.uk"
+    servername: "base.hosamobenl.co.uk"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+  - name: "🇮🇷 IR-08 | 432ms | vless"
+    type: vless
+    server: "static.66.192.105.178.clients.your-server.de.SavFasF.Ir"
+    port: 443
+    uuid: "60054261-299d-40ac-8b82-b76c29cb2d56"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "tcptlsdigikala.savfasf.ir"
+    servername: "tcptlsdigikala.savfasf.ir"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-09 | 442ms | vless"
+    type: vless
+    server: "nl1.melkban24.ir"
+    port: 3102
+    uuid: "6bf83eb4-6e1a-49e7-b966-30de57239621"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "Copy_Shode_az_Chanel0111Net"
+    servername: "Copy_Shode_az_Chanel0111Net"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-10 | 537ms | vless"
+    type: vless
+    server: "185.143.233.5"
+    port: 80
+    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
+    tls: false
+    udp: true
+    sni: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    servername: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+  - name: "🇮🇷 IR-11 | 702ms | vless"
+    type: vless
+    server: "dash.zeneco.ir"
+    port: 53231
+    uuid: "4727d627-3505-4b87-9b04-9e1ae0049720"
+    tls: false
+    udp: true
+    sni: "dash.zeneco.ir"
+    servername: "dash.zeneco.ir"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-12 | 792ms | vless"
+    type: vless
+    server: "main.ig-panel.ir"
+    port: 1022
+    uuid: "52e64518-e459-4826-9f31-566a991a2962"
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-13 | 827ms | vless"
+    type: vless
+    server: "1.glitchout.ir"
+    port: 443
+    uuid: "2e409cdc-d0c9-4fc0-b285-9371034b8002"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-14 | 838ms | vless"
+    type: vless
+    server: "main.ig-panel.ir"
+    port: 1014
+    uuid: "52e64518-e459-4826-9f31-566a991a2962"
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-15 | 843ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "01f93877-3307-4e73-ba4c-592d4489a9ea"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-16 | 850ms | vless"
+    type: vless
+    server: "main.ig-panel.ir"
+    port: 1016
+    uuid: "52e64518-e459-4826-9f31-566a991a2962"
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-17 | 853ms | vless"
+    type: vless
+    server: "main.ig-panel.ir"
+    port: 1015
+    uuid: "52e64518-e459-4826-9f31-566a991a2962"
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-18 | 855ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "2f5b111e-a2e9-412e-b882-01765aaf6a6d"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-19 | 859ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "9bb76a75-7ba1-4687-810e-b4dafa9948d7"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-20 | 989ms | trojan"
+    type: trojan
+    server: "main.ig-panel.ir"
+    port: 1018
+    password: "SOBFQrnx5F47dYeuenKYWg=="
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-21 | 999ms | trojan"
+    type: trojan
+    server: "main.ig-panel.ir"
+    port: 1020
+    password: "SOBFQrnx5F47dYeuenKYWg=="
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-22 | 1000ms | trojan"
+    type: trojan
+    server: "main.ig-panel.ir"
+    port: 1023
+    password: "SOBFQrnx5F47dYeuenKYWg=="
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-23 | 1022ms | vless"
+    type: vless
+    server: "abr.superip.ir"
+    port: 2052
+    uuid: "061da3a1-0b8a-4abe-a739-8b33ae5519c4"
+    tls: false
+    udp: true
+    sni: "library.phill-up.ir"
+    servername: "library.phill-up.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/API/superip"
+      headers:
+        Host: "library.phill-up.ir"
+  - name: "🇮🇷 IR-24 | 1362ms | vless"
+    type: vless
+    server: "tus.tun257xr.cfd"
+    port: 2087
+    uuid: "8fac5e4b-b758-470d-bf1e-1619fc049399"
+    tls: true
+    udp: true
+    sni: "tus.tun257xr.cfd"
+    servername: "tus.tun257xr.cfd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tus.tun257xr.cfd"
+  - name: "🇮🇷 IR-25 | 1892ms | trojan"
+    type: trojan
+    server: "main.ig-panel.ir"
+    port: 1019
+    password: "SOBFQrnx5F47dYeuenKYWg=="
+    tls: true
+    udp: true
+    sni: "main.ig-panel.ir"
+    servername: "main.ig-panel.ir"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"

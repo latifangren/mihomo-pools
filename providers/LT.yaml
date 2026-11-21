@@ -1,0 +1,22 @@
+# Mihomo Proxy Provider - LT
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇱🇹 LT-01 | 848ms | vless"
+    type: vless
+    server: "185.86.147.211"
+    port: 443
+    uuid: "fd90e601-a56c-42b8-aab7-aa02d26fcb04"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "185.86.147.211"
+    servername: "185.86.147.211"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/assets/chunk/AFaAJmUwqcwd"
+      headers:
+        Host: "185.86.147.211"

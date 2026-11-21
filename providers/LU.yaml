@@ -1,0 +1,37 @@
+# Mihomo Proxy Provider - LU
+# Updated: 2026-11-21 14:02:42 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇱🇺 LU-01 | 392ms | vless"
+    type: vless
+    server: "92.223.84.254"
+    port: 443
+    uuid: "740b2630-b42d-425c-bacd-37e7e30d78f1"
+    tls: true
+    udp: true
+    sni: "subgift.gcorecdn.com"
+    servername: "subgift.gcorecdn.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me-SubGift"
+      headers:
+        Host: "subgift.gcorecdn.com"
+  - name: "🇱🇺 LU-02 | 496ms | vless"
+    type: vless
+    server: "subgift.gcorecdn.com"
+    port: 443
+    uuid: "740b2630-b42d-425c-bacd-37e7e30d78f1"
+    tls: true
+    udp: true
+    sni: "subgift.gcorecdn.com"
+    servername: "subgift.gcorecdn.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/t.me-SubGift"
+      headers:
+        Host: "subgift.gcorecdn.com"
