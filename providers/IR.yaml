@@ -1,0 +1,341 @@
+# Mihomo Proxy Provider - IR
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇮🇷 IR-01 | 26ms | vless"
+    type: vless
+    server: "188.114.99.160"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇮🇷 IR-02 | 116ms | vless"
+    type: vless
+    server: "195.216.168.74"
+    port: 8080
+    uuid: "099cb3fe-39cf-400a-bd3e-0bd12e7012bd"
+    tls: false
+    udp: true
+    sni: "digikala.com"
+    servername: "digikala.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-03 | 133ms | vless"
+    type: vless
+    server: "185.143.233.235"
+    port: 80
+    uuid: "22109ab6-bfdd-4062-ae1c-054c74353e39"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-04 | 140ms | vless"
+    type: vless
+    server: "SUR.Deev-Guard.ir"
+    port: 5444
+    uuid: "d1ec39e3-ad7b-4b65-9f65-813696f9a04e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-05 | 243ms | vless"
+    type: vless
+    server: "194.60.228.97"
+    port: 443
+    uuid: "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec"
+    tls: true
+    udp: true
+    sni: "base.hosamobenl.co.uk"
+    servername: "base.hosamobenl.co.uk"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-06 | 251ms | vless"
+    type: vless
+    server: "185.143.234.235"
+    port: 80
+    uuid: "b8799fac-622a-4142-aab2-2aa862ad35f2"
+    tls: false
+    udp: true
+    sni: "vixon.portab.org"
+    servername: "vixon.portab.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vixon.portab.org"
+  - name: "🇮🇷 IR-07 | 254ms | vless"
+    type: vless
+    server: "SUR.Deev-Guard.ir"
+    port: 15470
+    uuid: "d1ec39e3-ad7b-4b65-9f65-813696f9a04e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-08 | 316ms | vless"
+    type: vless
+    server: "SUQmci.Deev-Guard.ir"
+    port: 3036
+    uuid: "d1ec39e3-ad7b-4b65-9f65-813696f9a04e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-09 | 327ms | vless"
+    type: vless
+    server: "shatel3lpggak.adanadurum.site"
+    port: 210
+    uuid: "84ee8067-6d83-4c2d-9d9e-f21926d4d8fe"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-10 | 329ms | vless"
+    type: vless
+    server: "shatel.pastilles.site"
+    port: 198
+    uuid: "84ee8067-6d83-4c2d-9d9e-f21926d4d8fe"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-11 | 337ms | vless"
+    type: vless
+    server: "mos02.electrowizard.ir"
+    port: 5002
+    uuid: "41bcd5ea-f90c-4227-ab6f-23de50b0a226"
+    tls: false
+    udp: true
+    sni: "iranserver.com"
+    servername: "iranserver.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-12 | 364ms | vless"
+    type: vless
+    server: "1.glitchout.ir"
+    port: 443
+    uuid: "2e409cdc-d0c9-4fc0-b285-9371034b8002"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-13 | 394ms | vless"
+    type: vless
+    server: "doccity.ir"
+    port: 443
+    uuid: "574b437b-f673-4eaf-bffc-9d5caa072944"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-14 | 461ms | vless"
+    type: vless
+    server: "gemina.adanadurum.site"
+    port: 193
+    uuid: "84ee8067-6d83-4c2d-9d9e-f21926d4d8fe"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-15 | 482ms | vless"
+    type: vless
+    server: "fr2.meepo1.com"
+    port: 443
+    uuid: "876d5e88-0f16-4889-b21b-d2b544802dce"
+    tls: true
+    udp: true
+    sni: "fr2.meepo1.com"
+    servername: "fr2.meepo1.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-16 | 498ms | vless"
+    type: vless
+    server: "Ir.wbzo.ir"
+    port: 1240
+    uuid: "2c2106e0-2c61-40f8-9249-1843bacbb0ae"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-17 | 502ms | vless"
+    type: vless
+    server: "runner2.panelsaz.com"
+    port: 2087
+    uuid: "3952eeab-61df-44bb-bb8f-161e2dfd0e21"
+    tls: false
+    udp: true
+    sni: "trnewpnltun.mamadhpbot.ir"
+    servername: "trnewpnltun.mamadhpbot.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/upl"
+      headers:
+        Host: "trnewpnltun.mamadhpbot.ir"
+  - name: "🇮🇷 IR-18 | 521ms | vless"
+    type: vless
+    server: "185.143.233.5"
+    port: 80
+    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
+    tls: false
+    udp: true
+    sni: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    servername: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+  - name: "🇮🇷 IR-19 | 529ms | vless"
+    type: vless
+    server: "ge.meepo1.com"
+    port: 443
+    uuid: "876d5e88-0f16-4889-b21b-d2b544802dce"
+    tls: true
+    udp: true
+    sni: "ge.meepo1.com"
+    servername: "ge.meepo1.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-20 | 537ms | vless"
+    type: vless
+    server: "muk.hyperlinkbt.com"
+    port: 11137
+    uuid: "ec7237a3-cbb1-30b8-b695-f049f95da3f9"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "muk.hyperlinkbt.com"
+    servername: "muk.hyperlinkbt.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h3"
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-21 | 594ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "01f93877-3307-4e73-ba4c-592d4489a9ea"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-22 | 606ms | vless"
+    type: vless
+    server: "nl1.hyperlinklt.com"
+    port: 11219
+    uuid: "ec7237a3-cbb1-30b8-b695-f049f95da3f9"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "nl1.hyperlinklt.com"
+    servername: "nl1.hyperlinklt.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇮🇷 IR-23 | 609ms | vless"
+    type: vless
+    server: "nl1.melkban24.ir"
+    port: 3102
+    uuid: "6bf83eb4-6e1a-49e7-b966-30de57239621"
+    flow: "xtls-rprx-vision"
+    tls: false
+    udp: true
+    sni: "Copy_Shode_az_Chanel0111Net"
+    servername: "Copy_Shode_az_Chanel0111Net"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-24 | 612ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "9bb76a75-7ba1-4687-810e-b4dafa9948d7"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-25 | 671ms | vless"
+    type: vless
+    server: "inexall.cloudvipgamefall.ir"
+    port: 8080
+    uuid: "2f5b111e-a2e9-412e-b882-01765aaf6a6d"
+    tls: true
+    udp: true
+    sni: "newnexip1.nexvpnfun.com"
+    servername: "newnexip1.nexvpnfun.com"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-26 | 696ms | vless"
+    type: vless
+    server: "xhtt2.nimbaha9.ir"
+    port: 80
+    uuid: "1c942ed7-fef9-45c6-9873-91f93075185d"
+    tls: false
+    udp: true
+    sni: "xhtt2.nimbaha9.ir"
+    servername: "xhtt2.nimbaha9.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/weqe"
+      headers:
+        Host: "xhtt2.nimbaha9.ir"
+  - name: "🇮🇷 IR-27 | 920ms | vless"
+    type: vless
+    server: "ns2.irts.lol"
+    port: 443
+    uuid: "ff1906a5-a446-44e4-8e72-4e2d61775fa0"
+    tls: true
+    udp: true
+    sni: "ns2.irts.lol"
+    servername: "ns2.irts.lol"
+    client-fingerprint: "chrome"
+  - name: "🇮🇷 IR-28 | 954ms | vless"
+    type: vless
+    server: "gostar27.irtour123.com"
+    port: 443
+    uuid: "ec8bd69a-f2d1-4733-8a27-3cc542bbaed2"
+    tls: true
+    udp: true
+    sni: "gostar27.irtour123.com"
+    servername: "gostar27.irtour123.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vr1027"
+      headers:
+        Host: "gostar27.irtour123.com"
+  - name: "🇮🇷 IR-29 | 1065ms | vless"
+    type: vless
+    server: "abr.superip.ir"
+    port: 2052
+    uuid: "061da3a1-0b8a-4abe-a739-8b33ae5519c4"
+    tls: false
+    udp: true
+    sni: "library.phill-up.ir"
+    servername: "library.phill-up.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/API/superip"
+      headers:
+        Host: "library.phill-up.ir"
+  - name: "🇮🇷 IR-30 | 1204ms | vless"
+    type: vless
+    server: "dl1-de1.penguin-easyconnet.ir"
+    port: 443
+    uuid: "8f371e61-885d-4461-a0a9-3460aa1f8e6d"
+    tls: true
+    udp: true
+    sni: "dl1-de1.penguin-easyconnet.ir"
+    servername: "dl1-de1.penguin-easyconnet.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/games/fortnite"
+      headers:
+        Host: "dl1-de1.penguin-easyconnet.ir"

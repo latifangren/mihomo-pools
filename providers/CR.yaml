@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - CR
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇨🇷 CR-01 | 99ms | trojan"
+    type: trojan
+    server: "190.93.244.202"
+    port: 443
+    password: "bpb-trojan"
+    tls: true
+    udp: true
+    sni: "fcspring.ggff.net"
+    servername: "fcspring.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tr"
+      headers:
+        Host: "fcspring.ggff.net"

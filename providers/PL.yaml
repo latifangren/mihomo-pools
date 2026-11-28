@@ -1,0 +1,81 @@
+# Mihomo Proxy Provider - PL
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 6
+
+proxies:
+  - name: "🇵🇱 PL-01 | 76ms | vless"
+    type: vless
+    server: "104.26.14.85"
+    port: 8443
+    uuid: "f798a2c4-c51b-409d-b349-ca8455b36796"
+    tls: true
+    udp: true
+    sni: "chopin.adaspoloandco.com"
+    servername: "chopin.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "chopin.adaspoloandco.com"
+  - name: "🇵🇱 PL-02 | 260ms | vless"
+    type: vless
+    server: "45.194.66.177"
+    port: 443
+    uuid: "352a250d-080b-47b5-b7db-f9f8fa31c551"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "31tawwo0.virtual-network.lol"
+    servername: "31tawwo0.virtual-network.lol"
+    client-fingerprint: "chrome"
+  - name: "🇵🇱 PL-03 | 317ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c365a38d-be89-4962-81c4-facfaadfa034"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-04 | 325ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "c8e2d425-0c38-4271-bf41-1d77566ebaa9"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-05 | 455ms | vless"
+    type: vless
+    server: "cdn-waw.edgeptr.org"
+    port: 2052
+    uuid: "8419bd29-8bd4-4a38-a739-d5d7adeb5c3c"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇵🇱 PL-06 | 542ms | trojan"
+    type: trojan
+    server: "78.17.171.140"
+    port: 2053
+    password: "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX"
+    tls: true
+    udp: true
+    sni: "ra-p1.victorycloud.ru"
+    servername: "ra-p1.victorycloud.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/2fc2ec03a65d451dffa4592d68c43a29"
+      headers:
+        Host: "ra-p1.victorycloud.ru"

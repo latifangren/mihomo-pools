@@ -1,0 +1,110 @@
+# Mihomo Proxy Provider - IL
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 7
+
+proxies:
+  - name: "🇮🇱 IL-01 | 76ms | vless"
+    type: vless
+    server: "104.21.63.28"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-02 | 76ms | vless"
+    type: vless
+    server: "104.16.10.121"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-03 | 78ms | vless"
+    type: vless
+    server: "104.21.60.109"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-04 | 79ms | vless"
+    type: vless
+    server: "104.16.10.100"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-05 | 80ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-06 | 80ms | vless"
+    type: vless
+    server: "104.21.236.63"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"
+  - name: "🇮🇱 IL-07 | 83ms | vless"
+    type: vless
+    server: "104.24.0.184"
+    port: 443
+    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    tls: true
+    udp: true
+    sni: "cfvvv-ev1.pages.dev"
+    servername: "cfvvv-ev1.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cfvvv-ev1.pages.dev"

@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - BG
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇧🇬 BG-01 | 959ms | vless"
+    type: vless
+    server: "89.117.112.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"

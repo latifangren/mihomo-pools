@@ -1,0 +1,168 @@
+# Mihomo Proxy Provider - RU
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 12
+
+proxies:
+  - name: "🇷🇺 RU-01 | 153ms | vless"
+    type: vless
+    server: "176.114.95.249"
+    port: 443
+    uuid: "9a591702-24c7-4abf-9f14-ac59438a64e6"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-02 | 243ms | vless"
+    type: vless
+    server: "196.240.125.12"
+    port: 8443
+    uuid: "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "api-v2-6b09ce88.vmagnum.win"
+    servername: "api-v2-6b09ce88.vmagnum.win"
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-03 | 288ms | vless"
+    type: vless
+    server: "nl.alpheratzz.org"
+    port: 8443
+    uuid: "0173d52e-8e1b-4681-831e-11529677b72f"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "api-v1-6b07048f.vmagnum.win"
+    servername: "api-v1-6b07048f.vmagnum.win"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+  - name: "🇷🇺 RU-04 | 301ms | vless"
+    type: vless
+    server: "92.63.189.39"
+    port: 8443
+    uuid: "7aa77858-f235-44d6-9434-7ab060848b17"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "avelon.onl"
+    servername: "avelon.onl"
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-05 | 303ms | vless"
+    type: vless
+    server: "194.26.229.207"
+    port: 2200
+    uuid: "026ecbd6-2838-40f6-b530-d2c303c4f629"
+    tls: false
+    udp: true
+    sni: "rzd.ru"
+    servername: "rzd.ru"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/v1"
+      headers:
+        Host: "rzd.ru"
+  - name: "🇷🇺 RU-06 | 316ms | vless"
+    type: vless
+    server: "92.63.189.39"
+    port: 8443
+    uuid: "7aa77858-f235-0003-9434-7ab060848b17"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "avelon.onl"
+    servername: "avelon.onl"
+    client-fingerprint: "chrome"
+  - name: "🇷🇺 RU-07 | 408ms | vless"
+    type: vless
+    server: "188.225.34.128"
+    port: 443
+    uuid: "b9ae9395-c3e4-4212-86b8-d27a92f214dd"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "edge-de5.mystatic-cdn.ru"
+    servername: "edge-de5.mystatic-cdn.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+  - name: "🇷🇺 RU-08 | 655ms | vless"
+    type: vless
+    server: "213.183.45.23"
+    port: 8450
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    tls: true
+    udp: true
+    sni: "fonts.plumstatic.com"
+    servername: "fonts.plumstatic.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "fonts.plumstatic.com"
+  - name: "🇷🇺 RU-09 | 676ms | vless"
+    type: vless
+    server: "er5we.cf.877774.xyz"
+    port: 443
+    uuid: "531d9e93-53be-4f05-a9c1-33490d4da2f3"
+    tls: true
+    udp: true
+    sni: "era01.gg9901.uk"
+    servername: "era01.gg9901.uk"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/images"
+      headers:
+        Host: "era01.gg9901.uk"
+  - name: "🇷🇺 RU-10 | 804ms | vless"
+    type: vless
+    server: "sienna.merlano.monster"
+    port: 443
+    uuid: "749b1c56-e658-4bf5-94bd-5c3286a4aed1"
+    tls: true
+    udp: true
+    sni: "sienna.merlano.monster"
+    servername: "sienna.merlano.monster"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/de4/stream"
+      headers:
+        Host: "sienna.merlano.monster"
+  - name: "🇷🇺 RU-11 | 924ms | vless"
+    type: vless
+    server: "woodgrain.filnex.baby"
+    port: 443
+    uuid: "749b1c56-e658-4bf5-94bd-5c3286a4aed1"
+    tls: true
+    udp: true
+    sni: "larchbank.elvano.website"
+    servername: "larchbank.elvano.website"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/de2/stream"
+      headers:
+        Host: "woodgrain.filnex.baby"
+  - name: "🇷🇺 RU-12 | 1033ms | vless"
+    type: vless
+    server: "bookend.filnex.baby"
+    port: 443
+    uuid: "749b1c56-e658-4bf5-94bd-5c3286a4aed1"
+    tls: true
+    udp: true
+    sni: "ferncrest.gerqix.online"
+    servername: "ferncrest.gerqix.online"
+    client-fingerprint: "firefox"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/api/de1/stream"
+      headers:
+        Host: "bookend.filnex.baby"

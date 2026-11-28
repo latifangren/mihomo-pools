@@ -1,0 +1,425 @@
+# Mihomo Proxy Provider - CA
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 30
+
+proxies:
+  - name: "🇨🇦 CA-01 | 15ms | vless"
+    type: vless
+    server: "104.31.16.65"
+    port: 2095
+    uuid: "38ace213-5184-477b-ac3e-d800d0cf3cd9"
+    tls: false
+    udp: true
+    sni: "de1.vlessx.xyz"
+    servername: "de1.vlessx.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "de1.vlessx.xyz"
+  - name: "🇨🇦 CA-02 | 24ms | trojan"
+    type: trojan
+    server: "23.227.38.61"
+    port: 443
+    password: "531d9e93-53be-4f05-a9c1-33490d4da2f3"
+    tls: true
+    udp: true
+    sni: "44-ml-1.ccc4vortex.top"
+    servername: "44-ml-1.ccc4vortex.top"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇨🇦 CA-03 | 24ms | vless"
+    type: vless
+    server: "185.18.250.127"
+    port: 2096
+    uuid: "2ee26119-94e5-40b4-ba3a-16354021b600"
+    tls: true
+    udp: true
+    sni: "69565ce3109804e7813f98ee.mmdbay.blog"
+    servername: "69565ce3109804e7813f98ee.mmdbay.blog"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/graphql"
+      headers:
+        Host: "69565ce3109804e7813f98ee.mmdbay.blog"
+  - name: "🇨🇦 CA-04 | 24ms | vless"
+    type: vless
+    server: "173.245.59.191"
+    port: 8443
+    uuid: "5acc4610-f2d7-44c9-bbe6-c0ee6a058aac"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-05 | 49ms | trojan"
+    type: trojan
+    server: "216.152.147.201"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "resources.connectingpeoplewithgreatjobs.com"
+    servername: "resources.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-06 | 51ms | trojan"
+    type: trojan
+    server: "216.152.147.93"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "connectingpeoplewithgreatjobs.com"
+    servername: "connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-07 | 52ms | trojan"
+    type: trojan
+    server: "216.152.147.152"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "learn.connectingpeoplewithgreatjobs.com"
+    servername: "learn.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-08 | 57ms | trojan"
+    type: trojan
+    server: "216.152.147.79"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "blog.connectingpeoplewithgreatjobs.com"
+    servername: "blog.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-09 | 58ms | trojan"
+    type: trojan
+    server: "3x-sub.linzhonghong.com"
+    port: 443
+    password: "c48qMRRfLJ3kwD4P_XpgfIq6"
+    tls: true
+    udp: true
+    sni: "3x-sub.linzhonghong.com"
+    servername: "3x-sub.linzhonghong.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇨🇦 CA-10 | 70ms | trojan"
+    type: trojan
+    server: "216.152.147.89"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "www.connectingpeoplewithgreatjobs.com"
+    servername: "www.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-11 | 71ms | trojan"
+    type: trojan
+    server: "216.152.147.74"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "api.connectingpeoplewithgreatjobs.com"
+    servername: "api.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-12 | 72ms | trojan"
+    type: trojan
+    server: "216.152.147.48"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "courses.connectingpeoplewithgreatjobs.com"
+    servername: "courses.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-13 | 74ms | trojan"
+    type: trojan
+    server: "216.152.147.85"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "cdn.connectingpeoplewithgreatjobs.com"
+    servername: "cdn.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-14 | 78ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.net"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-15 | 79ms | vless"
+    type: vless
+    server: "chatgpt.com"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    tls: true
+    udp: true
+    sni: "ccc.010304.xyz"
+    servername: "ccc.010304.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ccc.010304.xyz"
+  - name: "🇨🇦 CA-16 | 81ms | vless"
+    type: vless
+    server: "66.163.113.9"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    tls: true
+    udp: true
+    sni: "kuruish.org"
+    servername: "kuruish.org"
+    client-fingerprint: "chrome"
+  - name: "🇨🇦 CA-17 | 83ms | vless"
+    type: vless
+    server: "172.67.74.10"
+    port: 2087
+    uuid: "97ea73b6-2043-4238-903c-a1e3d4a43c96"
+    tls: true
+    udp: true
+    sni: "amphetamine.adaspoloandco.com"
+    servername: "amphetamine.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "amphetamine.adaspoloandco.com"
+  - name: "🇨🇦 CA-18 | 83ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.netfp=chrome"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-19 | 84ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-20 | 87ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-21 | 87ms | vless"
+    type: vless
+    server: "172.64.155.209"
+    port: 8443
+    uuid: "e8c61352-444f-4154-ba34-9d3141154a8d"
+    tls: true
+    udp: true
+    sni: "maple.adaspoloandco.com"
+    servername: "maple.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/uploader.php"
+      headers:
+        Host: "maple.adaspoloandco.com"
+  - name: "🇨🇦 CA-22 | 93ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-23 | 93ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip?ed"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-24 | 94ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    packet-encoding: "xudp"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-25 | 96ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.net?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-26 | 97ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-27 | 98ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.CMLiussss.netfp=chrome"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-28 | 100ms | vless"
+    type: vless
+    server: "172.64.154.113"
+    port: 8443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-29 | 100ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇨🇦 CA-30 | 100ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+      headers:
+        Host: "freeceshi6.frii.site"

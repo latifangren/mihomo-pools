@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - HU
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇭🇺 HU-01 | 994ms | vless"
+    type: vless
+    server: "74.49.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺 HU-02 | 1031ms | vless"
+    type: vless
+    server: "141.11.202.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"

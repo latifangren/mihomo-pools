@@ -1,0 +1,16 @@
+# Mihomo Proxy Provider - TW
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇹🇼 TW-01 | 404ms | trojan"
+    type: trojan
+    server: "t2w2t2w2.bpca2026.top"
+    port: 443
+    password: "531d9e93-53be-4f05-a9c1-33490d4da2f3"
+    tls: true
+    udp: true
+    sni: "t2w2t2w2.bpca2026.top"
+    servername: "t2w2t2w2.bpca2026.top"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true

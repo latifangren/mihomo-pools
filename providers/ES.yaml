@@ -1,0 +1,55 @@
+# Mihomo Proxy Provider - ES
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇪🇸 ES-01 | 243ms | trojan"
+    type: trojan
+    server: "66.163.118.40"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "cdn.discovergreatjobsandadvanceyourcareer.com"
+    servername: "cdn.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-02 | 250ms | trojan"
+    type: trojan
+    server: "66.163.118.203"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "blog.discovergreatjobsandadvanceyourcareer.com"
+    servername: "blog.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-03 | 253ms | trojan"
+    type: trojan
+    server: "66.163.118.244"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "api.discovergreatjobsandadvanceyourcareer.com"
+    servername: "api.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-04 | 256ms | trojan"
+    type: trojan
+    server: "66.163.118.62"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "courses.discovergreatjobsandadvanceyourcareer.com"
+    servername: "courses.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇪🇸 ES-05 | 265ms | trojan"
+    type: trojan
+    server: "66.163.118.251"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "resources.discovergreatjobsandadvanceyourcareer.com"
+    servername: "resources.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"

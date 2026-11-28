@@ -1,0 +1,39 @@
+# Mihomo Proxy Provider - AR
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇦🇷 AR-01 | 105ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/%2Fproxyip%3DProxyIP.JP.CMLiussss.net"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇦🇷 AR-02 | 106ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "freeceshi6.frii.site"

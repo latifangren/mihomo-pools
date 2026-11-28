@@ -1,0 +1,218 @@
+# Mihomo Proxy Provider - FR
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 16
+
+proxies:
+  - name: "🇫🇷 FR-01 | 26ms | vless"
+    type: vless
+    server: "104.27.66.214"
+    port: 8443
+    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-02 | 118ms | vless"
+    type: vless
+    server: "162.159.253.41"
+    port: 8443
+    uuid: "a47c49ec-6eaa-44ce-9108-8427426a1123"
+    tls: true
+    udp: true
+    sni: "ratatouille.adaspoloandco.com"
+    servername: "ratatouille.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/admin.php"
+      headers:
+        Host: "ratatouille.adaspoloandco.com"
+  - name: "🇫🇷 FR-03 | 125ms | vless"
+    type: vless
+    server: "15.237.21.171"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-04 | 243ms | vless"
+    type: vless
+    server: "88.151.197.87"
+    port: 2025
+    uuid: "1697852e-cd5c-472d-b377-0def0f301d98"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇫🇷 FR-05 | 246ms | vless"
+    type: vless
+    server: "31.77.227.10"
+    port: 52006
+    uuid: "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f"
+    flow: "xtls-rprx-vision-udp443"
+    tls: true
+    udp: true
+    sni: "fr.setlisting.ru"
+    servername: "fr.setlisting.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇷 FR-06 | 280ms | vless"
+    type: vless
+    server: "136.148.83.69"
+    port: 443
+    uuid: "7dff1be7-b930-0001-a8ad-dc7850168215"
+    tls: true
+    udp: true
+    sni: "szqbx-ru-77dc.my-fade.cloud"
+    servername: "szqbx-ru-77dc.my-fade.cloud"
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-07 | 293ms | vless"
+    type: vless
+    server: "nasnet-162191099-direct.mbghalibaf.com"
+    port: 443
+    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "nasnet-162191099-direct.mbghalibaf.com"
+    servername: "nasnet-162191099-direct.mbghalibaf.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+  - name: "🇫🇷 FR-08 | 311ms | vless"
+    type: vless
+    server: "136.148.83.71"
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    tls: true
+    udp: true
+    sni: "wccfu-ru-79dc.my-fade.cloud"
+    servername: "wccfu-ru-79dc.my-fade.cloud"
+    client-fingerprint: "qq"
+  - name: "🇫🇷 FR-09 | 316ms | vless"
+    type: vless
+    server: "136.148.83.70"
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    tls: true
+    udp: true
+    sni: "aszbk-ru-78dc.my-fade.cloud"
+    servername: "aszbk-ru-78dc.my-fade.cloud"
+    client-fingerprint: "qq"
+  - name: "🇫🇷 FR-10 | 323ms | vless"
+    type: vless
+    server: "136.148.83.69"
+    port: 443
+    uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
+    tls: true
+    udp: true
+    sni: "szqbx-ru-77dc.my-fade.cloud"
+    servername: "szqbx-ru-77dc.my-fade.cloud"
+    client-fingerprint: "chrome"
+  - name: "🇫🇷 FR-11 | 391ms | vless"
+    type: vless
+    server: "fr.connfull.org"
+    port: 9443
+    uuid: "19f51967-ca91-4fab-a37b-51c424de801d"
+    tls: true
+    udp: true
+    sni: "fr.connfull.org"
+    servername: "fr.connfull.org"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/stream"
+      headers:
+        Host: "fr.connfull.org"
+  - name: "🇫🇷 FR-12 | 445ms | vless"
+    type: vless
+    server: "fr.fxhunter.ir"
+    port: 4433
+    uuid: "a82b1829-003d-452f-8606-e17ab28c3330"
+    tls: false
+    udp: true
+    sni: "fr.fxhuntet.ir"
+    servername: "fr.fxhuntet.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/Fredxhunter"
+      headers:
+        Host: "fr.fxhuntet.ir"
+  - name: "🇫🇷 FR-13 | 493ms | vless"
+    type: vless
+    server: "199.232.169.135"
+    port: 443
+    uuid: "f408696c-cdbe-49a1-90e9-ab602003315c"
+    tls: true
+    udp: true
+    sni: "speedtest.net"
+    servername: "speedtest.net"
+    client-fingerprint: "randomized"
+    network: ws
+    ws-opts:
+      path: "/MinoVpnCh?ed=2048"
+      headers:
+        Host: "googleb.net"
+  - name: "🇫🇷 FR-14 | 958ms | vless"
+    type: vless
+    server: "147.93.171.8"
+    port: 8443
+    uuid: "591e7de6-f2dd-4ff9-ae21-8e00d5affa2a"
+    tls: true
+    udp: true
+    sni: "147-93-171-8.sslip.io"
+    servername: "147-93-171-8.sslip.io"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/vpn-live"
+      headers:
+        Host: "147-93-171-8.sslip.io"
+  - name: "🇫🇷 FR-15 | 1029ms | vless"
+    type: vless
+    server: "185.193.31.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇫🇷 FR-16 | 1250ms | vless"
+    type: vless
+    server: "138.124.70.41"
+    port: 14430
+    uuid: "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc"
+    tls: false
+    udp: true
+    sni: "138.124.70.41"
+    servername: "138.124.70.41"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: "138.124.70.41"

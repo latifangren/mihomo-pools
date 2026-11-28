@@ -1,0 +1,242 @@
+# Mihomo Proxy Provider - GB
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 19
+
+proxies:
+  - name: "🇬🇧 GB-01 | 14ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a54"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-02 | 18ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a00"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-03 | 29ms | vless"
+    type: vless
+    server: "172.64.159.64"
+    port: 80
+    uuid: "977bac99-33d4-408a-91f5-0ce737793a50"
+    tls: false
+    udp: true
+    sni: "britain.vipserver14.workers.dev"
+    servername: "britain.vipserver14.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "britain.vipserver14.workers.dev"
+  - name: "🇬🇧 GB-04 | 75ms | vless"
+    type: vless
+    server: "104.26.0.7"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-05 | 78ms | vless"
+    type: vless
+    server: "104.18.38.33"
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    udp: true
+    sni: "fs.qicai99.com"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇬🇧 GB-06 | 81ms | vless"
+    type: vless
+    server: "172.67.74.10"
+    port: 443
+    uuid: "d171491a-9995-46ce-8719-f64463ca3a45"
+    tls: true
+    udp: true
+    sni: "sertraline.adaspoloandco.com"
+    servername: "sertraline.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/download.php"
+      headers:
+        Host: "sertraline.adaspoloandco.com"
+  - name: "🇬🇧 GB-07 | 101ms | vless"
+    type: vless
+    server: "13.134.197.3"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-08 | 105ms | vless"
+    type: vless
+    server: "35.179.60.86"
+    port: 22222
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-09 | 111ms | vless"
+    type: vless
+    server: "35.179.60.86"
+    port: 22224
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-10 | 112ms | vless"
+    type: vless
+    server: "35.179.60.86"
+    port: 22223
+    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-11 | 113ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
+    tls: true
+    udp: true
+    sni: "freeceshi6.frii.site"
+    servername: "freeceshi6.frii.site"
+    client-fingerprint: "unsafe"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/?Telegram---Safewebsbot"
+      headers:
+        Host: "freeceshi6.frii.site"
+  - name: "🇬🇧 GB-12 | 115ms | vless"
+    type: vless
+    server: "144.126.195.184"
+    port: 443
+    uuid: "e009ee66-9d4f-4e88-b261-f73bc0d77aab"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-13 | 233ms | vless"
+    type: vless
+    server: "82.152.18.32"
+    port: 443
+    uuid: "a61ce788-6cfe-4bbe-9f81-155ea8fa8e16"
+    tls: true
+    udp: true
+    sni: "diyichongdi.us.ci"
+    servername: "diyichongdi.us.ci"
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-14 | 639ms | trojan"
+    type: trojan
+    server: "sclass-c2.catcat321.com"
+    port: 20051
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-15 | 673ms | trojan"
+    type: trojan
+    server: "sclass-01.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+  - name: "🇬🇧 GB-16 | 986ms | vless"
+    type: vless
+    server: "185.162.228.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇬🇧 GB-17 | 991ms | vless"
+    type: vless
+    server: "45.85.118.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇬🇧 GB-18 | 1010ms | vless"
+    type: vless
+    server: "89.116.46.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇬🇧 GB-19 | 3402ms | vless"
+    type: vless
+    server: "51.38.71.147"
+    port: 443
+    uuid: "fda89998-7e9a-4494-857a-cd0d00661b58"
+    tls: true
+    udp: true
+    sni: "uk1.connectsuite.org"
+    servername: "uk1.connectsuite.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/cdn-cgi/ws"
+      headers:
+        Host: "uk1.connectsuite.org"

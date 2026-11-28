@@ -1,0 +1,1 @@
+vless://047020df-f518-4b9b-a2d6-8e86f56f8c6e@subgift3.gcorecdn.com:443?encryption=mlkem768x25519plus.native.0rtt.8zXHNNlVq76P6zwMb6KN8crgkUR765MKT9-lpQP7CQk&flow=xtls-rprx-vision&security=tls&sni=subgift3.gcorecdn.com&type=ws&host=subgift3.gcorecdn.com&path=/t.me-SubGift#Join: t.me/SubGift-210

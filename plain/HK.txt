@@ -1,0 +1,4 @@
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@Sclass-00.catcat321.com:20123?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hk.catxstar.com#@v2FreeHub | Hong Kong 🇭🇰
+trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-00.catcat321.com:20103?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hk.catxstar.com&host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET#@v2FreeHub | Hong Kong 🇭🇰
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-00.catcat321.com:20103?security=tls&sni=hk.catxstar.com#@v2FreeHub | Hong Kong 🇭🇰
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-c1.catcat321.com:20051?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hk.catxstar.com#@v2FreeHub | Hong Kong 🇭🇰

@@ -1,0 +1,20 @@
+# Mihomo Proxy Provider - CZ
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇨🇿 CZ-01 | 650ms | vless"
+    type: vless
+    server: "91.184.249.146"
+    port: 443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    tls: true
+    udp: true
+    sni: "v1n4.11676767.xyz"
+    servername: "v1n4.11676767.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pdf/out.html"
+      headers:
+        Host: "v1n4.11676767.xyz"

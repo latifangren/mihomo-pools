@@ -1,0 +1,109 @@
+# Mihomo Proxy Provider - FI
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 8
+
+proxies:
+  - name: "🇫🇮 FI-01 | 31ms | vless"
+    type: vless
+    server: "104.19.64.105"
+    port: 8443
+    uuid: "bb3f7d41-a044-4937-bf6f-4a3d1a70db06"
+    tls: true
+    udp: true
+    sni: "interim.adaspoloandco.com"
+    servername: "interim.adaspoloandco.com"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/RoBeRt"
+      headers:
+        Host: "interim.adaspoloandco.com"
+  - name: "🇫🇮 FI-02 | 91ms | trojan"
+    type: trojan
+    server: "66.163.112.142"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "cdn.unlockyourfuturefindyourperfectcareer.com"
+    servername: "cdn.unlockyourfuturefindyourperfectcareer.com"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-03 | 138ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-04 | 146ms | vless"
+    type: vless
+    server: "213.176.17.26"
+    port: 80
+    uuid: "2cbf569e-c8f6-4ffb-bf17-495c8d7f1ea2"
+    tls: false
+    udp: true
+    sni: "/%3"
+    servername: "/%3"
+    client-fingerprint: "chrome"
+  - name: "🇫🇮 FI-05 | 252ms | trojan"
+    type: trojan
+    server: "fi.zhabulik.ru"
+    port: 443
+    password: "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj"
+    tls: true
+    udp: true
+    sni: "fi.zhabulik.ru"
+    servername: "fi.zhabulik.ru"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇫🇮 FI-06 | 686ms | vless"
+    type: vless
+    server: "84.22.150.47"
+    port: 443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    tls: true
+    udp: true
+    sni: "v1n4.11676767.xyz"
+    servername: "v1n4.11676767.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/pdf/out.html"
+      headers:
+        Host: "v1n4.11676767.xyz"
+  - name: "🇫🇮 FI-07 | 713ms | vless"
+    type: vless
+    server: "c.mhzedir.qzz.io"
+    port: 8081
+    uuid: "13001c5c-c691-4d64-a8ff-83084ff82d3c"
+    tls: true
+    udp: true
+    sni: "ang-el.ir"
+    servername: "ang-el.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ang-el.ir"
+  - name: "🇫🇮 FI-08 | 1049ms | vless"
+    type: vless
+    server: "45.142.120.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"

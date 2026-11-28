@@ -1,0 +1,116 @@
+# Mihomo Proxy Provider - JP
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 8
+
+proxies:
+  - name: "🇯🇵 JP-01 | 296ms | vless"
+    type: vless
+    server: "50.7.159.242"
+    port: 443
+    uuid: "8840fac2-5361-4cb6-b887-cd1b95092394"
+    tls: true
+    udp: true
+    sni: "jp.reddotcorp.org"
+    servername: "jp.reddotcorp.org"
+    client-fingerprint: "chrome"
+  - name: "🇯🇵 JP-02 | 655ms | vless"
+    type: vless
+    server: "jllp.cf.877774.xyz"
+    port: 443
+    uuid: "531d9e93-53be-4f05-a9c1-33490d4da2f3"
+    tls: true
+    udp: true
+    sni: "jp.bbusxxxh.top"
+    servername: "jp.bbusxxxh.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/images"
+      headers:
+        Host: "jp.bbusxxxh.top"
+  - name: "🇯🇵 JP-03 | 1186ms | vless"
+    type: vless
+    server: "62.106.70.68"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-04 | 1331ms | vless"
+    type: vless
+    server: "155.248.175.201"
+    port: 23169
+    uuid: "f67b1159-a61f-4ae4-9844-0701b716a290"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "djj.zjlo.top"
+    servername: "djj.zjlo.top"
+    client-fingerprint: "edge"
+  - name: "🇯🇵 JP-05 | 1465ms | vless"
+    type: vless
+    server: "43.170.8.95"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-06 | 1619ms | vless"
+    type: vless
+    server: "213.183.41.31"
+    port: 8463
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    tls: true
+    udp: true
+    sni: "share.plumstatic.com"
+    servername: "share.plumstatic.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "share.plumstatic.com"
+  - name: "🇯🇵 JP-07 | 1695ms | vless"
+    type: vless
+    server: "131.143.214.224"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 JP-08 | 2755ms | vless"
+    type: vless
+    server: "154.31.114.162"
+    port: 8443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    udp: true
+    sni: "jp3.yohototo.top"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"

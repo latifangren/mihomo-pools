@@ -1,0 +1,45 @@
+# Mihomo Proxy Provider - IN
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 3
+
+proxies:
+  - name: "🇮🇳 IN-01 | 561ms | vless"
+    type: vless
+    server: "kuruish.org"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    tls: true
+    udp: true
+    sni: "kuruish.org"
+    servername: "kuruish.org"
+    client-fingerprint: "chrome"
+  - name: "🇮🇳 IN-02 | 963ms | vless"
+    type: vless
+    server: "154.198.173.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2fp=chrome"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇮🇳 IN-03 | 1480ms | vless"
+    type: vless
+    server: "xray-ikmqcro3-rapid-river-6.cloady.io"
+    port: 443
+    uuid: "213224a4-6cd1-b7f4-8bbc-4f50e5ed847b"
+    tls: true
+    udp: true
+    sni: "xray-ikmqcro3-rapid-river-6.cloady.io"
+    servername: "xray-ikmqcro3-rapid-river-6.cloady.io"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/c54a815e676d9acc"
+      headers:
+        Host: "xray-ikmqcro3-rapid-river-6.cloady.io"

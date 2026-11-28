@@ -1,0 +1,174 @@
+# Mihomo Proxy Provider - TR
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 13
+
+proxies:
+  - name: "🇹🇷 TR-01 | 100ms | trojan"
+    type: trojan
+    server: "167.88.61.20"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    udp: true
+    sni: "api.browseseniorrolesandenhanceyourcareertoday.com"
+    servername: "api.browseseniorrolesandenhanceyourcareertoday.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-02 | 159ms | vless"
+    type: vless
+    server: "188.132.174.14"
+    port: 24
+    uuid: "7d5cdbb1-9632-483a-9b50-27932cfa9390"
+    tls: false
+    udp: true
+    sni: "play.google.com"
+    servername: "play.google.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-03 | 336ms | vless"
+    type: vless
+    server: "turkey-ip1.mmdaqaorg.xyz"
+    port: 50738
+    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    tls: true
+    udp: true
+    sni: "turkey-ip1.mmdaqaorg.xyz"
+    servername: "turkey-ip1.mmdaqaorg.xyz"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇹🇷 TR-04 | 370ms | vless"
+    type: vless
+    server: "tr.subscriptionservice.ir"
+    port: 8443
+    uuid: "00c93313-37e9-4d96-8ab6-b4294170ef06"
+    tls: false
+    udp: true
+    sni: "play.googleapis.com"
+    servername: "play.googleapis.com"
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-05 | 370ms | vless"
+    type: vless
+    server: "vpnstan.ahbpanel.ir"
+    port: 443
+    uuid: "840e19c5-7fd6-4052-a951-0b5757ec64c8"
+    tls: false
+    udp: true
+    client-fingerprint: "chrome"
+  - name: "🇹🇷 TR-06 | 427ms | vless"
+    type: vless
+    server: "game.celvixo.ir"
+    port: 2087
+    uuid: "bf013539-41db-4d80-6c90-32f5041757e3"
+    tls: false
+    udp: true
+    sni: "cp.xelzano.ir"
+    servername: "cp.xelzano.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cp.xelzano.ir"
+  - name: "🇹🇷 TR-07 | 435ms | vless"
+    type: vless
+    server: "leviko-tr3795.shopingggg.ir"
+    port: 50738
+    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    tls: true
+    udp: true
+    sni: "turkey-ip1.mmdaqaorg.xyz"
+    servername: "turkey-ip1.mmdaqaorg.xyz"
+    client-fingerprint: "chrome"
+    alpn:
+      - "h2"
+      - "http/1.1"
+  - name: "🇹🇷 TR-08 | 511ms | vless"
+    type: vless
+    server: "turkey.nyanners.ir"
+    port: 2032
+    uuid: "555bd59a-07db-4f19-868a-6f514d06947f"
+    tls: false
+    udp: true
+    sni: "turkey.nyanners.ir"
+    servername: "turkey.nyanners.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/audio"
+      headers:
+        Host: "turkey.nyanners.ir"
+  - name: "🇹🇷 TR-09 | 615ms | vless"
+    type: vless
+    server: "v1.nimbaha13.ir"
+    port: 8880
+    uuid: "1c942ed7-fef9-45c6-9873-91f93075185d"
+    tls: false
+    udp: true
+    sni: "v1.nimbaha13.ir"
+    servername: "v1.nimbaha13.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dcfrtt"
+      headers:
+        Host: "v1.nimbaha13.ir"
+  - name: "🇹🇷 TR-10 | 650ms | vless"
+    type: vless
+    server: "v2new.nimbaha9.ir"
+    port: 8080
+    uuid: "f279c19a-b324-40cf-af57-049f9b1b68f2"
+    tls: false
+    udp: true
+    sni: "v2new.nimbaha9.ir"
+    servername: "v2new.nimbaha9.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/XDS45"
+      headers:
+        Host: "v2new.nimbaha9.ir"
+  - name: "🇹🇷 TR-11 | 657ms | vless"
+    type: vless
+    server: "v2new.nimbaha9.ir"
+    port: 8080
+    uuid: "b1758b10-8da1-4791-a1b3-44a77deea1ed"
+    tls: false
+    udp: true
+    sni: "v2new.nimbaha9.ir"
+    servername: "v2new.nimbaha9.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/XDS45"
+      headers:
+        Host: "v2new.nimbaha9.ir"
+  - name: "🇹🇷 TR-12 | 668ms | vless"
+    type: vless
+    server: "v2new.nimbaha9.ir"
+    port: 8080
+    uuid: "308230a0-0097-4158-98d7-8f09bf339d60"
+    tls: false
+    udp: true
+    sni: "v2new.nimbaha9.ir"
+    servername: "v2new.nimbaha9.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/XDS45"
+      headers:
+        Host: "v2new.nimbaha9.ir"
+  - name: "🇹🇷 TR-13 | 1010ms | vless"
+    type: vless
+    server: "86.38.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"

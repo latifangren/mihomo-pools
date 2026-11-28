@@ -1,0 +1,35 @@
+# Mihomo Proxy Provider - BZ
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 2
+
+proxies:
+  - name: "🇧🇿 BZ-01 | 23ms | vless"
+    type: vless
+    server: "45.131.4.115"
+    port: 80
+    uuid: "74ed78f1-4095-47e6-b043-094e494fb7e5"
+    tls: false
+    udp: true
+    sni: "worker3.gisenoj224.workers.dev"
+    servername: "worker3.gisenoj224.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sVnT0vhrV7WAl52Z"
+      headers:
+        Host: "worker3.gisenoj224.workers.dev"
+  - name: "🇧🇿 BZ-02 | 1033ms | vless"
+    type: vless
+    server: "45.131.7.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    tls: true
+    udp: true
+    sni: "speed.dulacloud.store"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"

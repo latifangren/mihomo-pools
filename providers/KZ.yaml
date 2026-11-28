@@ -1,0 +1,16 @@
+# Mihomo Proxy Provider - KZ
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 1
+
+proxies:
+  - name: "🇰🇿 KZ-01 | 286ms | vless"
+    type: vless
+    server: "196.198.111.166"
+    port: 8443
+    uuid: "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5"
+    flow: "xtls-rprx-vision"
+    tls: true
+    udp: true
+    sni: "usr-6b09ce88-api-v3.alcors.net"
+    servername: "usr-6b09ce88-api-v3.alcors.net"
+    client-fingerprint: "firefox"

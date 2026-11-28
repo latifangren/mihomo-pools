@@ -1,0 +1,86 @@
+# Mihomo Proxy Provider - AU
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 5
+
+proxies:
+  - name: "🇦🇺 AU-01 | 82ms | vless"
+    type: vless
+    server: "1.1.1.1"
+    port: 443
+    uuid: "00000000-0000-0000-0000-000000000000"
+    tls: true
+    udp: true
+    sni: "1.1.1.1"
+    servername: "1.1.1.1"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "1.1.1.1"
+  - name: "🇦🇺 AU-02 | 84ms | vless"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-03 | 89ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/fdip"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-04 | 90ms | vless"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    udp: true
+    sni: "snip.edgeoneai.cc.cd"
+    servername: "snip.edgeoneai.cc.cd"
+    client-fingerprint: "chrome"
+    alpn:
+      - "http/1.1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇦🇺 AU-05 | 859ms | vless"
+    type: vless
+    server: "46.250.246.11"
+    port: 8443
+    uuid: "591e7de6-f2dd-4ff9-ae21-8e00d5affa2a"
+    tls: true
+    udp: true
+    sni: "46-250-246-11.sslip.io"
+    servername: "46-250-246-11.sslip.io"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/vpn-live"
+      headers:
+        Host: "46-250-246-11.sslip.io"

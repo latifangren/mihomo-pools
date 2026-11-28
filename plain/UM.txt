@@ -1,0 +1,7 @@
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.197.64.30:8880?path=/&security=&encryption=none&host=vms.lifetime36.workers.dev&type=ws#@Tarkshodeh 🇺🇲
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.197.75.40:8880?security=&encryption=none&host=vms.lifetime37.workers.dev&type=ws#@Tarkshodeh 🇺🇲
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@chat.openai.com:8880?security=&encryption=none&host=vms.lifetime29.workers.dev&type=ws#@Tarkshodeh 🇺🇲
+trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#@Tarkshodeh 🇺🇲
+vless://c26fe2f0-5c69-001F-8a1a-bf116ceb9215@c-1.mrcloudi.ir:443?path=/?ed=2560&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=jsv-p-us1.donick.ir#@Tarkshodeh 🇺🇲
+vless://c26fe2f0-5c69-000B-8a1a-bf116ceb9215@c-1.mrcloudi.ir:443?path=/?ed=2560&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=jsv-p-de1.donick.ir#@Tarkshodeh 🇺🇲
+vless://c26fe2f0-5c69-0015-8a1a-bf116ceb9215@c-1.mrcloudi.ir:443?path=/?ed=2560&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=jsv-p-tr1.donick.ir#@Tarkshodeh 🇺🇲

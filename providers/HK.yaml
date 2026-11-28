@@ -1,0 +1,45 @@
+# Mihomo Proxy Provider - HK
+# Updated: 2026-11-28 14:56:44 UTC
+# Total Proxies: 4
+
+proxies:
+  - name: "🇭🇰 HK-01 | 612ms | trojan"
+    type: trojan
+    server: "Sclass-00.catcat321.com"
+    port: 20123
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+  - name: "🇭🇰 HK-02 | 902ms | trojan"
+    type: trojan
+    server: "sclass-00.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+  - name: "🇭🇰 HK-03 | 933ms | trojan"
+    type: trojan
+    server: "sclass-00.catcat321.com"
+    port: 20103
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
+  - name: "🇭🇰 HK-04 | 2605ms | trojan"
+    type: trojan
+    server: "sclass-c1.catcat321.com"
+    port: 20051
+    password: "d9064589-74af-432a-9390-5d8a9da281bf"
+    tls: true
+    udp: true
+    sni: "hk.catxstar.com"
+    servername: "hk.catxstar.com"
+    client-fingerprint: "chrome"
